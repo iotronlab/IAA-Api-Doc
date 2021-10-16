@@ -1,0 +1,21 @@
+_id: req_188742d243c24d43a9cdff20760bbb0d
+type: Request
+parentId: fld_f7e36d403acd424383b56d0393b8d364
+modified: 1634358085908
+created: 1634358085908
+url: ""
+name: Get Upcoming (showUpcoming)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1632744913188.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

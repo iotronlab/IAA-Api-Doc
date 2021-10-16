@@ -1,0 +1,21 @@
+_id: req_4cd242c309634409900eb86a32abf565
+type: Request
+parentId: fld_92fa6663f4394519a5ad405b1cf5917a
+modified: 1634358148709
+created: 1634358141721
+url: ""
+name: Get All Bookings
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1634358127925
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
