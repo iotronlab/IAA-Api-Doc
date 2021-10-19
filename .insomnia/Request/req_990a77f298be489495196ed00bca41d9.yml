@@ -1,17 +1,18 @@
 _id: req_990a77f298be489495196ed00bca41d9
 type: Request
 parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1634653475259
+modified: 1634655571262
 created: 1634648058394
-url: "{{ _.base_url }}/sendOtp"
+url: "{{ _.base_url }}sendotp"
 name: Send Otp
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "anik@gmail.com"
+    	"email": "krishanu.info@gmail.com",
+    	"type": "new"
     }
 parameters: []
 headers:
