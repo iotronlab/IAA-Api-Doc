@@ -1,15 +1,24 @@
 _id: req_f015c98df8cf47b5aefe11f2390898e5
 type: Request
 parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1634472307971
+modified: 1634662712259
 created: 1634358015686
-url: http://127.0.0.1:8000/login
+url: "{{ _.base_url }}login"
 name: login
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "sample@gmail.com",
+    	"password": "password1234"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9fe808bd83154321b1d787796e9cf8e9
 authentication: {}
 metaSortKey: -1634358015686
 isPrivate: false

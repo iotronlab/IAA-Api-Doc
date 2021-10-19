@@ -1,15 +1,28 @@
 _id: req_fd2b6b473405490e9382f0622eafe3ce
 type: Request
 parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1634358027495
+modified: 1634663059036
 created: 1634358024856
-url: ""
+url: "{{ _.base_url }}register"
 name: register
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Sample User",
+    	"email": "sample@gmail.com",
+    	"password": "password1234",
+    	"c_password": "password1234",
+    	"contact": "Kolkata",
+    	"whatsapp": "http://whatsapp.com/user/sample"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3cecb2205d0042338fbd9d148ea39948
 authentication: {}
 metaSortKey: -1634358015736
 isPrivate: false
