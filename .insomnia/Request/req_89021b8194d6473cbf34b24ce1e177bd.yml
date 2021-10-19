@@ -1,9 +1,9 @@
 _id: req_89021b8194d6473cbf34b24ce1e177bd
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1634357976321
+modified: 1634652082543
 created: 1634357931302
-url: ""
+url: "{{ _.base_url }}events/show/1"
 name: Get One (show)
 description: ""
 method: GET

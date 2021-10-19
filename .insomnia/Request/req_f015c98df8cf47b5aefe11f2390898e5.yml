@@ -1,9 +1,9 @@
 _id: req_f015c98df8cf47b5aefe11f2390898e5
 type: Request
 parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1634358015686
+modified: 1634472307971
 created: 1634358015686
-url: ""
+url: http://127.0.0.1:8000/login
 name: login
 description: ""
 method: GET

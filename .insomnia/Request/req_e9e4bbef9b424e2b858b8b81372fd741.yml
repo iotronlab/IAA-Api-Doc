@@ -1,9 +1,9 @@
 _id: req_e9e4bbef9b424e2b858b8b81372fd741
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1634357981558
+modified: 1634648436328
 created: 1634357901159
-url: ""
+url: "{{ _.base_url }}artist"
 name: Get All (index)
 description: ""
 method: GET
