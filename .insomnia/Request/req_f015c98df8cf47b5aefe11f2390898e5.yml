@@ -1,7 +1,7 @@
 _id: req_f015c98df8cf47b5aefe11f2390898e5
 type: Request
 parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1634662712259
+modified: 1634739420918
 created: 1634358015686
 url: "{{ _.base_url }}login"
 name: login
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "sample@gmail.com",
-    	"password": "password1234"
+    	"email": "samplemail@gmail.com",
+    	"password": "sample1234"
     }
 parameters: []
 headers:

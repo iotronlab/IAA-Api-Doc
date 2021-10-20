@@ -1,7 +1,7 @@
 _id: req_fd2b6b473405490e9382f0622eafe3ce
 type: Request
 parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1634663059036
+modified: 1634739397709
 created: 1634358024856
 url: "{{ _.base_url }}register"
 name: register
@@ -11,12 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "Sample User",
-    	"email": "sample@gmail.com",
-    	"password": "password1234",
-    	"c_password": "password1234",
-    	"contact": "Kolkata",
-    	"whatsapp": "http://whatsapp.com/user/sample"
+    	"name": "SampleName",
+    	"email": "samplemail@gmail.com",
+    	"password": "sample1234",
+    	"c_password": "sample1234",
+    	"contact": "Kolkata,Park Street",
+    	"whatsapp": "http://whatsapp.com/user/sample_name"
     }
 parameters: []
 headers:
