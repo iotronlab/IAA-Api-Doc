@@ -1,9 +1,9 @@
 _id: req_4cd242c309634409900eb86a32abf565
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1634641116448
+modified: 1634753678333
 created: 1634358141721
-url: "{{ _.base_url }}"
+url: "{{ _.base_url }}booking/getall"
 name: Get All Bookings
 description: ""
 method: GET

@@ -1,15 +1,25 @@
 _id: req_903920dc824247c7b1ebc6cf5563c75b
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1634641110399
+modified: 1634755823781
 created: 1634358127975
-url: "{{ _.base_url }}"
+url: "{{ _.base_url }}booking/new"
 name: Create Booking
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"payment_id": "1",
+    	"customer_id": "1",
+    	"event_id": "1"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_998c3cab3d9143048f6def012c0d7853
 authentication: {}
 metaSortKey: -1634358127975
 isPrivate: false
