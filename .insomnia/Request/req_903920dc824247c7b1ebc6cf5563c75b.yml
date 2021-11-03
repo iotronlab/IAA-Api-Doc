@@ -1,7 +1,7 @@
 _id: req_903920dc824247c7b1ebc6cf5563c75b
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1635403351644
+modified: 1635954197753
 created: 1634358127975
 url: "{{ _.base_url }}booking/new"
 name: Create Booking
@@ -13,8 +13,12 @@ body:
     {
     	
     	"event_id": "1",
-    	"event_ticket_id": "1",
-    	"payment_id": "1"
+    	"tickets": [
+    		{"id":1, "quantity":1},
+        {"id":2, "quantity":2},
+        {"id":3, "quantity":3}
+      ]
+
     	
     }
 parameters: []
@@ -24,7 +28,7 @@ headers:
     id: pair_998c3cab3d9143048f6def012c0d7853
 authentication:
   type: bearer
-  token: 5|pI8juSZrBDc8kEDAdYDgz9YMWYIVYyxdJHXO43xs
+  token: 2|CIARUyU7I9ofoBhbZmu4JCSgF0JsbD2CaAZAzh1D
 metaSortKey: -1634358127975
 isPrivate: false
 settingStoreCookies: true
