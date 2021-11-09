@@ -1,0 +1,33 @@
+_id: req_8390b0fb47244997bc8cd01cf31932a3
+type: Request
+parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
+modified: 1636443208600
+created: 1636443144944
+url: "{{ _.base_url }}details"
+name: Get User Details
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "demo@iaa.org",
+    	"password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9fe808bd83154321b1d787796e9cf8e9
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_f015c98df8cf47b5aefe11f2390898e5',
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1634357958447.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
