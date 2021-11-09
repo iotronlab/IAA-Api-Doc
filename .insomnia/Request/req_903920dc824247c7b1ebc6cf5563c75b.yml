@@ -1,7 +1,7 @@
 _id: req_903920dc824247c7b1ebc6cf5563c75b
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1636032927145
+modified: 1636451003371
 created: 1634358127975
 url: "{{ _.base_url }}booking/new"
 name: Create Booking
@@ -9,17 +9,27 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |
+  text: |-
     {
-    	
     	"event_id": "1",
+    	"booking_name": "Abc",
+    	"booking_email": "abc@gmail.com",
+    	"booking_contact": "9046632101",
     	"tickets": [
-    		{"id":1, "quantity":1000},
-        {"id":2, "quantity":2},
-        {"id":3, "quantity":3}
-      ],
-    "promo_code":"flat100off"
-    	
+    		{
+    			"id": 1,
+    			"quantity": 10
+    		},
+    		{
+    			"id": 2,
+    			"quantity": 2
+    		},
+    		{
+    			"id": 3,
+    			"quantity": 3
+    		}
+    	],
+    	"promo_code": "flat100off"
     }
 parameters: []
 headers:
@@ -28,7 +38,8 @@ headers:
     id: pair_998c3cab3d9143048f6def012c0d7853
 authentication:
   type: bearer
-  token: 2|iQhclBEoDGLxQ7yoizJpQ0HioS5o0llZYq8ctD4h
+  token: "{% response 'body', 'req_f015c98df8cf47b5aefe11f2390898e5',
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
 metaSortKey: -1634358127975
 isPrivate: false
 settingStoreCookies: true
