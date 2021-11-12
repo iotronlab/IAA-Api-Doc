@@ -1,0 +1,21 @@
+_id: req_bb060e91ac10473b9263e114b30e297a
+type: Request
+parentId: fld_1421f05df5af4be1916e4c48ebaaac29
+modified: 1636730618434
+created: 1636730618434
+url: ""
+name: Get mentions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1636730618434
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
