@@ -1,10 +1,10 @@
-_id: req_fd2b6b473405490e9382f0622eafe3ce
+_id: req_528d40a7c5104df1acbcb068ac8cb57e
 type: Request
-parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1636734959998
-created: 1634358024856
-url: "{{ _.base_url }}register"
-name: register
+parentId: fld_5c7de9858ffe4ec79727d47068d80f22
+modified: 1636735286073
+created: 1636734782176
+url: "{{ _.base_url }}forms/artist"
+name: Artist Form
 description: ""
 method: POST
 body:
@@ -12,19 +12,22 @@ body:
   text: |-
     {
     	"name": "demos",
-    	"email": "demos@iaa.org",
-    	"password": "123456s",
-    	"c_password": "123456s",
+    	"location": "Kolkata,Park Street",
+    	"email": "demos@gmail.org",
     	"contact": "Kolkata,Park Street",
-    	"whatsapp": "http://whatsapp.com/user/sample_name"
+    	"generes": "",
+    	"languages":"",
+    	"video_links":"",
+    	"profile_links":""
+    	
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_3cecb2205d0042338fbd9d148ea39948
+    id: pair_29055ff4eb284563951d6edd017025da
 authentication: {}
-metaSortKey: -1634358015736
+metaSortKey: -1636732681872
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

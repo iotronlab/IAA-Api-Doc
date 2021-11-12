@@ -1,0 +1,37 @@
+_id: req_71250d0fcea44438b523bea89247e971
+type: Request
+parentId: fld_92fa6663f4394519a5ad405b1cf5917a
+modified: 1636471764269
+created: 1636008073533
+url: "{{ _.base_url }}booking/confirm/JPIHMW"
+name: Confirm Booking
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |+
+    {
+    	
+    	"order_id": "order_IHXpnJ6vkZbQQg",
+    	"order_sign": "asdf"
+    	
+
+    	
+    }
+
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_998c3cab3d9143048f6def012c0d7853
+authentication:
+  type: bearer
+  token: 2|iQhclBEoDGLxQ7yoizJpQ0HioS5o0llZYq8ctD4h
+metaSortKey: -1634358127950
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

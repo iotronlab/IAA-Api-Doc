@@ -1,17 +1,17 @@
-_id: req_bb060e91ac10473b9263e114b30e297a
+_id: req_89590bcc68464c79a168145f195e562f
 type: Request
 parentId: fld_1421f05df5af4be1916e4c48ebaaac29
-modified: 1636734135571
-created: 1636730618434
-url: "{{ _.base_url }}agency/mentions"
-name: Get mentions
+modified: 1636734190391
+created: 1636734149610
+url: "{{ _.base_url }}agency/associates"
+name: Get Associate
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1636730618434
+metaSortKey: -1634951250589.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
