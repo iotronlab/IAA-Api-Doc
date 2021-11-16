@@ -1,16 +1,18 @@
 _id: req_4cd242c309634409900eb86a32abf565
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1634753678333
+modified: 1637012211087
 created: 1634358141721
-url: "{{ _.base_url }}booking/getall"
+url: "{{ _.base_url }}bookings/getall?_debug"
 name: Get All Bookings
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: bearer
+  token: 26|5CiS3cElkhDjhmN8QwRWOLc7msOTu6IsBL8cupKu
 metaSortKey: -1634358127925
 isPrivate: false
 settingStoreCookies: true
