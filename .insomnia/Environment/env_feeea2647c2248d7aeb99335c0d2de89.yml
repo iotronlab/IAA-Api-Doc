@@ -1,11 +1,11 @@
 _id: env_feeea2647c2248d7aeb99335c0d2de89
 type: Environment
 parentId: env_60357435c5c0a3b3ccdf1b9a7779fa14943d0402
-modified: 1634648415621
+modified: 1637180267485
 created: 1634357173408
 name: Dev
 data:
-  base_url: http://127.0.0.1:8000/api/
+  base_url: localhost:8000/api/
 dataPropertyOrder:
   "&":
     - base_url

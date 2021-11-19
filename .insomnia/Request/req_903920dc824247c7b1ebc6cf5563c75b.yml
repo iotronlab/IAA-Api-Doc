@@ -1,9 +1,11 @@
 _id: req_903920dc824247c7b1ebc6cf5563c75b
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1637012174212
+modified: 1637223062029
 created: 1634358127975
-url: "{{ _.base_url }}booking/omnis-non-pariatur"
+url: "{{ _.base_url }}booking/new/{% response 'body',
+  'req_05b87a9de36645e4bbce74dd418db665', 'b64::JC5kYXRhWzBdLnVybA==::46b',
+  'never', 60 %}"
 name: Create Booking
 description: ""
 method: POST

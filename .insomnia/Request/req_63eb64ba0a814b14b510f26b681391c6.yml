@@ -1,9 +1,9 @@
 _id: req_63eb64ba0a814b14b510f26b681391c6
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1635248426601
+modified: 1637088050758
 created: 1634357979790
-url: "{{ _.base_url }}artists/get/1"
+url: "{{ _.base_url }}artists/get/2"
 name: Get One (show)
 description: ""
 method: GET
@@ -14,6 +14,7 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_686e42245b6841cb98ce0d3a7afe5e19
 authentication:
   type: basic
   useISO88591: false
