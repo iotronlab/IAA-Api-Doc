@@ -1,21 +1,19 @@
-_id: req_903920dc824247c7b1ebc6cf5563c75b
+_id: req_df7becd66fea4c42a993d2fa67c56b95
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1637848417320
-created: 1634358127975
-url: "{{ _.base_url }}booking/new/{% response 'body',
+modified: 1637848354006
+created: 1637771823769
+url: "{{ _.base_url }}booking/promo/{% response 'body',
   'req_05b87a9de36645e4bbce74dd418db665', 'b64::JC5kYXRhWzBdLnVybA==::46b',
-  'never', 60 %}"
-name: Create Booking
+  'always', 60 %}"
+name: Check PromoCode
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"booking_name": "Rockings",
-    	"booking_email": "abc@gmail.com",
-    	"booking_contact": "9046632101",
+
     	"tickets": [
     		{
     			"id": 17,
@@ -30,7 +28,7 @@ body:
     			"quantity": 3
     		}
     	],
-    	"promo_code": "flat100off"
+    	"promo_code": "eveniet"
     }
 parameters: []
 headers:
@@ -41,7 +39,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_f015c98df8cf47b5aefe11f2390898e5',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
-metaSortKey: -1634358127975
+metaSortKey: -1634358127968.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

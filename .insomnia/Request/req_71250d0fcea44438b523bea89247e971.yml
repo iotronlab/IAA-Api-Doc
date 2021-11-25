@@ -1,36 +1,22 @@
 _id: req_71250d0fcea44438b523bea89247e971
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1637222601447
+modified: 1637772089039
 created: 1636008073533
-url: "{{ _.base_url }}booking/confirm/tG5QDz"
+url: "{{ _.base_url }}booking/confirm/ofC2ef"
 name: Confirm Booking
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |+
+  text: >-
     {
-    	
-    	"order_id": "order_IHXpnJ6vkZbQQg",
-    	"order_sign": "asdf",
-    	"success": {
-    		"payment_id" : "response.razorpay_payment_id",
-    		"order_id": "response.razorpay_order_id",
-    		"signature": "response.razorpay_signature"
-    	},
-    	"error":{
-    		"error_code": "response.error.code",
-    		"error_desc": "response.error.description",
-      	"error_source":"response.error.source",
-      	"error_step": "response.error.step",
-    		"error_reason": "response.error.reason",
-    		"error_m.order_id" :"response.error.metadata.order_id",
-    		"error_m_payment_id" :"response.error.metadata.payment_id"
-    	}
-    	
-    }
+    		"razorpay_order_id" : "order_IOl4zrDcziIBwF",
+    		"razorpay_payment_id": "pay_IOlTyzsc3MUAkM",
+    		"razorpay_signature": "dc5f24c2efbae068cecd48e397013fd6dceb17190fe8a4f2d5a24f024627fdc8"
 
+
+    }
 parameters: []
 headers:
   - name: Content-Type
@@ -38,7 +24,7 @@ headers:
     id: pair_998c3cab3d9143048f6def012c0d7853
 authentication:
   type: bearer
-  token: 27|9VJVKeosCOZ3LWC5wJ9aZp7uvC5XCAZIKD5I9Y4E
+  token: 8|O9Y6pnwEfNRintzNXkcFtnU2wyr3eoiHmyRE2VAV
 metaSortKey: -1634358127950
 isPrivate: false
 settingStoreCookies: true
