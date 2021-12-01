@@ -1,10 +1,10 @@
 _id: req_8760d546d98e4162908aa6458954e3c7
 type: Request
 parentId: fld_1421f05df5af4be1916e4c48ebaaac29
-modified: 1636735711685
+modified: 1637784799347
 created: 1636733159797
-url: "{{ _.base_url }}agency/staffs?debug"
-name: Get Staff
+url: "{{ _.base_url }}agency/staffs?_debug"
+name: Get Staffs
 description: ""
 method: GET
 body: {}

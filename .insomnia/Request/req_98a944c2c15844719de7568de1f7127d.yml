@@ -1,17 +1,17 @@
-_id: req_89590bcc68464c79a168145f195e562f
+_id: req_98a944c2c15844719de7568de1f7127d
 type: Request
-parentId: fld_1421f05df5af4be1916e4c48ebaaac29
-modified: 1637784806780
-created: 1636734149610
-url: "{{ _.base_url }}agency/associates"
-name: Get Associates
+parentId: fld_f7e36d403acd424383b56d0393b8d364
+modified: 1638130630293
+created: 1638123354647
+url: "{{ _.base_url }}events/123"
+name: Get One (show) HARD
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1634951250589.75
+metaSortKey: -1633013744516.9688
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

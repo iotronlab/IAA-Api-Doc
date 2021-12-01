@@ -1,0 +1,24 @@
+_id: req_a3848b020c5e4e0a86eab66e66b5d2db
+type: Request
+parentId: wrk_ce5f6f4dd9ef4176a464de9f08a02581
+modified: 1638342619682
+created: 1638293070267
+url: http://localhost:8000/api/booking/invoice/iaBeiy
+name: check invoice
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_f015c98df8cf47b5aefe11f2390898e5',
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1638293070267
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

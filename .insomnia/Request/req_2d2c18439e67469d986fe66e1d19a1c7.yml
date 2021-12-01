@@ -1,0 +1,26 @@
+_id: req_2d2c18439e67469d986fe66e1d19a1c7
+type: Request
+parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
+modified: 1638078947229
+created: 1638078880380
+url: http://localhost:8000/login/google
+name: social login
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f719f3f897354981abe625a18c990135
+    name: X-Requested-With
+    value: XMLHttpRequest
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1634357987066.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global

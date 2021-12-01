@@ -1,34 +1,33 @@
-_id: req_df7becd66fea4c42a993d2fa67c56b95
+_id: req_2eb3e202c7a44cfeadcefdab18b51de9
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1638220588017
-created: 1637771823769
+modified: 1638099295762
+created: 1636024152681
 url: "{{ _.base_url }}booking/promo/{% response 'body',
-  'req_05b87a9de36645e4bbce74dd418db665', 'b64::JC5kYXRhWzBdLnVybA==::46b',
-  'always', 60 %}"
-name: Check PromoCode
+  'req_89021b8194d6473cbf34b24ce1e177bd', 'b64::JC5kYXRhLnVybA==::46b', 'never',
+  60 %}"
+name: Confirm Promo Code
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-
     	"tickets": [
     		{
-    			"id": 17,
-    			"quantity": 1000
+    			"id": 1,
+    			"quantity": 1
     		},
     		{
-    			"id": 18,
+    			"id": 2,
     			"quantity": 2
     		},
     		{
-    			"id": 19,
+    			"id": 3,
     			"quantity": 3
     		}
     	],
-    	"promo_code": "maxime"
+    	"promo_code": "autem"
     }
 parameters: []
 headers:
@@ -39,7 +38,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_f015c98df8cf47b5aefe11f2390898e5',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
-metaSortKey: -1634358127968.75
+metaSortKey: -1634358127962.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

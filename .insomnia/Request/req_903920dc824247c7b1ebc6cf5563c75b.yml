@@ -1,11 +1,11 @@
 _id: req_903920dc824247c7b1ebc6cf5563c75b
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1637848417320
+modified: 1638297369847
 created: 1634358127975
 url: "{{ _.base_url }}booking/new/{% response 'body',
-  'req_05b87a9de36645e4bbce74dd418db665', 'b64::JC5kYXRhWzBdLnVybA==::46b',
-  'never', 60 %}"
+  'req_89021b8194d6473cbf34b24ce1e177bd', 'b64::JC5kYXRhLnVybA==::46b',
+  'always', 60 %}?_debug"
 name: Create Booking
 description: ""
 method: POST
@@ -18,19 +18,15 @@ body:
     	"booking_contact": "9046632101",
     	"tickets": [
     		{
-    			"id": 17,
-    			"quantity": 1000
+    			"id": 37,
+    			"quantity": 1
     		},
     		{
-    			"id": 18,
-    			"quantity": 2
-    		},
-    		{
-    			"id": 19,
-    			"quantity": 3
+    			"id": 38,
+    			"quantity": 1
     		}
-    	],
-    	"promo_code": "flat100off"
+    	]
+    	
     }
 parameters: []
 headers:
