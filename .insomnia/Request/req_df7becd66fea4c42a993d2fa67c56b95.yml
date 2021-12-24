@@ -1,11 +1,9 @@
 _id: req_df7becd66fea4c42a993d2fa67c56b95
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1638220588017
+modified: 1640190811889
 created: 1637771823769
-url: "{{ _.base_url }}booking/promo/{% response 'body',
-  'req_05b87a9de36645e4bbce74dd418db665', 'b64::JC5kYXRhWzBdLnVybA==::46b',
-  'always', 60 %}"
+url: "{{ _.base_url }}booking/promo/porro-incidunt-quo"
 name: Check PromoCode
 description: ""
 method: POST
@@ -13,22 +11,20 @@ body:
   mimeType: application/json
   text: |-
     {
-
+    	"booking_name": "Rockings",
+    	"booking_email": "abc@gmail.com",
+    	"booking_contact": "9046632101",
     	"tickets": [
     		{
-    			"id": 17,
-    			"quantity": 1000
+    			"id": 13,
+    			"quantity": 1
     		},
     		{
-    			"id": 18,
+    			"id": 14,
     			"quantity": 2
-    		},
-    		{
-    			"id": 19,
-    			"quantity": 3
     		}
     	],
-    	"promo_code": "maxime"
+    	"promo" : "jam123"
     }
 parameters: []
 headers:
@@ -39,6 +35,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_f015c98df8cf47b5aefe11f2390898e5',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
+  disabled: true
 metaSortKey: -1634358127968.75
 isPrivate: false
 settingStoreCookies: true

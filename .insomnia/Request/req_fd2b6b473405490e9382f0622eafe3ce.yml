@@ -1,7 +1,7 @@
 _id: req_fd2b6b473405490e9382f0622eafe3ce
 type: Request
 parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1637848399626
+modified: 1639668097934
 created: 1634358024856
 url: "{{ _.base_url }}register"
 name: register
@@ -11,12 +11,12 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "demos",
-    	"email": "demos@iaa.org",
-    	"password": "123456s",
-    	"c_password": "123456s",
-    	"contact": "Kolkata,Park Street",
-    	"whatsapp": "http://whatsapp.com/user/sample_name"
+    	"name": "samplesscustomer",
+    	"email": "samplesss@iaa.org",
+    	"password": "123456sss",
+    	"c_password": "123456sss",
+    	"contact": "Kolkata,Bou Bazars",
+    	"whatsapp": "http://whatsapp.com/user/samsple_auser"
     }
 parameters: []
 headers:

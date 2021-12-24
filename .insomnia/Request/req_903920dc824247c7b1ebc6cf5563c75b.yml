@@ -1,11 +1,9 @@
 _id: req_903920dc824247c7b1ebc6cf5563c75b
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1638297369847
+modified: 1640356456586
 created: 1634358127975
-url: "{{ _.base_url }}booking/new/{% response 'body',
-  'req_89021b8194d6473cbf34b24ce1e177bd', 'b64::JC5kYXRhLnVybA==::46b',
-  'always', 60 %}?_debug"
+url: "{{ _.base_url }}booking/new/soluta-maiores-neque?_debug"
 name: Create Booking
 description: ""
 method: POST
@@ -18,15 +16,15 @@ body:
     	"booking_contact": "9046632101",
     	"tickets": [
     		{
-    			"id": 37,
+    			"id": 1,
     			"quantity": 1
     		},
     		{
-    			"id": 38,
+    			"id": 2,
     			"quantity": 1
     		}
-    	]
-    	
+    	],
+    	"promo" : ""
     }
 parameters: []
 headers:
@@ -37,6 +35,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_f015c98df8cf47b5aefe11f2390898e5',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
+  disabled: true
 metaSortKey: -1634358127975
 isPrivate: false
 settingStoreCookies: true
