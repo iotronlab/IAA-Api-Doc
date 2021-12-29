@@ -1,0 +1,21 @@
+_id: req_229829b32577496da3acfdd84c77d2b9
+type: Request
+parentId: fld_30dfeda4e223447690e3d06045527332
+modified: 1640783059242
+created: 1640782748293
+url: "{{ _.base_url }}policy?_debug"
+name: Get all policies(Index)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1640782748293
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

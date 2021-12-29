@@ -1,11 +1,14 @@
 _id: env_e4e218d4d40241c1b0e39f9551d05e68
 type: Environment
 parentId: env_60357435c5c0a3b3ccdf1b9a7779fa14943d0402
-modified: 1634401479586
+modified: 1638436443866
 created: 1634357194181
 name: Prod
-data: {}
-dataPropertyOrder: null
+data:
+  base_url: https://api.iaa.org.in/api/
+dataPropertyOrder:
+  "&":
+    - base_url
 color: "#f77ef3"
 isPrivate: false
 metaSortKey: 1

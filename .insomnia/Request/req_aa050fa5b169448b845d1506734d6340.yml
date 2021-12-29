@@ -1,0 +1,23 @@
+_id: req_aa050fa5b169448b845d1506734d6340
+type: Request
+parentId: fld_30dfeda4e223447690e3d06045527332
+modified: 1640783116024
+created: 1640783044740
+url: "{{ _.base_url }}policy/{% response 'body',
+  'req_229829b32577496da3acfdd84c77d2b9', 'b64::JC5kYXRhWzBdLnVybA==::46b',
+  'never', 60 %}?_debug"
+name: Get one policy(Show)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1640568813631
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
