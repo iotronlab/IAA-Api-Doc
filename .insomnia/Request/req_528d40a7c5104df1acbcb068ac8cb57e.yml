@@ -1,7 +1,7 @@
 _id: req_528d40a7c5104df1acbcb068ac8cb57e
 type: Request
 parentId: fld_5c7de9858ffe4ec79727d47068d80f22
-modified: 1636788804153
+modified: 1642093266880
 created: 1636734782176
 url: "{{ _.base_url }}forms/artist"
 name: Artist Form
@@ -13,11 +13,17 @@ body:
     {
     	"name": "demos",
     	"location": "Kolkata,Park Street",
-    	"email": "demos@gmail.org",
+    	"email": "demose@gmail.org",
     	"contact": "1234567890",
     	"category": "fdf",
-    	"genres": "dfdf",
-    	"languages": "dfdf",
+    	"genres": [
+    		"dfdf",
+    		"dhdh"
+    	],
+    	"languages": [
+    		"dfdf",
+    		"djdjj"
+    	],
     	"video_link": "dsd",
     	"profile_link": "sdsd"
     }

@@ -1,9 +1,9 @@
 _id: req_98a944c2c15844719de7568de1f7127d
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1638130630293
+modified: 1642102928324
 created: 1638123354647
-url: "{{ _.base_url }}events/123"
+url: "{{ _.base_url }}events/aut-sit-voluptatem"
 name: Get One (show) HARD
 description: ""
 method: GET

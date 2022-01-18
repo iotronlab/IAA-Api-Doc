@@ -1,12 +1,10 @@
-_id: req_63eb64ba0a814b14b510f26b681391c6
+_id: req_17072fb9bcc04bc7a93cc6e4e8f85f57
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1641909626046
-created: 1634357979790
-url: "{{ _.base_url }}artists/{% response 'body',
-  'req_e9e4bbef9b424e2b858b8b81372fd741', 'b64::JC5kYXRhWzBdLnVybA==::46b',
-  'always', 60 %}?_debug"
-name: Get One (show)
+modified: 1642100650800
+created: 1642100641659
+url: "{{ _.base_url }}artists/necessitatibus-exercitationem-qui?_debug"
+name: Get One (show) Hard
 description: ""
 method: GET
 body:
@@ -23,7 +21,7 @@ authentication:
   disabled: false
   username: ""
   password: ""
-metaSortKey: -1634357901209
+metaSortKey: -1634357901184
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
