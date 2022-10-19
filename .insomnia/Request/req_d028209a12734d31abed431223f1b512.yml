@@ -1,10 +1,10 @@
-_id: req_8390b0fb47244997bc8cd01cf31932a3
+_id: req_d028209a12734d31abed431223f1b512
 type: Request
-parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1666185380464
-created: 1636443144944
-url: "{{ _.base_url }}details"
-name: Get User Details
+parentId: fld_566abf895bd84a908e244129146f53a0
+modified: 1666185627704
+created: 1666185494747
+url: "{{ _.base_url }}logout"
+name: logout
 description: ""
 method: GET
 body:
@@ -16,20 +16,22 @@ body:
     }
 parameters: []
 headers:
-  - id: pair_f33c8989f7a042bb901119b989ef0798
-    name: Referer
-    value: http://localhost:8000
-    description: ""
   - name: Content-Type
     value: application/json
+    id: pair_880a5c2a2e2b46ad9fbd5231fe9f79dc
+  - id: pair_f719f3f897354981abe625a18c990135
+    name: X-Requested-With
+    value: XMLHttpRequest
+    description: ""
+    disabled: true
 authentication:
   type: bearer
   token: 3|29RMuVNhdpisdgyDivjpgik1PyAXiuXXCeKD7cvm
-metaSortKey: -1650271089498
+metaSortKey: -1634358015779.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false
-settingEncodeUrl: true
+settingEncodeUrl: false
 settingRebuildPath: true
 settingFollowRedirects: global

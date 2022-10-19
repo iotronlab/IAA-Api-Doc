@@ -1,7 +1,7 @@
 _id: req_fd2b6b473405490e9382f0622eafe3ce
 type: Request
-parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1639668097934
+parentId: fld_566abf895bd84a908e244129146f53a0
+modified: 1666184167015
 created: 1634358024856
 url: "{{ _.base_url }}register"
 name: register
@@ -24,7 +24,7 @@ headers:
     value: application/json
     id: pair_3cecb2205d0042338fbd9d148ea39948
 authentication: {}
-metaSortKey: -1634358015736
+metaSortKey: -1634358015836
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

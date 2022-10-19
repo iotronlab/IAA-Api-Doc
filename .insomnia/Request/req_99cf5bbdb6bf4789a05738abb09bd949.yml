@@ -1,7 +1,7 @@
 _id: req_99cf5bbdb6bf4789a05738abb09bd949
 type: Request
-parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1637757465950
+parentId: fld_2e49f56f78704099ab9c54e292442718
+modified: 1666184582778
 created: 1634653542205
 url: "{{ _.base_url }}verifyotp"
 name: Verify Otp
@@ -20,7 +20,7 @@ headers:
     value: application/json
     id: pair_89079b0389f8406cb1e53fd748f4af23
 authentication: {}
-metaSortKey: -1634358015761
+metaSortKey: -1634358015736
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
