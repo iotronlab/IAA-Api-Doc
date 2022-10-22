@@ -1,17 +1,17 @@
-_id: req_e9e4bbef9b424e2b858b8b81372fd741
+_id: req_09b772929c8642e1b115fa8aa4b8e351
 type: Request
-parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1666278943737
-created: 1634357901159
-url: "{{ _.base_url }}artists?_debug"
-name: Get All (index)
+parentId: fld_7b6320ee9a7f4868b1f435c26a6cbc6b
+modified: 1666447173032
+created: 1666447002040
+url: "{{ _.base_url }}all-cities"
+name: All Cities
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1634357901159
+metaSortKey: -1666447002040
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

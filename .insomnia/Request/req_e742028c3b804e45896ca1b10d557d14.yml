@@ -1,9 +1,9 @@
 _id: req_e742028c3b804e45896ca1b10d557d14
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1639670352415
+modified: 1666359469645
 created: 1636295542876
-url: "{{ _.base_url }}booking/lJ4VB7?_debug"
+url: "{{ _.base_url }}booking/szQNl2?_debug"
 name: Get One Booking
 description: ""
 method: GET
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: "{% response 'body', 'req_f015c98df8cf47b5aefe11f2390898e5',
+  token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
 metaSortKey: -1634358071855.5
 isPrivate: false

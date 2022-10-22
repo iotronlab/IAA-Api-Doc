@@ -1,9 +1,9 @@
 _id: req_17072fb9bcc04bc7a93cc6e4e8f85f57
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1642100650800
+modified: 1666357363819
 created: 1642100641659
-url: "{{ _.base_url }}artists/necessitatibus-exercitationem-qui?_debug"
+url: "{{ _.base_url }}artists/architecto-laborum-at?_debug"
 name: Get One (show) Hard
 description: ""
 method: GET
