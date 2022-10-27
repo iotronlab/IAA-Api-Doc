@@ -1,9 +1,9 @@
 _id: req_903920dc824247c7b1ebc6cf5563c75b
 type: Request
-parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1666359519182
+parentId: fld_dd6ea94a6ef348b1a334654101f51192
+modified: 1666791890749
 created: 1634358127975
-url: "{{ _.base_url }}booking/new/error-tempora-non?_debug"
+url: "{{ _.base_url }}booking/new/fuga-dolorem-non?_debug"
 name: Create Booking
 description: ""
 method: POST
@@ -16,11 +16,11 @@ body:
     	"booking_contact": "9046632101",
     	"tickets": [
     		{
-    			"id": 21,
+    			"id": 5,
     			"quantity": 2
     		},
     		{
-    			"id": 22,
+    			"id": 6,
     			"quantity": 2
     		}
     	],
@@ -36,7 +36,7 @@ authentication:
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
   disabled: false
-metaSortKey: -1634358127975
+metaSortKey: -1663485291670.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,9 +1,9 @@
 _id: req_98a944c2c15844719de7568de1f7127d
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1666356158583
+modified: 1666790519500
 created: 1638123354647
-url: "{{ _.base_url }}events/reprehenderit-architecto-quia"
+url: "{{ _.base_url }}events/fuga-dolorem-non"
 name: Get One (show) HARD
 description: ""
 method: GET

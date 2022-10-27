@@ -1,11 +1,16 @@
 _id: req_4cd242c309634409900eb86a32abf565
 type: Request
-parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1666282424290
+parentId: fld_dd6ea94a6ef348b1a334654101f51192
+modified: 1666789815983
 created: 1634358141721
-url: "{{ _.base_url }}bookings/getall?_debug"
+url: "{{ _.base_url }}booking/getall?_debug"
 name: Get All Bookings
-description: ""
+description: |-
+  Fetch All Created Booking  
+  require: bareer token  (Customer Authorization)
+
+  api: {{ _.base_url }}booking/getall  
+  response : 
 method: GET
 body: {}
 parameters: []
@@ -14,7 +19,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
-metaSortKey: -1634358127925
+metaSortKey: -1663485291720.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

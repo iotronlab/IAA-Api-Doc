@@ -1,7 +1,7 @@
 _id: req_5ec4cb5574724629851b4e40fcf3491d
 type: Request
-parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1640356716965
+parentId: fld_47b7968a8aea468f88ad550f7185ac6d
+modified: 1666789728904
 created: 1640354878968
 url: "{{ _.base_url }}capture/payment"
 name: Gateway Callback
@@ -79,7 +79,7 @@ authentication:
   username: "{% response 'body', 'req_f015c98df8cf47b5aefe11f2390898e5',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
   password: ""
-metaSortKey: -1640354878969
+metaSortKey: -1653572257705.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
