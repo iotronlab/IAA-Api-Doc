@@ -1,9 +1,9 @@
 _id: req_05b87a9de36645e4bbce74dd418db665
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1638365320360
+modified: 1666981025364
 created: 1634357971752
-url: "{{ _.base_url }}events?_debug"
+url: "{{ _.base_url }}events?city=kolkata&time=2022-10-28,2022-10-31"
 name: Get All (index)
 description: ""
 method: GET
