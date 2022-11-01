@@ -1,14 +1,22 @@
 _id: req_05b87a9de36645e4bbce74dd418db665
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1666981025364
+modified: 1667318312969
 created: 1634357971752
-url: "{{ _.base_url }}events?city=kolkata&time=2022-10-28,2022-10-31"
+url: "{{ _.base_url }}events"
 name: Get All (index)
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_981ce6183ec34c089d818b9167d2a018
+    name: city
+    value: kolkata
+    description: ""
+  - id: pair_5205e013323f449ba198fe22d54d898b
+    name: time
+    value: 2022-10-28,2022-10-31
+    description: ""
 headers: []
 authentication: {}
 metaSortKey: -1632207250531.75
