@@ -1,0 +1,23 @@
+_id: req_68e17e5d3b5043e1ae805f3b165ef3bf
+type: Request
+parentId: fld_95d5f1f73b414f32bc7ccc16be9ca3de
+modified: 1667398543831
+created: 1667397845276
+url: "{{ _.base_url }}portfolios/odit-perspiciatis-non-corporis-sit"
+name: Single
+description: |-
+  send portfolio url as parameter   
+  portfolios/{portfolio:url}
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667397845276
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_bd8d93f5440e459d9af2e16b71b764d9
+type: Request
+parentId: fld_95d5f1f73b414f32bc7ccc16be9ca3de
+modified: 1667397827515
+created: 1667397805887
+url: "{{ _.base_url }}portfolios"
+name: Get All
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667397805887
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

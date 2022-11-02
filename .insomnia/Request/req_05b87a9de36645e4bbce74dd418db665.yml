@@ -1,7 +1,7 @@
 _id: req_05b87a9de36645e4bbce74dd418db665
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1667318312969
+modified: 1667393243980
 created: 1634357971752
 url: "{{ _.base_url }}events"
 name: Get All (index)
@@ -13,10 +13,22 @@ parameters:
     name: city
     value: kolkata
     description: ""
+    disabled: true
   - id: pair_5205e013323f449ba198fe22d54d898b
     name: time
     value: 2022-10-28,2022-10-31
     description: ""
+    disabled: true
+  - id: pair_bb281809b276485db2671f3783033d44
+    name: genre
+    value: Funk
+    description: ""
+    disabled: false
+  - id: pair_cdf313d482044e799190a5bd64bb0a15
+    name: language
+    value: Bengali
+    description: ""
+    disabled: true
 headers: []
 authentication: {}
 metaSortKey: -1632207250531.75
