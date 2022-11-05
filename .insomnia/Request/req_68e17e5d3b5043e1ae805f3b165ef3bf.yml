@@ -1,9 +1,9 @@
 _id: req_68e17e5d3b5043e1ae805f3b165ef3bf
 type: Request
 parentId: fld_95d5f1f73b414f32bc7ccc16be9ca3de
-modified: 1667398543831
+modified: 1667400541889
 created: 1667397845276
-url: "{{ _.base_url }}portfolios/odit-perspiciatis-non-corporis-sit"
+url: "{{ _.base_url }}portfolios/aut-et-id-sint-sed"
 name: Single
 description: |-
   send portfolio url as parameter   

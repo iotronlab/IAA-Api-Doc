@@ -1,17 +1,17 @@
-_id: req_98a944c2c15844719de7568de1f7127d
+_id: req_14c74b6d65644deb8898dcd133cf5a1a
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1667570521081
-created: 1638123354647
-url: "{{ _.base_url }}events/temporibus-architecto-possimus"
-name: Get One (show) HARD
+modified: 1667651675741
+created: 1667651649063
+url: "{{ _.base_url }}events/kolkata/get"
+name: CityWise
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1633013744516.9688
+metaSortKey: -1667651649063
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

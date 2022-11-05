@@ -1,9 +1,9 @@
 _id: req_e742028c3b804e45896ca1b10d557d14
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1666791913149
+modified: 1667576097480
 created: 1636295542876
-url: "{{ _.base_url }}booking/c22K4H?_debug"
+url: "{{ _.base_url }}booking/wwGtpi?_debug"
 name: Get One Booking
 description: ""
 method: GET
