@@ -1,0 +1,30 @@
+_id: req_08548d5d92984f3a8fa05d62469f3835
+type: Request
+parentId: fld_03915a14368d4c278a141a182df4f6cf
+modified: 1667659523788
+created: 1667659265612
+url: "{{ _.base_url }}rating/artist/dolorem-est-tempora"
+name: Artist Review
+description: |-
+  Create New Bookmark For Artist in Api  
+  api/bookmark/artist/{artist:url}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rating" : 3
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667657434287
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_216d3ee729624de29ae1e43e101f9145
+type: Request
+parentId: fld_d17361ea5bc1456daba88ef2d16e5c7d
+modified: 1667658351009
+created: 1667657434287
+url: "{{ _.base_url }}bookmark/artist/dolorem-est-tempora"
+name: Artist Bookmark
+description: |-
+  Create New Bookmark For Artist in Api  
+  api/bookmark/artist/{artist:url}
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667657434287
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

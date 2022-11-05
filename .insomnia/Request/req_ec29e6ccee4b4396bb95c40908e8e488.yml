@@ -1,0 +1,27 @@
+_id: req_ec29e6ccee4b4396bb95c40908e8e488
+type: Request
+parentId: fld_d17361ea5bc1456daba88ef2d16e5c7d
+modified: 1667658793310
+created: 1667657838686
+url: "{{ _.base_url }}bookmark/event/doloribus-quae-dolorem"
+name: Event Bookmark
+description: |-
+  Create New Bookmark For Events in Api  
+  api/bookmark/event/{event:url}
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667654541675
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

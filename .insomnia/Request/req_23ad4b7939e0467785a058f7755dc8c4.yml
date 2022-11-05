@@ -1,0 +1,30 @@
+_id: req_23ad4b7939e0467785a058f7755dc8c4
+type: Request
+parentId: fld_a6b4b5f2a7f347c7863866f95e6fa61f
+modified: 1667659231179
+created: 1667658706402
+url: "{{ _.base_url }}review/event/doloribus-quae-dolorem"
+name: Event Review
+description: |-
+  Create New Bookmark For Events in Api  
+  api/bookmark/event/{event:url}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"review" : "sample review text"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667654541675
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
