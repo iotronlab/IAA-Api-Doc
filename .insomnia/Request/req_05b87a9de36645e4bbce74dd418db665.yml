@@ -1,7 +1,7 @@
 _id: req_05b87a9de36645e4bbce74dd418db665
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1667920992240
+modified: 1667929340512
 created: 1634357971752
 url: "{{ _.base_url }}events"
 name: Get All (index)
@@ -13,7 +13,7 @@ parameters:
     name: city
     value: kolkata
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_5205e013323f449ba198fe22d54d898b
     name: time
     value: 2022-10-28,2022-10-31

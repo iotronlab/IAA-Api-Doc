@@ -1,14 +1,32 @@
 _id: req_98a944c2c15844719de7568de1f7127d
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1667920968207
+modified: 1667929247548
 created: 1638123354647
 url: "{{ _.base_url }}events/et-consequatur-laboriosam"
 name: Get One (show) HARD
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_253795d1d9a74520897d66000c478080
+    name: city
+    value: kolkata
+    description: ""
+  - id: pair_8a70344a84e347c8865833bc24cfa94d
+    name: time
+    value: 2022-10-28,2022-10-31
+    description: ""
+    disabled: true
+  - id: pair_146f598a889d405396c93a4c1014eed5
+    name: language
+    value: Bengali
+    description: ""
+  - id: pair_5c5a5e96576b41d7b255544fa797c611
+    name: genre
+    value: Funk
+    description: ""
+    disabled: true
 headers:
   - id: pair_8b5a6c4c1f8449309261b44dac8bfe97
     name: Referer
