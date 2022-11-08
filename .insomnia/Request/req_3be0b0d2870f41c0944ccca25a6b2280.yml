@@ -1,17 +1,17 @@
-_id: req_1515cd93b5804dbc87e3c296f4fc910e
+_id: req_3be0b0d2870f41c0944ccca25a6b2280
 type: Request
-parentId: fld_7b6320ee9a7f4868b1f435c26a6cbc6b
-modified: 1667925429458
-created: 1667395923273
-url: "{{ _.base_url }}event-filter"
-name: Filter Option List
+parentId: fld_f7e36d403acd424383b56d0393b8d364
+modified: 1667925322660
+created: 1667921035685
+url: "{{ _.base_url }}events/filters"
+name: Event Filters
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1666447002090
+metaSortKey: -1667921035685
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

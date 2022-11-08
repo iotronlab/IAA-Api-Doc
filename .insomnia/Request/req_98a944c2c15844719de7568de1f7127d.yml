@@ -1,16 +1,29 @@
 _id: req_98a944c2c15844719de7568de1f7127d
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1667654453462
+modified: 1667920968207
 created: 1638123354647
-url: "{{ _.base_url }}events/quidem-dolorum-ea"
+url: "{{ _.base_url }}events/et-consequatur-laboriosam"
 name: Get One (show) HARD
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
-authentication: {}
+headers:
+  - id: pair_8b5a6c4c1f8449309261b44dac8bfe97
+    name: Referer
+    value: http://localhost:8000
+    description: ""
+    disabled: true
+  - id: pair_a529f45774a449f884b2a650c4c39d62
+    name: Content-Type
+    value: application/json
+    description: ""
+    disabled: false
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
 metaSortKey: -1633013744516.9688
 isPrivate: false
 settingStoreCookies: true

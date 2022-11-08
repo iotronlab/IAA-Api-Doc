@@ -1,7 +1,7 @@
 _id: req_8390b0fb47244997bc8cd01cf31932a3
 type: Request
-parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1666185380464
+parentId: fld_566abf895bd84a908e244129146f53a0
+modified: 1667921025278
 created: 1636443144944
 url: "{{ _.base_url }}details"
 name: Get User Details
@@ -22,10 +22,11 @@ headers:
     description: ""
   - name: Content-Type
     value: application/json
+    id: pair_5f790a505ecf49fa88e104768434ab1a
 authentication:
   type: bearer
-  token: 3|29RMuVNhdpisdgyDivjpgik1PyAXiuXXCeKD7cvm
-metaSortKey: -1650271089498
+  token: 4|HR6VEBlOGItfr5FbpTtBo95DV3OZioryO3osZe01
+metaSortKey: -1634358015776.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
