@@ -1,0 +1,21 @@
+_id: req_1982292fe32e4cdcab691352b21873f6
+type: Request
+parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
+modified: 1668003546703
+created: 1668003513674
+url: "{{ _.base_url }}artists/filters/all"
+name: Artist Filter
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668003513674
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
