@@ -1,9 +1,9 @@
 _id: req_71250d0fcea44438b523bea89247e971
 type: Request
 parentId: fld_47b7968a8aea468f88ad550f7185ac6d
-modified: 1666789726663
+modified: 1668170108123
 created: 1636008073533
-url: "{{ _.base_url }}booking/confirm/bGs78p"
+url: "{{ _.v1_url }}booking/confirm/bGs78p"
 name: Confirm Booking
 description: ""
 method: POST

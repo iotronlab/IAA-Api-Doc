@@ -1,9 +1,9 @@
 _id: req_5ec4cb5574724629851b4e40fcf3491d
 type: Request
 parentId: fld_47b7968a8aea468f88ad550f7185ac6d
-modified: 1666789728904
+modified: 1668170092173
 created: 1640354878968
-url: "{{ _.base_url }}capture/payment"
+url: "{{ _.v1_url }}capture/payment"
 name: Gateway Callback
 description: ""
 method: POST

@@ -1,9 +1,9 @@
 _id: req_1515cd93b5804dbc87e3c296f4fc910e
 type: Request
 parentId: fld_7b6320ee9a7f4868b1f435c26a6cbc6b
-modified: 1667925429458
+modified: 1668170229808
 created: 1667395923273
-url: "{{ _.base_url }}event-filter"
+url: "{{ _.v1_url }}event-filter"
 name: Filter Option List
 description: ""
 method: GET

@@ -1,9 +1,9 @@
 _id: req_09b772929c8642e1b115fa8aa4b8e351
 type: Request
 parentId: fld_7b6320ee9a7f4868b1f435c26a6cbc6b
-modified: 1666447173032
+modified: 1668170235092
 created: 1666447002040
-url: "{{ _.base_url }}all-cities"
+url: "{{ _.v1_url }}all-cities"
 name: All Cities
 description: ""
 method: GET

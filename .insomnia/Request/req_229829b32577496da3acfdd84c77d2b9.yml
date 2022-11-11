@@ -1,9 +1,9 @@
 _id: req_229829b32577496da3acfdd84c77d2b9
 type: Request
 parentId: fld_30dfeda4e223447690e3d06045527332
-modified: 1640783059242
+modified: 1668170222692
 created: 1640782748293
-url: "{{ _.base_url }}policy?_debug"
+url: "{{ _.v1_url }}policy?_debug"
 name: Get all policies(Index)
 description: ""
 method: GET

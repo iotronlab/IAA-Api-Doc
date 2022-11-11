@@ -1,9 +1,9 @@
 _id: req_08548d5d92984f3a8fa05d62469f3835
 type: Request
 parentId: fld_03915a14368d4c278a141a182df4f6cf
-modified: 1667659523788
+modified: 1668170279793
 created: 1667659265612
-url: "{{ _.base_url }}rating/artist/dolorem-est-tempora"
+url: "{{ _.v1_url }}rating/artist/dolorem-est-tempora"
 name: Artist Review
 description: |-
   Create New Bookmark For Artist in Api  

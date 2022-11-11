@@ -1,9 +1,9 @@
 _id: req_df7becd66fea4c42a993d2fa67c56b95
 type: Request
 parentId: fld_5cb20bddd3ea484e83ebd4bc3e465c6c
-modified: 1666789688857
+modified: 1668170051974
 created: 1637771823769
-url: "{{ _.base_url }}booking/promo/porro-incidunt-quo"
+url: "{{ _.v1_url }}booking/promo/porro-incidunt-quo"
 name: Check PromoCode
 description: ""
 method: POST

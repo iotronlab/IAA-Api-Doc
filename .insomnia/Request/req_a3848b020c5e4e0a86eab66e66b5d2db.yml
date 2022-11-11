@@ -1,9 +1,9 @@
 _id: req_a3848b020c5e4e0a86eab66e66b5d2db
 type: Request
 parentId: wrk_ce5f6f4dd9ef4176a464de9f08a02581
-modified: 1638483051091
+modified: 1668170200406
 created: 1638293070267
-url: http://localhost:8000/api/booking/invoice/ZTpmZe
+url: "{{ _.v1_url }}booking/invoice/ZTpmZe"
 name: check invoice
 description: ""
 method: GET
