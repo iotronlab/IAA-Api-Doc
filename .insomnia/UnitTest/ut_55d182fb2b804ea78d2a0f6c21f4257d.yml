@@ -1,0 +1,10 @@
+_id: ut_55d182fb2b804ea78d2a0f6c21f4257d
+type: UnitTest
+parentId: uts_4ae80b23d8d2460bbd0e79dda8e58912
+modified: 1668521695447
+created: 1668521668531
+requestId: req_bb060e91ac10473b9263e114b30e297a
+name: Get Mentions
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

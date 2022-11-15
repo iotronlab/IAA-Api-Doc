@@ -1,0 +1,10 @@
+_id: ut_763a275903df4b02891abcb522a76fbe
+type: UnitTest
+parentId: uts_4ae80b23d8d2460bbd0e79dda8e58912
+modified: 1668521722286
+created: 1668521712443
+requestId: req_89590bcc68464c79a168145f195e562f
+name: Get Associates
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

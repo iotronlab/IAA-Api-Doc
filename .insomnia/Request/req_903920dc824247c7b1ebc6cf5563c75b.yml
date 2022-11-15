@@ -1,9 +1,9 @@
 _id: req_903920dc824247c7b1ebc6cf5563c75b
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1668170039221
+modified: 1668520951136
 created: 1634358127975
-url: "{{ _.v1_url }}booking/new/et-consequatur-laboriosam"
+url: "{{ _.v1_url }}booking/new/aut-sequi-beatae"
 name: Create Booking
 description: ""
 method: POST
@@ -16,11 +16,11 @@ body:
     	"booking_contact": "9046632101",
     	"tickets": [
     		{
-    			"id": 5,
+    			"id": 9,
     			"quantity": 2
     		},
     		{
-    			"id": 6,
+    			"id": 10,
     			"quantity": 2
     		}
     	],

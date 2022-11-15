@@ -1,0 +1,10 @@
+_id: ut_eb40908e21b94b048cf9070d785767f2
+type: UnitTest
+parentId: uts_a5a5446d0d6c45149bcbde58d561bb80
+modified: 1668521088011
+created: 1668521084003
+requestId: req_1982292fe32e4cdcab691352b21873f6
+name: Get Filters
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

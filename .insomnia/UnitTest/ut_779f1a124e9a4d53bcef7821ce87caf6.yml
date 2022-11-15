@@ -1,0 +1,10 @@
+_id: ut_779f1a124e9a4d53bcef7821ce87caf6
+type: UnitTest
+parentId: uts_e932661e066741d7963a7621d29e3a34
+modified: 1668518400952
+created: 1668517585303
+requestId: req_a719aaf233ab41ed9f07acf625d49b6f
+name: Get CSRF Cookie
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(204);

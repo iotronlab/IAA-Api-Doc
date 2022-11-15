@@ -1,7 +1,7 @@
 _id: req_89021b8194d6473cbf34b24ce1e177bd
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1668169958730
+modified: 1668176551272
 created: 1634357931302
 url: "{{ _.v1_url }}events/{% response 'body',
   'req_05b87a9de36645e4bbce74dd418db665', 'b64::JC5kYXRhWzBdLnVybA==::46b',
@@ -9,9 +9,13 @@ url: "{{ _.v1_url }}events/{% response 'body',
 name: Get One (show)
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: ""
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1633282575845.375
 isPrivate: false

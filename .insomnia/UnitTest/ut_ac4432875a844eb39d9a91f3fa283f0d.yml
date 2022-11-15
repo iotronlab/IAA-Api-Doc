@@ -1,0 +1,10 @@
+_id: ut_ac4432875a844eb39d9a91f3fa283f0d
+type: UnitTest
+parentId: uts_b1d5a2aba21e4386a57be3c3917be980
+modified: 1668521686834
+created: 1668521629267
+requestId: req_528d40a7c5104df1acbcb068ac8cb57e
+name: Artist Form On Submit
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

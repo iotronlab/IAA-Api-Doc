@@ -1,0 +1,10 @@
+_id: ut_f91eda5922d84ed7ac3e8f0dc3f9d6df
+type: UnitTest
+parentId: uts_6c4dc2385ce34ec085ba65b4c85ed35e
+modified: 1668521993884
+created: 1668521987824
+requestId: req_188742d243c24d43a9cdff20760bbb0d
+name: Get Upcoming
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

@@ -1,9 +1,9 @@
 _id: req_df7becd66fea4c42a993d2fa67c56b95
 type: Request
 parentId: fld_5cb20bddd3ea484e83ebd4bc3e465c6c
-modified: 1668170051974
+modified: 1668177443312
 created: 1637771823769
-url: "{{ _.v1_url }}booking/promo/porro-incidunt-quo"
+url: "{{ _.v1_url }}booking/promo/consequatur-quis-labore"
 name: Check PromoCode
 description: ""
 method: POST
@@ -33,9 +33,9 @@ headers:
     id: pair_998c3cab3d9143048f6def012c0d7853
 authentication:
   type: bearer
-  token: "{% response 'body', 'req_f015c98df8cf47b5aefe11f2390898e5',
+  token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
-  disabled: true
+  disabled: false
 metaSortKey: -1634358128012.5
 isPrivate: false
 settingStoreCookies: true

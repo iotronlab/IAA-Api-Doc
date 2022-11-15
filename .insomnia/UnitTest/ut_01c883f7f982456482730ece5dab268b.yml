@@ -1,0 +1,10 @@
+_id: ut_01c883f7f982456482730ece5dab268b
+type: UnitTest
+parentId: uts_4ae80b23d8d2460bbd0e79dda8e58912
+modified: 1668521704311
+created: 1668521699979
+requestId: req_8760d546d98e4162908aa6458954e3c7
+name: Get Staff
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

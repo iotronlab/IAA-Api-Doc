@@ -1,0 +1,10 @@
+_id: ut_2754876147b84d008e16cbe57588aace
+type: UnitTest
+parentId: uts_f7ef6cddf735440392592fbe45433197
+modified: 1668521779958
+created: 1668521776898
+requestId: req_09b772929c8642e1b115fa8aa4b8e351
+name: Get City List
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

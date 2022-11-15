@@ -1,9 +1,9 @@
 _id: req_98a944c2c15844719de7568de1f7127d
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1668169954616
+modified: 1668184286868
 created: 1638123354647
-url: "{{ _.v1_url }}events/et-consequatur-laboriosam"
+url: "{{ _.v1_url }}events/aut-sequi-beatae"
 name: Get One (show) HARD
 description: ""
 method: GET
@@ -13,6 +13,7 @@ parameters:
     name: city
     value: kolkata
     description: ""
+    disabled: true
   - id: pair_8a70344a84e347c8865833bc24cfa94d
     name: time
     value: 2022-10-28,2022-10-31
@@ -22,6 +23,7 @@ parameters:
     name: language
     value: Bengali
     description: ""
+    disabled: true
   - id: pair_5c5a5e96576b41d7b255544fa797c611
     name: genre
     value: Funk

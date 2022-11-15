@@ -1,0 +1,10 @@
+_id: ut_d9d2ad9a2b914e85acf710bc44884707
+type: UnitTest
+parentId: uts_6c4dc2385ce34ec085ba65b4c85ed35e
+modified: 1668522100724
+created: 1668522088537
+requestId: req_14c74b6d65644deb8898dcd133cf5a1a
+name: Get Via CIty
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

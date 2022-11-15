@@ -1,7 +1,7 @@
 _id: req_a3848b020c5e4e0a86eab66e66b5d2db
 type: Request
-parentId: wrk_ce5f6f4dd9ef4176a464de9f08a02581
-modified: 1668170200406
+parentId: fld_92fa6663f4394519a5ad405b1cf5917a
+modified: 1668440842073
 created: 1638293070267
 url: "{{ _.v1_url }}booking/invoice/ZTpmZe"
 name: check invoice
@@ -12,9 +12,9 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: "{% response 'body', 'req_f015c98df8cf47b5aefe11f2390898e5',
+  token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'never', 60 %}"
-metaSortKey: -1638293070267
+metaSortKey: -1666789636292
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
