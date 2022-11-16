@@ -1,0 +1,10 @@
+_id: ut_d4920d7fa83b48fe8dc82c8c068d7070
+type: UnitTest
+parentId: uts_e932661e066741d7963a7621d29e3a34
+modified: 1668607782108
+created: 1668607767577
+requestId: req_6a3467b73c654dd896e35c034ee33fa6
+name: Social FB Login
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

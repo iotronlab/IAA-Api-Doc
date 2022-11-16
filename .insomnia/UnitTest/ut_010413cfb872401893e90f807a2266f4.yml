@@ -1,0 +1,10 @@
+_id: ut_010413cfb872401893e90f807a2266f4
+type: UnitTest
+parentId: uts_e932661e066741d7963a7621d29e3a34
+modified: 1668607758516
+created: 1668607742055
+requestId: req_924e2832f92c448294f6770f6a4e57e8
+name: Social Google Login
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
