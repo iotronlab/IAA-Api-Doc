@@ -1,0 +1,21 @@
+_id: req_6a3467b73c654dd896e35c034ee33fa6
+type: Request
+parentId: fld_ee96d895124b4f2faa80111d1bf12625
+modified: 1668607505664
+created: 1668607493238
+url: http://localhost:8000/login/facebook
+name: FB Login
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668607493238
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

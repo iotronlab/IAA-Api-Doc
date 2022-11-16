@@ -1,0 +1,21 @@
+_id: req_924e2832f92c448294f6770f6a4e57e8
+type: Request
+parentId: fld_ee96d895124b4f2faa80111d1bf12625
+modified: 1668607480227
+created: 1668607454570
+url: http://localhost:8000/login/google
+name: Google Login
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668607454570
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
