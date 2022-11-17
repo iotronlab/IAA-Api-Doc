@@ -1,12 +1,10 @@
-_id: req_e742028c3b804e45896ca1b10d557d14
+_id: req_6f2c1b58f15849388bb0256c8c2093c8
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1668698049710
-created: 1636295542876
-url: "{{ _.v1_url }}booking/{% response 'body',
-  'req_4cd242c309634409900eb86a32abf565', 'b64::JC5kYXRhWzBdLnV1aWQ=::46b',
-  'always', 60 %}"
-name: Get One Booking
+modified: 1668698079044
+created: 1668698065401
+url: "{{ _.v1_url }}booking/XPMBJW"
+name: Get One Booking (Hard)
 description: ""
 method: GET
 body: {}
@@ -16,7 +14,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
-metaSortKey: -1663485291770.375
+metaSortKey: -1663485291745.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

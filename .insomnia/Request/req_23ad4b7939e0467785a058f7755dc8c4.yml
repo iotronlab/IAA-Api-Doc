@@ -1,7 +1,7 @@
 _id: req_23ad4b7939e0467785a058f7755dc8c4
 type: Request
 parentId: fld_a6b4b5f2a7f347c7863866f95e6fa61f
-modified: 1668697809694
+modified: 1668170272148
 created: 1667658706402
 url: "{{ _.v1_url }}review/event/doloribus-quae-dolorem"
 name: Event Review
@@ -19,15 +19,6 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_206a473942e64ab39bcbe6e480359c12
-  - id: pair_b60a21bb0d1c425d9425628073e176cf
-    name: Referer
-    value: localhost:3000
-    description: ""
-  - id: pair_891ce103fc3f446393ea2096f6a76a98
-    name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
-    description: ""
 authentication: {}
 metaSortKey: -1667654541675
 isPrivate: false

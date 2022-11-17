@@ -1,7 +1,7 @@
 _id: req_50974d546b244affba9d8fb09cb32677
 type: Request
 parentId: fld_5c7de9858ffe4ec79727d47068d80f22
-modified: 1668697721301
+modified: 1668170775419
 created: 1636734745310
 url: "{{ _.v1_url }}forms/contact?_debug"
 name: Contact Form
@@ -25,14 +25,6 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_2434cf01a18e4c58a5b0d542db026aaa
-  - id: pair_8049111c220c452e95191a5391045c39
-    name: Referer
-    value: localhost:3000
-    description: ""
-  - id: pair_f17bae46e9174384b04d779dd302ae52
-    name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
-    description: ""
 authentication: {}
 metaSortKey: -1636734745310
 isPrivate: false
