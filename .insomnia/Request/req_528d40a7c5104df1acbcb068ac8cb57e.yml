@@ -1,7 +1,7 @@
 _id: req_528d40a7c5104df1acbcb068ac8cb57e
 type: Request
 parentId: fld_5c7de9858ffe4ec79727d47068d80f22
-modified: 1668171535384
+modified: 1668697745826
 created: 1636734782176
 url: "{{ _.v1_url }}forms/artist"
 name: Artist Form
@@ -32,6 +32,14 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_29055ff4eb284563951d6edd017025da
+  - id: pair_6b4bea6dcfc14d389b5d5b203768f905
+    name: Referer
+    value: localhost:3000
+    description: ""
+  - id: pair_97fd36fc7bde4340b92a27e8ffd44ea9
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
 authentication: {}
 metaSortKey: -1636732681872
 isPrivate: false

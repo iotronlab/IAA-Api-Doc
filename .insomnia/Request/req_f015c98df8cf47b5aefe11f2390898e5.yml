@@ -1,7 +1,7 @@
 _id: req_f015c98df8cf47b5aefe11f2390898e5
 type: Request
 parentId: fld_566abf895bd84a908e244129146f53a0
-modified: 1666184599407
+modified: 1668694784597
 created: 1634358015686
 url: "{{ _.base_url }}login"
 name: session login
@@ -11,19 +11,22 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "samplesss@iaa.org",
-    	"password": "123456sss"
+    	"email": "demo@iaa.org",
+    	"password": "123456"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_880a5c2a2e2b46ad9fbd5231fe9f79dc
-  - id: pair_f719f3f897354981abe625a18c990135
-    name: X-Requested-With
-    value: XMLHttpRequest
+  - id: pair_c49ff37782b44b3b99ff3b9de2328d74
+    name: Referer
+    value: localhost:3000
     description: ""
-    disabled: true
+  - id: pair_f6c10114a9e148c187cb58dbcb0a1f09
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
 authentication: {}
 metaSortKey: -1634358015786
 isPrivate: false

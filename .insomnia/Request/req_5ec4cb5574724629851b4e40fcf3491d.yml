@@ -1,7 +1,7 @@
 _id: req_5ec4cb5574724629851b4e40fcf3491d
 type: Request
 parentId: fld_47b7968a8aea468f88ad550f7185ac6d
-modified: 1668170092173
+modified: 1668697656107
 created: 1640354878968
 url: "{{ _.v1_url }}capture/payment"
 name: Gateway Callback
@@ -72,6 +72,14 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_a437a1ef97be436a9c3259860f16aab9
+  - id: pair_04fccf98101342b680fc59a4b3903692
+    name: Referer
+    value: localhost:3000
+    description: ""
+  - id: pair_b59418f6632049db95e3b0743d268dd7
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
 authentication:
   type: basic
   useISO88591: false

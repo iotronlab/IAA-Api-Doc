@@ -1,7 +1,7 @@
 _id: req_8390b0fb47244997bc8cd01cf31932a3
 type: Request
 parentId: fld_566abf895bd84a908e244129146f53a0
-modified: 1668521270557
+modified: 1668697437425
 created: 1636443144944
 url: "{{ _.base_url }}details"
 name: Get User Details
@@ -18,11 +18,15 @@ parameters: []
 headers:
   - id: pair_f33c8989f7a042bb901119b989ef0798
     name: Referer
-    value: http://localhost:8000
+    value: http://localhost:3000
     description: ""
   - name: Content-Type
     value: application/json
     id: pair_5f790a505ecf49fa88e104768434ab1a
+  - id: pair_ff8d81d298b94f4583e8812b479b995a
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
 authentication:
   type: bearer
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',

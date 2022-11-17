@@ -1,7 +1,7 @@
 _id: req_df7becd66fea4c42a993d2fa67c56b95
 type: Request
 parentId: fld_5cb20bddd3ea484e83ebd4bc3e465c6c
-modified: 1668177443312
+modified: 1668697661540
 created: 1637771823769
 url: "{{ _.v1_url }}booking/promo/consequatur-quis-labore"
 name: Check PromoCode
@@ -31,6 +31,14 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_998c3cab3d9143048f6def012c0d7853
+  - id: pair_0f6ed91663724632a314d61afe00aed8
+    name: Referer
+    value: localhost:3000
+    description: ""
+  - id: pair_5b88eae2824d49b3b6399074fe1700cd
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
 authentication:
   type: bearer
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
