@@ -1,7 +1,7 @@
 _id: req_4cd242c309634409900eb86a32abf565
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1668170030913
+modified: 1668700142200
 created: 1634358141721
 url: "{{ _.v1_url }}booking/getall?_debug"
 name: Get All Bookings

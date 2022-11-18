@@ -1,27 +1,28 @@
 _id: req_71250d0fcea44438b523bea89247e971
 type: Request
 parentId: fld_47b7968a8aea468f88ad550f7185ac6d
-modified: 1668170108123
+modified: 1668702166235
 created: 1636008073533
-url: "{{ _.v1_url }}booking/confirm/bGs78p"
+url: "{{ _.v1_url }}booking/confirm/3m0TSU"
 name: Confirm Booking
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
-    {
-    		"razorpay_order_id" : "order_KWRNVLUUlfd3Ks",
-    		"razorpay_payment_id": "pay_ISL3D93rccUrft",
-    		"razorpay_signature": "b9c5215ed708a70db78cd5f28fea8bc0dcd8bbfce28489d2c4af8fc78b5a64ef"
-
-
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_998c3cab3d9143048f6def012c0d7853
+  - id: pair_92927f080af4437384ad652db6df28d2
+    name: Referer
+    value: localhost:3000
+    description: ""
+  - id: pair_95f38886b6e5451a8199094219e21f15
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
 authentication:
   type: bearer
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',

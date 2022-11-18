@@ -1,7 +1,7 @@
 _id: req_08548d5d92984f3a8fa05d62469f3835
 type: Request
 parentId: fld_03915a14368d4c278a141a182df4f6cf
-modified: 1668170279793
+modified: 1668697885686
 created: 1667659265612
 url: "{{ _.v1_url }}rating/artist/dolorem-est-tempora"
 name: Artist Review
@@ -19,6 +19,15 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_7e6de055b293466aae46f7498514013a
+  - id: pair_0adcd13e8044431bb92f7af25c0fc426
+    name: Referer
+    value: localhost:3000
+    description: ""
+  - id: pair_8d86fd8505ab4444a6c784e13f2aa828
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
 authentication: {}
 metaSortKey: -1667657434287
 isPrivate: false

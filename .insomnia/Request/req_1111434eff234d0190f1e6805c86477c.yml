@@ -1,0 +1,21 @@
+_id: req_1111434eff234d0190f1e6805c86477c
+type: Request
+parentId: fld_5cb20bddd3ea484e83ebd4bc3e465c6c
+modified: 1668783106512
+created: 1668780922481
+url: "{{ _.v1_url }}getPromo/iusto-cupiditate-et"
+name: Get Event Promo Code
+description: Development Mood Only
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668780922481
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
