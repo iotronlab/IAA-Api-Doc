@@ -1,19 +1,24 @@
 _id: req_6f2c1b58f15849388bb0256c8c2093c8
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1668782745304
+modified: 1669043984234
 created: 1668698065401
-url: "{{ _.v1_url }}booking/2pf4wB"
+url: "{{ _.v1_url }}booking/fmVPLP"
 name: Get One Booking (Hard)
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_f30b2b5138ff44adb19d0e63282ead91
+    name: Referer
+    value: localhost:3000
+    description: ""
 authentication:
   type: bearer
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
+  disabled: true
 metaSortKey: -1663485291745.375
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_e742028c3b804e45896ca1b10d557d14
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1668698049710
+modified: 1669047514412
 created: 1636295542876
 url: "{{ _.v1_url }}booking/{% response 'body',
   'req_4cd242c309634409900eb86a32abf565', 'b64::JC5kYXRhWzBdLnV1aWQ=::46b',
@@ -11,11 +11,16 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_bee265b4c6cc43e0b2a63897f5df81a9
+    name: Referer
+    value: localhost:3000
+    description: ""
 authentication:
   type: bearer
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
+  disabled: true
 metaSortKey: -1663485291770.375
 isPrivate: false
 settingStoreCookies: true

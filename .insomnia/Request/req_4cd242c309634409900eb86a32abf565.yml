@@ -1,7 +1,7 @@
 _id: req_4cd242c309634409900eb86a32abf565
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1668700142200
+modified: 1669043996246
 created: 1634358141721
 url: "{{ _.v1_url }}booking/getall?_debug"
 name: Get All Bookings
@@ -14,11 +14,18 @@ description: |-
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_47d3844a61aa490c8972a10e7760bd6b
+    name: Referer
+    value: localhost:3000
+    description: ""
+    disabled: false
 authentication:
-  type: bearer
-  token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
-    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
+  type: basic
+  useISO88591: false
+  disabled: true
+  username: ""
+  password: ""
 metaSortKey: -1663485291720.375
 isPrivate: false
 settingStoreCookies: true

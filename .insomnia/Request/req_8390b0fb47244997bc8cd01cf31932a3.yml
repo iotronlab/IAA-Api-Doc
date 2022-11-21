@@ -1,7 +1,7 @@
 _id: req_8390b0fb47244997bc8cd01cf31932a3
 type: Request
 parentId: fld_566abf895bd84a908e244129146f53a0
-modified: 1668697437425
+modified: 1669042946938
 created: 1636443144944
 url: "{{ _.base_url }}details"
 name: Get User Details
@@ -31,6 +31,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
+  disabled: true
 metaSortKey: -1634358015776.625
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_f015c98df8cf47b5aefe11f2390898e5
 type: Request
 parentId: fld_566abf895bd84a908e244129146f53a0
-modified: 1668697630912
+modified: 1669042726119
 created: 1634358015686
 url: "{{ _.base_url }}login"
 name: session login
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "demo@iaa.org",
+    	"email": "demo@jetpax.in",
     	"password": "123456"
     }
 parameters: []

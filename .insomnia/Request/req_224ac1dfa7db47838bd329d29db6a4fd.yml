@@ -1,0 +1,21 @@
+_id: req_224ac1dfa7db47838bd329d29db6a4fd
+type: Request
+parentId: fld_dd6ea94a6ef348b1a334654101f51192
+modified: 1668787673972
+created: 1668787664816
+url: ""
+name: Create Booking Auto
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1668787664816
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

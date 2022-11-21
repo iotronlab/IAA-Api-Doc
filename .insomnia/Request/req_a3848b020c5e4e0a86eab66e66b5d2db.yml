@@ -1,19 +1,24 @@
 _id: req_a3848b020c5e4e0a86eab66e66b5d2db
 type: Request
 parentId: fld_92fa6663f4394519a5ad405b1cf5917a
-modified: 1668440842073
+modified: 1669044058390
 created: 1638293070267
-url: "{{ _.v1_url }}booking/invoice/ZTpmZe"
+url: "{{ _.v1_url }}booking/invoice/fmVPLP"
 name: check invoice
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_c8e1ccbc9e87444db7dcefaa438e9bc1
+    name: Referer
+    value: localhost:3000
+    description: ""
 authentication:
   type: bearer
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'never', 60 %}"
+  disabled: true
 metaSortKey: -1666789636292
 isPrivate: false
 settingStoreCookies: true
