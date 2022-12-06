@@ -1,9 +1,9 @@
 _id: req_1111434eff234d0190f1e6805c86477c
 type: Request
 parentId: fld_5cb20bddd3ea484e83ebd4bc3e465c6c
-modified: 1669044020692
+modified: 1670332093310
 created: 1668780922481
-url: "{{ _.v1_url }}getPromo/omnis-laudantium-dicta"
+url: "{{ _.v1_url }}getPromo/veniam-eos-placeat"
 name: Get Event Promo Code
 description: Development Mood Only
 method: GET

@@ -1,9 +1,9 @@
 _id: req_903920dc824247c7b1ebc6cf5563c75b
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1669043525262
+modified: 1670332113945
 created: 1634358127975
-url: "{{ _.v1_url }}booking/new/omnis-laudantium-dicta"
+url: "{{ _.v1_url }}booking/new/veniam-eos-placeat"
 name: Create Booking (Hard)
 description: ""
 method: POST
@@ -16,15 +16,15 @@ body:
     	"booking_contact": "9046632101",
     	"tickets": [
     		{
-    			"id": 125,
+    			"id": 137,
     			"quantity": 2
     		},
     		{
-    			"id": 126,
+    			"id": 138,
     			"quantity": 2
     		}
     	],
-    	"promo" : "19Mije"
+    	"promo" : "DzIkzK"
     }
 parameters: []
 headers:

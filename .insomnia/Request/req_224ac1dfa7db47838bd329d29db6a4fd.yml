@@ -1,15 +1,37 @@
 _id: req_224ac1dfa7db47838bd329d29db6a4fd
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1668787673972
+modified: 1669209953845
 created: 1668787664816
-url: ""
+url: "{{ _.v1_url }}booking/new/{% response 'body',
+  'req_05b87a9de36645e4bbce74dd418db665', 'b64::JC5kYXRhWzBdLnVybA==::46b',
+  'always', 60 %}"
 name: Create Booking Auto
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"booking_name": "Shyamal Dutta",
+    	"booking_email": "sdutta@gmail.com",
+    	"booking_contact": "9046632101",
+    	"tickets": [
+    		{
+    			"id": {% response 'body', 'req_89021b8194d6473cbf34b24ce1e177bd', 'b64::JC5kYXRhWzBd::46b', 'always', 60 %},
+    			"quantity": 2
+    		},
+    		{
+    			"id": 354,
+    			"quantity": 2
+    		}
+    	],
+    	"promo" : "AOIWaX"
+    }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1668787664816
 isPrivate: false

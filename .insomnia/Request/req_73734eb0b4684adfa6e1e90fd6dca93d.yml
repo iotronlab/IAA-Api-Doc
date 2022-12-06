@@ -1,0 +1,21 @@
+_id: req_73734eb0b4684adfa6e1e90fd6dca93d
+type: Request
+parentId: fld_4911d5c62fff4cdca9360ff48b8fea90
+modified: 1670332877244
+created: 1670332856738
+url: "{{ _.v1_url }}genre/rock"
+name: Single
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669560157027
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

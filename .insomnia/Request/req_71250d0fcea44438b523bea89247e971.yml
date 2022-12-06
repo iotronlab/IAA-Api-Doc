@@ -1,9 +1,9 @@
 _id: req_71250d0fcea44438b523bea89247e971
 type: Request
 parentId: fld_47b7968a8aea468f88ad550f7185ac6d
-modified: 1669043232066
+modified: 1669739678938
 created: 1636008073533
-url: "{{ _.v1_url }}booking/confirm/3m0TSU"
+url: "{{ _.v1_url }}booking/confirm/e7Mbey"
 name: Confirm Booking
 description: ""
 method: POST
@@ -27,7 +27,7 @@ authentication:
   type: bearer
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
-  disabled: false
+  disabled: true
 metaSortKey: -1653572257655.5
 isPrivate: false
 settingStoreCookies: true
