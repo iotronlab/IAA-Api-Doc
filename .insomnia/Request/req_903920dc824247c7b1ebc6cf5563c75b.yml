@@ -1,9 +1,9 @@
 _id: req_903920dc824247c7b1ebc6cf5563c75b
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1670332113945
+modified: 1670514349356
 created: 1634358127975
-url: "{{ _.v1_url }}booking/new/veniam-eos-placeat"
+url: "{{ _.v1_url }}booking/new/quam-tempore-maxime"
 name: Create Booking (Hard)
 description: ""
 method: POST
@@ -16,15 +16,15 @@ body:
     	"booking_contact": "9046632101",
     	"tickets": [
     		{
-    			"id": 137,
+    			"id": 57,
     			"quantity": 2
     		},
     		{
-    			"id": 138,
+    			"id": 58,
     			"quantity": 2
     		}
     	],
-    	"promo" : "DzIkzK"
+    	"promo" : ""
     }
 parameters: []
 headers:

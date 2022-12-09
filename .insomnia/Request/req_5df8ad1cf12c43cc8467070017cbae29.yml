@@ -1,21 +1,21 @@
-_id: req_1982292fe32e4cdcab691352b21873f6
+_id: req_5df8ad1cf12c43cc8467070017cbae29
 type: Request
-parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1670504170273
-created: 1668003513674
-url: "{{ _.v1_url }}artists/filters/all"
-name: Artist Filter
+parentId: fld_d17361ea5bc1456daba88ef2d16e5c7d
+modified: 1670512661744
+created: 1670504070704
+url: "{{ _.v1_url }}bookmark/artist/all"
+name: My Artist Bookmark
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_4cf8a4e2672e4c93ae6996d5104bf2aa
+  - id: pair_9390dfb5160848d3ae3aec5ca0afa9bc
     name: Referer
     value: localhost:3000
     description: ""
 authentication: {}
-metaSortKey: -1668003513674
+metaSortKey: -1670504070704
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

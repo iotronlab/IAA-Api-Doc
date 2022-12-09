@@ -1,17 +1,31 @@
 _id: req_216d3ee729624de29ae1e43e101f9145
 type: Request
 parentId: fld_d17361ea5bc1456daba88ef2d16e5c7d
-modified: 1668170255191
+modified: 1670579086428
 created: 1667657434287
-url: "{{ _.v1_url }}bookmark/artist/dolorem-est-tempora"
+url: "{{ _.v1_url }}bookmark/artist/{% response 'body',
+  'req_e9e4bbef9b424e2b858b8b81372fd741', 'b64::JC5kYXRhWzBdLnVybA==::46b',
+  'never', 60 %}"
 name: Artist Bookmark
 description: |-
   Create New Bookmark For Artist in Api  
   api/bookmark/artist/{artist:url}
-method: GET
+method: POST
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_f751d35d475744b7bdb3e3dd26f67545
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_e398f167b2e04a0faad2e062726edce5
+    name: Referer
+    value: localhost:3000
+    description: ""
+  - id: pair_969aab296f41486aa92f0394db2e2c72
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
 authentication: {}
 metaSortKey: -1667657434287
 isPrivate: false

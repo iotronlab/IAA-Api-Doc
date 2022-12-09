@@ -1,0 +1,10 @@
+_id: ut_4fda3cf035f6495c99a2fe9f3ef675fd
+type: UnitTest
+parentId: uts_80710895572c48bc96b66e1aa4c161e4
+modified: 1670579247537
+created: 1670579228980
+requestId: req_f767a73ab90943d2b08433ab3be58375
+name: Get Event Bookmark
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
