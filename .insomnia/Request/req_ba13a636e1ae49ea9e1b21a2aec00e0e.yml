@@ -1,16 +1,14 @@
-_id: req_ec29e6ccee4b4396bb95c40908e8e488
+_id: req_ba13a636e1ae49ea9e1b21a2aec00e0e
 type: Request
 parentId: fld_d17361ea5bc1456daba88ef2d16e5c7d
-modified: 1670854183560
-created: 1667657838686
-url: "{{ _.v1_url }}bookmark/event/{% response 'body',
-  'req_05b87a9de36645e4bbce74dd418db665', 'b64::JC5kYXRhWzBdLnVybA==::46b',
-  'never', 60 %}"
-name: Add Event Auto
+modified: 1670854213604
+created: 1670854159956
+url: "{{ _.v1_url }}bookmark/event/qui-atque-veniam"
+name: Remove Event Hard
 description: |-
   Create New Bookmark For Events in Api  
   api/bookmark/event/{event:url}
-method: POST
+method: DELETE
 body:
   mimeType: application/json
   text: ""
@@ -28,7 +26,7 @@ headers:
     value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
     description: ""
 authentication: {}
-metaSortKey: -1667654541675
+metaSortKey: -1667652372216
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

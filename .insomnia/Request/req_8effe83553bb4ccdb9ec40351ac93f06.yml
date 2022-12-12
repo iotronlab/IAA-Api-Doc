@@ -1,12 +1,10 @@
-_id: req_216d3ee729624de29ae1e43e101f9145
+_id: req_8effe83553bb4ccdb9ec40351ac93f06
 type: Request
 parentId: fld_d17361ea5bc1456daba88ef2d16e5c7d
-modified: 1670854375141
-created: 1667657434287
-url: "{{ _.v1_url }}bookmark/artist/{% response 'body',
-  'req_e9e4bbef9b424e2b858b8b81372fd741', 'b64::JC5kYXRhWzBdLnVybA==::46b',
-  'never', 60 %}"
-name: Add Artist Auto
+modified: 1670854027304
+created: 1670850834098
+url: "{{ _.v1_url }}bookmark/artist/eum-eius-deserunt"
+name: Add Artist Hard
 description: |-
   Create New Bookmark For Artist in Api  
   api/bookmark/artist/{artist:url}
@@ -27,7 +25,7 @@ headers:
     value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
     description: ""
 authentication: {}
-metaSortKey: -1667657434287
+metaSortKey: -1667655987981
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
