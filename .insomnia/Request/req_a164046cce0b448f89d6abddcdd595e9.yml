@@ -1,30 +1,32 @@
-_id: req_903920dc824247c7b1ebc6cf5563c75b
+_id: req_a164046cce0b448f89d6abddcdd595e9
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1670862316610
-created: 1634358127975
-url: "{{ _.v1_url }}booking/new/qui-atque-veniam"
-name: Create Booking (Hard)
+modified: 1670862169782
+created: 1670861240490
+url: "{{ _.v1_url }}booking/new/{% response 'body',
+  'req_05b87a9de36645e4bbce74dd418db665', 'b64::JC5kYXRhWzBdLnVybA==::46b',
+  'always', 60 %}"
+name: Create Booking (Auto)
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
     	"booking_name": "Shyamal Dutta",
     	"booking_email": "sdutta@gmail.com",
     	"booking_contact": "9046632101",
     	"tickets": [
     		{
-    			"id": 1,
+    			"id": {% response 'body', 'req_89021b8194d6473cbf34b24ce1e177bd', 'b64::JC5kYXRhLnRpY2tldHNbMF0uaWQ=::46b', 'always', 60 %},
     			"quantity": 2
     		},
     		{
-    			"id": 2,
+    			"id": {% response 'body', 'req_89021b8194d6473cbf34b24ce1e177bd', 'b64::JC5kYXRhLnRpY2tldHNbMV0uaWQ=::46b', 'always', 60 %},
     			"quantity": 2
     		}
     	],
-    	"promo" : "Zgdopv"
+    	"promo" : "{% response 'body', 'req_7f7ccb7ff8fc434cbabe98de2ad44f99', 'b64::JC5kYXRhWzBdLmNvZGU=::46b', 'always', 60 %}"
     }
 parameters: []
 headers:
@@ -44,7 +46,7 @@ authentication:
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
   disabled: true
-metaSortKey: -1663485291670.375
+metaSortKey: -1663469285351.6875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

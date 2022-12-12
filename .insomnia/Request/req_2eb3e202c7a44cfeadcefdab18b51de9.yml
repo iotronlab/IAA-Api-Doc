@@ -1,7 +1,7 @@
 _id: req_2eb3e202c7a44cfeadcefdab18b51de9
 type: Request
 parentId: fld_5cb20bddd3ea484e83ebd4bc3e465c6c
-modified: 1670503766288
+modified: 1670861727583
 created: 1636024152681
 url: "{{ _.v1_url }}booking/promo/{% response 'body',
   'req_89021b8194d6473cbf34b24ce1e177bd', 'b64::JC5kYXRhLnVybA==::46b', 'never',

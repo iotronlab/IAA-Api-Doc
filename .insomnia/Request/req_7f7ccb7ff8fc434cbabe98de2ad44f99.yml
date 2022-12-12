@@ -1,0 +1,27 @@
+_id: req_7f7ccb7ff8fc434cbabe98de2ad44f99
+type: Request
+parentId: fld_5cb20bddd3ea484e83ebd4bc3e465c6c
+modified: 1670861718828
+created: 1670861680299
+url: "{{ _.v1_url }}getPromo/{% response 'body',
+  'req_05b87a9de36645e4bbce74dd418db665', 'b64::JC5kYXRhWzBdLnVybA==::46b',
+  'always', 60 %}"
+name: Get Event Promo Code [Auto]
+description: Development Mood Only
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_25565b159e884ef6a9fd35621e0e30e8
+    name: Referer
+    value: localhost:3000
+    description: ""
+authentication: {}
+metaSortKey: -1668694207859.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

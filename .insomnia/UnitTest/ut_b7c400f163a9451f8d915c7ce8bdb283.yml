@@ -1,0 +1,10 @@
+_id: ut_b7c400f163a9451f8d915c7ce8bdb283
+type: UnitTest
+parentId: uts_a5da55db13724db9892451af67438206
+modified: 1670862135873
+created: 1670862130471
+requestId: req_a164046cce0b448f89d6abddcdd595e9
+name: Create Booking
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);
