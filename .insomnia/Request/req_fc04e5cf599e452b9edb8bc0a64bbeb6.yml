@@ -1,21 +1,21 @@
-_id: req_a719aaf233ab41ed9f07acf625d49b6f
+_id: req_fc04e5cf599e452b9edb8bc0a64bbeb6
 type: Request
-parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1671022615878
-created: 1637180116505
-url: http://localhost:8000/sanctum/csrf-cookie
-name: Get CSRF Pre Login
+parentId: fld_ef257dba23954e81ad4352a992d61f31
+modified: 1671028730289
+created: 1671028676399
+url: ""
+name: View All Social Providers
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1668607452051
+metaSortKey: -1671028676399
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false
-settingEncodeUrl: false
+settingEncodeUrl: true
 settingRebuildPath: true
 settingFollowRedirects: global

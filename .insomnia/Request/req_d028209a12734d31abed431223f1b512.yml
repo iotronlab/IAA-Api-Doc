@@ -1,7 +1,7 @@
 _id: req_d028209a12734d31abed431223f1b512
 type: Request
-parentId: fld_566abf895bd84a908e244129146f53a0
-modified: 1666185627704
+parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
+modified: 1671028627696
 created: 1666185494747
 url: "{{ _.base_url }}logout"
 name: logout
@@ -27,7 +27,7 @@ headers:
 authentication:
   type: bearer
   token: 3|29RMuVNhdpisdgyDivjpgik1PyAXiuXXCeKD7cvm
-metaSortKey: -1634358015779.75
+metaSortKey: -1634358015886
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

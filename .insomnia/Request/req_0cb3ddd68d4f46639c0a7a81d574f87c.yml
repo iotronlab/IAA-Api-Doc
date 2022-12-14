@@ -1,0 +1,40 @@
+_id: req_0cb3ddd68d4f46639c0a7a81d574f87c
+type: Request
+parentId: fld_ef257dba23954e81ad4352a992d61f31
+modified: 1671037848579
+created: 1671028805694
+url: "{{ _.v1_url }}customer/save-profile"
+name: Update My Profile
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "demoCustomers",
+    	"contact": "Kolkata,Bou Bazarsss",
+    	"alt_contact": "Kolkata,Bou Bazarsss",
+    	"whatsapp": "http://whatsapp.com/user/samsple_auser"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2670729cee574e21b28adfec288115e3
+  - id: pair_d08d69d0b22c4dd18116c32842a7b27b
+    name: Referer
+    value: localhost:3000
+    description: ""
+  - id: pair_15007688500648f4aab2a5addcd77837
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
+authentication: {}
+metaSortKey: -1671028664306
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,38 +1,39 @@
-_id: req_f015c98df8cf47b5aefe11f2390898e5
+_id: req_272ba0b6c945497a89f93f99aee21606
 type: Request
-parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1671038774486
-created: 1634358015686
-url: "{{ _.base_url }}login"
-name: session login
+parentId: fld_ef257dba23954e81ad4352a992d61f31
+modified: 1671039181248
+created: 1671038170148
+url: "{{ _.v1_url }}customer/change-password"
+name: Update Password
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "demo@jetpax.in",
-    	"password": "123456"
+    	"old_password": "123456",
+    	"new_password": "asdfadfss",
+    	"c_password": "asdfadfss"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_880a5c2a2e2b46ad9fbd5231fe9f79dc
-  - id: pair_c49ff37782b44b3b99ff3b9de2328d74
+    id: pair_2670729cee574e21b28adfec288115e3
+  - id: pair_d08d69d0b22c4dd18116c32842a7b27b
     name: Referer
     value: localhost:3000
     description: ""
-  - id: pair_f6c10114a9e148c187cb58dbcb0a1f09
+  - id: pair_15007688500648f4aab2a5addcd77837
     name: X-XSRF-TOKEN
     value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
     description: ""
 authentication: {}
-metaSortKey: -1634358015861
+metaSortKey: -1670766367505
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false
-settingEncodeUrl: false
+settingEncodeUrl: true
 settingRebuildPath: true
 settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_de5b9c47a83d4e96a99e716deefa30df
+type: Request
+parentId: fld_ef257dba23954e81ad4352a992d61f31
+modified: 1671028754502
+created: 1671028700430
+url: ""
+name: Remove Social Provider
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671028700430
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
