@@ -1,31 +1,15 @@
-_id: req_903920dc824247c7b1ebc6cf5563c75b
+_id: req_13a6440a1742403d8174ef183c0909f0
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1671108877590
-created: 1634358127975
-url: "{{ _.v1_url }}booking/new/qui-atque-veniam"
-name: Create Booking (Hard)
+modified: 1671112960210
+created: 1671108890988
+url: "{{ _.v1_url }}booking/cancel/xCostO"
+name: Delete Booking (Hard)
 description: ""
-method: POST
+method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"booking_name": "Shyamal Dutta",
-    	"booking_email": "sdutta@gmail.com",
-    	"booking_contact": "9046632101",
-    	"tickets": [
-    		{
-    			"id": 1,
-    			"quantity": 2
-    		},
-    		{
-    			"id": 2,
-    			"quantity": 2
-    		}
-    	],
-    	"promo" : "Zgdopv"
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -44,7 +28,7 @@ authentication:
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
   disabled: true
-metaSortKey: -1663485291670.375
+metaSortKey: -1663477288511.0312
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

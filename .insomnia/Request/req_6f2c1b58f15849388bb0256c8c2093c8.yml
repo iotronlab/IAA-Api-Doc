@@ -1,9 +1,9 @@
 _id: req_6f2c1b58f15849388bb0256c8c2093c8
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1670862325492
+modified: 1671115481030
 created: 1668698065401
-url: "{{ _.v1_url }}booking/xmdaEB"
+url: "{{ _.v1_url }}booking/NaToOA"
 name: Get One Booking (Hard)
 description: ""
 method: GET
