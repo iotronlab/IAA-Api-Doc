@@ -1,28 +1,19 @@
 _id: req_8390b0fb47244997bc8cd01cf31932a3
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1671109115970
+modified: 1671460254808
 created: 1636443144944
 url: "{{ _.base_url }}details"
 name: Get User Details
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"email": "samplesss@iaa.org",
-    	"password": "123456sss"
-    }
+body: {}
 parameters: []
 headers:
   - id: pair_f33c8989f7a042bb901119b989ef0798
     name: Referer
     value: http://localhost:3000
     description: ""
-  - name: Content-Type
-    value: application/json
-    id: pair_5f790a505ecf49fa88e104768434ab1a
   - id: pair_ff8d81d298b94f4583e8812b479b995a
     name: X-XSRF-TOKEN
     value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"

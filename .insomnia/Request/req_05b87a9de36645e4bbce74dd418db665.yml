@@ -1,7 +1,7 @@
 _id: req_05b87a9de36645e4bbce74dd418db665
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1670854669213
+modified: 1671461751247
 created: 1634357971752
 url: "{{ _.v1_url }}events/"
 name: Get All (index)
@@ -39,10 +39,12 @@ headers:
     name: Referer
     value: http://localhost:3000
     description: ""
+    disabled: false
   - id: pair_37d38d942b174d95b23264bbf76d7f97
     name: Content-Type
     value: application/json
     description: ""
+    disabled: false
 authentication: {}
 metaSortKey: -1632207250531.75
 isPrivate: false

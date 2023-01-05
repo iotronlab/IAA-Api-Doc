@@ -1,0 +1,54 @@
+_id: req_2c08cac812be400f8ac031b01382d081
+type: Request
+parentId: fld_32985cdd9d3c4dbaa5d5570917634542
+modified: 1672928262399
+created: 1672762817009
+url: "{{ _.v1_url }}cart"
+name: AddTickets
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tickets": [
+    		{
+    			"id" : 2,
+    			"quantity" : 2
+    		},
+    		{
+    			"id" : 1,
+    			"quantity" : 2
+    		},
+    		{
+    			"id" : 3,
+    			"quantity" : 2
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_67803b44217a424fbd4b98447c790847
+    name: Content-Type
+    value: application/json
+    description: ""
+    disabled: false
+  - id: pair_4a35cff2129d4936865d8adccdbb5b18
+    name: Referer
+    value: http://localhost:3000
+    description: ""
+    disabled: false
+  - id: pair_81a578fc86ad432cbfbeca3f65288de9
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1672762817009
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

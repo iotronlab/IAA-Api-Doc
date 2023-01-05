@@ -1,0 +1,38 @@
+_id: req_9e56248c8bbe4225adc6e05c22332372
+type: Request
+parentId: fld_32985cdd9d3c4dbaa5d5570917634542
+modified: 1672930368959
+created: 1672930329701
+url: "{{ _.v1_url }}cart/2"
+name: DeleteTicket
+description: ""
+method: DELETE
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+parameters: []
+headers:
+  - id: pair_67803b44217a424fbd4b98447c790847
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+    disabled: false
+  - id: pair_4a35cff2129d4936865d8adccdbb5b18
+    name: Referer
+    value: http://localhost:3000
+    description: ""
+    disabled: false
+  - id: pair_81a578fc86ad432cbfbeca3f65288de9
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1671462229574.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

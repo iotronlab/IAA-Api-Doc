@@ -1,7 +1,7 @@
 _id: req_fd2b6b473405490e9382f0622eafe3ce
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1671111359849
+modified: 1671456638627
 created: 1634358024856
 url: "{{ _.base_url }}register"
 name: register
@@ -14,7 +14,7 @@ body:
     	"name": "demoCustomers",
     	"email": "demo_customers@iaa.org",
     	"password": "123456",
-    	"c_password": "1234563",
+    	"c_password": "123456",
     	"contact": "Kolkata,Bou Bazarsss",
     	"whatsapp": "http://whatsapp.com/user/samsple_auser"
     }
@@ -23,6 +23,14 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_3cecb2205d0042338fbd9d148ea39948
+  - id: pair_9a693487d6e8488da2c12653c34e71e8
+    name: Referer
+    value: localhost:3000
+    description: ""
+  - id: pair_8f4756679bbe4f2dbd0f5f8727ec3c99
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
 authentication: {}
 metaSortKey: -1634358015836
 isPrivate: false

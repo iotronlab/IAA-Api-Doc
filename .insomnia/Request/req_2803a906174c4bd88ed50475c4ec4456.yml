@@ -1,0 +1,41 @@
+_id: req_2803a906174c4bd88ed50475c4ec4456
+type: Request
+parentId: fld_32985cdd9d3c4dbaa5d5570917634542
+modified: 1672930335259
+created: 1672927436981
+url: "{{ _.v1_url }}cart/10"
+name: UpdateTicket
+description: ""
+method: PATCH
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - name: quantity
+      value: "4"
+      id: pair_8e4947af011e461e962a072143f58803
+parameters: []
+headers:
+  - id: pair_67803b44217a424fbd4b98447c790847
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+    disabled: false
+  - id: pair_4a35cff2129d4936865d8adccdbb5b18
+    name: Referer
+    value: http://localhost:3000
+    description: ""
+    disabled: false
+  - id: pair_81a578fc86ad432cbfbeca3f65288de9
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1671895758719.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
