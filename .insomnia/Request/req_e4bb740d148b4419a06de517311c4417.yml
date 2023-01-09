@@ -1,0 +1,35 @@
+_id: req_e4bb740d148b4419a06de517311c4417
+type: Request
+parentId: fld_566abf895bd84a908e244129146f53a0
+modified: 1668782501171
+created: 1666184188487
+url: "{{ _.base_url }}token/login"
+name: token Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "demo@jetpax.in",
+    	"password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_880a5c2a2e2b46ad9fbd5231fe9f79dc
+  - id: pair_f719f3f897354981abe625a18c990135
+    name: X-Requested-With
+    value: XMLHttpRequest
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1634358015773.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global

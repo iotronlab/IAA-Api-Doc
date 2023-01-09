@@ -1,0 +1,35 @@
+_id: req_42cf50f672614f0480f988609bc3c2c4
+type: Request
+parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
+modified: 1673276780246
+created: 1673022079378
+url: "{{ _.v1_url }}verify"
+name: Check Existing User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identifier": "9046632101",
+    	"method": "contaact"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_880a5c2a2e2b46ad9fbd5231fe9f79dc
+  - id: pair_09e6327c82b54835ad6a36c074792e62
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1634358015848.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global
