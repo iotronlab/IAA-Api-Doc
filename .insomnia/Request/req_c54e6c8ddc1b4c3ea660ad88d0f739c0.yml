@@ -1,36 +1,20 @@
-_id: req_2c08cac812be400f8ac031b01382d081
+_id: req_c54e6c8ddc1b4c3ea660ad88d0f739c0
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1673445659432
-created: 1672762817009
-url: "{{ _.v1_url }}cart"
-name: AddTickets
+modified: 1673445665112
+created: 1672931738949
+url: "{{ _.v1_url }}cart?_debug"
+name: GetCart
 description: ""
-method: POST
+method: GET
 body:
-  mimeType: application/json
-  text: |-
-    {
-    	"tickets": [
-    		{
-    			"id" : 2,
-    			"quantity" : 2
-    		},
-    		{
-    			"id" : 1,
-    			"quantity" : 2
-    		},
-    		{
-    			"id" : 3,
-    			"quantity" : 2
-    		}
-    	]
-    }
+  mimeType: application/x-www-form-urlencoded
+  params: []
 parameters: []
 headers:
   - id: pair_67803b44217a424fbd4b98447c790847
     name: Content-Type
-    value: application/json
+    value: application/x-www-form-urlencoded
     description: ""
     disabled: false
   - id: pair_4a35cff2129d4936865d8adccdbb5b18
@@ -44,7 +28,7 @@ headers:
     description: ""
     disabled: false
 authentication: {}
-metaSortKey: -1672004141005.6875
+metaSortKey: -1672058332148.7812
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

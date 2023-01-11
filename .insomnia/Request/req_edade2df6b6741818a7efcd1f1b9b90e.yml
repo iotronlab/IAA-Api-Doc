@@ -1,18 +1,18 @@
-_id: req_f015c98df8cf47b5aefe11f2390898e5
+_id: req_edade2df6b6741818a7efcd1f1b9b90e
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1673278848098
-created: 1634358015686
+modified: 1673278187753
+created: 1673278173792
 url: "{{ _.v1_url }}login"
-name: session login
+name: session login [Email]
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"identifier": "1234567890",
-    	"method": "contact",
+    	"identifier": "demo@jetpax.in",
+    	"method": "email",
     	"password": "123456"
     }
 parameters: []
@@ -36,7 +36,7 @@ headers:
     description: ""
     disabled: false
 authentication: {}
-metaSortKey: -1634358015861
+metaSortKey: -1634358015854.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
