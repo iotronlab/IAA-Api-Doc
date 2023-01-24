@@ -1,9 +1,9 @@
 _id: req_990a77f298be489495196ed00bca41d9
 type: Request
 parentId: fld_2e49f56f78704099ab9c54e292442718
-modified: 1666184579711
+modified: 1674573846123
 created: 1634648058394
-url: "{{ _.base_url }}sendotp"
+url: "{{ _.v1_url }}sendotp"
 name: Send Otp
 description: ""
 method: POST
@@ -11,14 +11,18 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "anikadhikary94@gmail.com",
-    	"type": "new"
+    	"email": "demo@gmail.com",
+    	"type": "register"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_89079b0389f8406cb1e53fd748f4af23
+  - id: pair_6eda86475aaa494a9b6b3994e264722c
+    name: Accept
+    value: application/json
+    description: ""
 authentication: {}
 metaSortKey: -1634358015786
 isPrivate: false

@@ -1,9 +1,9 @@
 _id: req_99cf5bbdb6bf4789a05738abb09bd949
 type: Request
 parentId: fld_2e49f56f78704099ab9c54e292442718
-modified: 1666184582778
+modified: 1674573853245
 created: 1634653542205
-url: "{{ _.base_url }}verifyotp"
+url: "{{ _.v1_url }}verifyotp"
 name: Verify Otp
 description: ""
 method: POST
