@@ -1,7 +1,7 @@
 _id: req_990a77f298be489495196ed00bca41d9
 type: Request
 parentId: fld_2e49f56f78704099ab9c54e292442718
-modified: 1674573846123
+modified: 1674575818902
 created: 1634648058394
 url: "{{ _.v1_url }}sendotp"
 name: Send Otp
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "demo@gmail.com",
+    	"email": "demo1@gmail.com",
     	"type": "register"
     }
 parameters: []

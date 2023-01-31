@@ -1,7 +1,7 @@
 _id: req_f015c98df8cf47b5aefe11f2390898e5
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1673278848098
+modified: 1675172821786
 created: 1634358015686
 url: "{{ _.v1_url }}login"
 name: session login
@@ -27,7 +27,7 @@ headers:
     disabled: false
   - id: pair_f6c10114a9e148c187cb58dbcb0a1f09
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode true, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% cookieDecode false, 'XSRF-TOKEN', '' %}"
     description: ""
     disabled: false
   - id: pair_4973f7857bed4146a33ba8883144eff4
@@ -35,6 +35,10 @@ headers:
     value: application/json
     description: ""
     disabled: false
+  - id: pair_7fa326c470d34a5f91b3537142b9ee56
+    name: ""
+    value: ""
+    description: ""
 authentication: {}
 metaSortKey: -1634358015861
 isPrivate: false

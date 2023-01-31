@@ -1,9 +1,9 @@
 _id: req_8390b0fb47244997bc8cd01cf31932a3
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1671460254808
+modified: 1675175300840
 created: 1636443144944
-url: "{{ _.base_url }}details"
+url: "{{ _.v1_url }}details"
 name: Get User Details
 description: ""
 method: GET
