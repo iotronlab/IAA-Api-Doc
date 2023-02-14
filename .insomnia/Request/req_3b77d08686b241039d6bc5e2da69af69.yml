@@ -1,12 +1,12 @@
-_id: req_5e3aa99c8a33486097e690b67d060e1e
+_id: req_3b77d08686b241039d6bc5e2da69af69
 type: Request
 parentId: fld_49e72071a58141109ff671c3edfc3f65
-modified: 1676383492016
-created: 1676378059390
-url: "{{ _.v1_url }}booking/create/receipt-mc4bcp1676383378-5dnFXy"
-name: New Booking [Final]
+modified: 1676383522994
+created: 1676381382699
+url: "{{ _.v1_url }}booking/cancel-booking/BlbVag"
+name: Cancel Booking
 description: Create Booking After Payment Successfull
-method: POST
+method: DELETE
 body:
   mimeType: application/json
   text: |-
@@ -33,7 +33,7 @@ authentication:
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
   disabled: true
-metaSortKey: -1663480289645.7852
+metaSortKey: -1663478789078.4082
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
