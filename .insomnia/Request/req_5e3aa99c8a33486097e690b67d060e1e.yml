@@ -1,0 +1,43 @@
+_id: req_5e3aa99c8a33486097e690b67d060e1e
+type: Request
+parentId: fld_49e72071a58141109ff671c3edfc3f65
+modified: 1676378384238
+created: 1676378059390
+url: "{{ _.v1_url }}booking/create/receipt-ip06vo1676307647-eNBq2K"
+name: New Booking [Final]
+description: Create Booking After Payment Successfull
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"booking_name": "Shyamal Dutta",
+    	"booking_email": "sdutta@gmail.com",
+    	"booking_contact": "9046632101"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_998c3cab3d9143048f6def012c0d7853
+  - id: pair_e3f4baeb09b74217bc88680dbeb186e5
+    name: Referer
+    value: localhost:3000
+    description: ""
+  - id: pair_80f8ac5c927d4ee28dedd61800356db9
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
+  disabled: true
+metaSortKey: -1663480289645.7852
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

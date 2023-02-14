@@ -1,0 +1,46 @@
+_id: req_c29fee50cd70460b9fe9c868c14067ee
+type: Request
+parentId: fld_49e72071a58141109ff671c3edfc3f65
+modified: 1676378403146
+created: 1676378094676
+url: "{{ _.v1_url }}booking/confirm-payment/receipt-ht4xfr1676310866-5FiNXu"
+name: Confirm Payment [Step 2]
+description: |-
+  This Request Receive Only Razorpay Payment Confirmation Callback
+
+  booking/confirm-payment/{payment:receipt}
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"provider_gen_id": "order_LG1C4fbrJomKcK",
+    	"provider_ref_id": "",
+    	"provider_gen_sign": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_998c3cab3d9143048f6def012c0d7853
+  - id: pair_e3f4baeb09b74217bc88680dbeb186e5
+    name: Referer
+    value: localhost:3000
+    description: ""
+  - id: pair_80f8ac5c927d4ee28dedd61800356db9
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
+  disabled: true
+metaSortKey: -1663480289695.7852
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global
