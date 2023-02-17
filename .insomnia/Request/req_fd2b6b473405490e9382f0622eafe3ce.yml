@@ -1,9 +1,9 @@
 _id: req_fd2b6b473405490e9382f0622eafe3ce
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1671456638627
+modified: 1676386324725
 created: 1634358024856
-url: "{{ _.base_url }}register"
+url: "{{ _.v1_url }}register"
 name: register
 description: ""
 method: POST
@@ -12,10 +12,10 @@ body:
   text: |-
     {
     	"name": "demoCustomers",
-    	"email": "demo_customers@iaa.org",
+    	"email": "demo_customez@iaa.org",
     	"password": "123456",
     	"c_password": "123456",
-    	"contact": "Kolkata,Bou Bazarsss",
+    	"contact": "9999888822",
     	"whatsapp": "http://whatsapp.com/user/samsple_auser"
     }
 parameters: []
