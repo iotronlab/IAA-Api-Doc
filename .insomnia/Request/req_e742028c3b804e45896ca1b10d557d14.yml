@@ -1,7 +1,7 @@
 _id: req_e742028c3b804e45896ca1b10d557d14
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1671025363257
+modified: 1676654361729
 created: 1636295542876
 url: "{{ _.v1_url }}booking/{% response 'body',
   'req_4cd242c309634409900eb86a32abf565', 'b64::JC5kYXRhWzBdLnV1aWQ=::46b',
@@ -15,6 +15,14 @@ headers:
   - id: pair_bee265b4c6cc43e0b2a63897f5df81a9
     name: Referer
     value: localhost:3000
+    description: ""
+  - id: pair_38685a153219465fb36dc767d28f489c
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
+  - id: pair_a6b03d6059184f2f89b9b591576d9ab5
+    name: Content-Type
+    value: application/x-www-form-urlencoded
     description: ""
 authentication:
   type: bearer

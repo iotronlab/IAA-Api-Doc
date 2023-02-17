@@ -1,7 +1,7 @@
 _id: req_4cd242c309634409900eb86a32abf565
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1671542012703
+modified: 1676654275040
 created: 1634358141721
 url: "{{ _.v1_url }}booking/getall?filter=confirm&_debug"
 name: Get All Bookings
@@ -20,6 +20,14 @@ headers:
     value: localhost:3000
     description: ""
     disabled: false
+  - id: pair_b4625765be0b4f09b4b414307e52a5e3
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+  - id: pair_89f630a9b4d2485792d3e6c51b5bb267
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    description: ""
 authentication:
   type: basic
   useISO88591: false

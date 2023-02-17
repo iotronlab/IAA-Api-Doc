@@ -1,7 +1,7 @@
 _id: req_6f2c1b58f15849388bb0256c8c2093c8
 type: Request
 parentId: fld_dd6ea94a6ef348b1a334654101f51192
-modified: 1671115481030
+modified: 1676654342906
 created: 1668698065401
 url: "{{ _.v1_url }}booking/NaToOA"
 name: Get One Booking (Hard)
@@ -13,6 +13,14 @@ headers:
   - id: pair_f30b2b5138ff44adb19d0e63282ead91
     name: Referer
     value: localhost:3000
+    description: ""
+  - id: pair_61714beb7ec14642a0a6a225220b27c8
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+  - id: pair_a788072d304f4fb1b255d21f9fcd7a3d
+    name: X-XSRF-TOKEN
+    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
     description: ""
 authentication:
   type: bearer
