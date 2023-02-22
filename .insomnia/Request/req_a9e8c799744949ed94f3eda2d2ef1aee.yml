@@ -1,9 +1,9 @@
 _id: req_a9e8c799744949ed94f3eda2d2ef1aee
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1676570526389
+modified: 1676985730236
 created: 1676377941832
-url: "{{ _.v1_url }}cart/place_order"
+url: "{{ _.v1_url }}cart/checkout"
 name: PlaceOrder
 description: ""
 method: POST

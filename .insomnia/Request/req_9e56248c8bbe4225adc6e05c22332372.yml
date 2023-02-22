@@ -1,9 +1,9 @@
 _id: req_9e56248c8bbe4225adc6e05c22332372
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1672930368959
+modified: 1677083950783
 created: 1672930329701
-url: "{{ _.v1_url }}cart/2"
+url: "{{ _.v1_url }}cart/3"
 name: DeleteTicket
 description: ""
 method: DELETE
