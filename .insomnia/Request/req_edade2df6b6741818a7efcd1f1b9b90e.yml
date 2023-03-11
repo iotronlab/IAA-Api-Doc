@@ -1,7 +1,7 @@
 _id: req_edade2df6b6741818a7efcd1f1b9b90e
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1673278187753
+modified: 1678461808730
 created: 1673278173792
 url: "{{ _.v1_url }}login"
 name: session login [Email]
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"identifier": "demo@jetpax.in",
+    	"identifier": "democustomer@jetpax.in",
     	"method": "email",
-    	"password": "123456"
+    	"password": "password"
     }
 parameters: []
 headers:
@@ -25,14 +25,14 @@ headers:
     value: http://localhost:3000
     description: ""
     disabled: false
-  - id: pair_f6c10114a9e148c187cb58dbcb0a1f09
-    name: X-XSRF-TOKEN
-    value: "{% cookieDecode true, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
-    description: ""
-    disabled: false
   - id: pair_4973f7857bed4146a33ba8883144eff4
     name: Accept
     value: application/json
+    description: ""
+    disabled: false
+  - id: pair_895913d4e2134a21818beb4c642fef8d
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
     disabled: false
 authentication: {}

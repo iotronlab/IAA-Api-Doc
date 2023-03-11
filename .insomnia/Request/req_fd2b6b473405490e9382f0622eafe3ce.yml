@@ -1,7 +1,7 @@
 _id: req_fd2b6b473405490e9382f0622eafe3ce
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1676386324725
+modified: 1678461885024
 created: 1634358024856
 url: "{{ _.v1_url }}register"
 name: register
@@ -27,9 +27,9 @@ headers:
     name: Referer
     value: localhost:3000
     description: ""
-  - id: pair_8f4756679bbe4f2dbd0f5f8727ec3c99
+  - id: pair_d5a3225b19214522acddb5e214c5b3a9
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
 authentication: {}
 metaSortKey: -1634358015836

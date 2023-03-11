@@ -1,7 +1,7 @@
 _id: req_8390b0fb47244997bc8cd01cf31932a3
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1675175300840
+modified: 1678461859480
 created: 1636443144944
 url: "{{ _.v1_url }}details"
 name: Get User Details
@@ -14,9 +14,9 @@ headers:
     name: Referer
     value: http://localhost:3000
     description: ""
-  - id: pair_ff8d81d298b94f4583e8812b479b995a
+  - id: pair_108af50e91534103869f0a3d8237f6c6
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
 authentication:
   type: bearer

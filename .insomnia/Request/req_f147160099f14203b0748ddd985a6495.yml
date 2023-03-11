@@ -1,7 +1,7 @@
 _id: req_f147160099f14203b0748ddd985a6495
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1673445655975
+modified: 1678462086163
 created: 1673445608123
 url: "{{ _.v1_url }}cart/coupon/delete"
 name: Delete Coupon
@@ -27,7 +27,7 @@ headers:
     disabled: false
   - id: pair_81a578fc86ad432cbfbeca3f65288de9
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
     disabled: false
   - id: pair_2eef3e5176644947b0056b3c6884b6ff

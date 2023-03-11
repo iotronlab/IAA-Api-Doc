@@ -1,10 +1,10 @@
 _id: req_2c08cac812be400f8ac031b01382d081
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1677081820362
+modified: 1678462524564
 created: 1672762817009
 url: "{{ _.v1_url }}cart"
-name: AddTickets
+name: Multiple Add Tickets
 description: ""
 method: POST
 body:
@@ -38,13 +38,16 @@ headers:
     value: http://localhost:3000
     description: ""
     disabled: false
-  - id: pair_81a578fc86ad432cbfbeca3f65288de9
+  - id: pair_57f1d5ac689f4f489d3f6465a61ba71b
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
-    disabled: false
+  - id: pair_5e24740e13ae4809b58a7cd1162ab332
+    name: ""
+    value: ""
+    description: ""
 authentication: {}
-metaSortKey: -1672004141005.6875
+metaSortKey: -1671462229524.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

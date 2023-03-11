@@ -1,7 +1,7 @@
 _id: req_a9e8c799744949ed94f3eda2d2ef1aee
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1676985730236
+modified: 1678462100855
 created: 1676377941832
 url: "{{ _.v1_url }}cart/checkout"
 name: PlaceOrder
@@ -29,7 +29,7 @@ headers:
     disabled: false
   - id: pair_81a578fc86ad432cbfbeca3f65288de9
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
     disabled: false
 authentication: {}

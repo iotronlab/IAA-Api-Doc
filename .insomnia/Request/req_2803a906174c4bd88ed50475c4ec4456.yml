@@ -1,7 +1,7 @@
 _id: req_2803a906174c4bd88ed50475c4ec4456
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1677075625506
+modified: 1678462045047
 created: 1672927436981
 url: "{{ _.v1_url }}cart/3"
 name: UpdateTicket
@@ -25,11 +25,10 @@ headers:
     value: http://localhost:3000
     description: ""
     disabled: false
-  - id: pair_81a578fc86ad432cbfbeca3f65288de9
+  - id: pair_36cd0e56df3b4a03be8965f559df199a
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
-    disabled: false
 authentication: {}
 metaSortKey: -1671895758719.5
 isPrivate: false
