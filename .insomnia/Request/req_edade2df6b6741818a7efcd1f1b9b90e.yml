@@ -1,7 +1,7 @@
 _id: req_edade2df6b6741818a7efcd1f1b9b90e
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1678461808730
+modified: 1679156487649
 created: 1673278173792
 url: "{{ _.v1_url }}login"
 name: session login [Email]
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"identifier": "democustomer@jetpax.in",
+    	"identifier": "customer@jetpax.in",
     	"method": "email",
     	"password": "password"
     }

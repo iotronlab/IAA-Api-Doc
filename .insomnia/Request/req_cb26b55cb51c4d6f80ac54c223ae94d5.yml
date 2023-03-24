@@ -1,0 +1,21 @@
+_id: req_cb26b55cb51c4d6f80ac54c223ae94d5
+type: Request
+parentId: fld_f7e36d403acd424383b56d0393b8d364
+modified: 1679677383502
+created: 1679676252882
+url: "{{ _.v1_url }}events/kolkata/trending"
+name: CityWiseTopTen
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667524747169.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

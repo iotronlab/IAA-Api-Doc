@@ -1,9 +1,9 @@
 _id: req_c06391519bec4105bb0c1ed48c9fe366
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1678463235476
+modified: 1678723764513
 created: 1677083109281
-url: "{{ _.v1_url }}cart/add/3"
+url: "{{ _.v1_url }}cart/add/222"
 name: AddTicket Single
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"quantity" : 3
+    	"quantity" : 5
     }
 parameters: []
 headers:
