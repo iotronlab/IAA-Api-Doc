@@ -1,20 +1,17 @@
-_id: req_c06391519bec4105bb0c1ed48c9fe366
+_id: req_7db63e84dff94c4abd735739604df2c4
 type: Request
-parentId: fld_1b2921c25422492d9eee0dc1d6b6246d
-modified: 1680099124128
-created: 1677083109281
-url: "{{ _.v1_url }}notification/subscribe"
-name: Subscribe
+parentId: fld_32985cdd9d3c4dbaa5d5570917634542
+modified: 1680097070636
+created: 1680097070636
+url: "{{ _.v1_url }}cart/add/222"
+name: AddTicket Single
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"endpoint" : "http://subscribleurl.com",
-    	"public_key": "xxyyzz",
-    	"auth_token" : "234xcvafadf",
-    	"encoding" : "some encoded data"
+    	"quantity" : 5
     }
 parameters: []
 headers:
@@ -33,7 +30,7 @@ headers:
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
 authentication: {}
-metaSortKey: -1671977045434.1406
+metaSortKey: -1671963497648.3672
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

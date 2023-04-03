@@ -1,7 +1,7 @@
 _id: req_ba13a636e1ae49ea9e1b21a2aec00e0e
 type: Request
 parentId: fld_d17361ea5bc1456daba88ef2d16e5c7d
-modified: 1670854213604
+modified: 1680531870859
 created: 1670854159956
 url: "{{ _.v1_url }}bookmark/event/qui-atque-veniam"
 name: Remove Event Hard
@@ -21,9 +21,9 @@ headers:
     name: Referer
     value: localhost:3000
     description: ""
-  - id: pair_965fcd62fc3145b98013e28aaa55747a
+  - id: pair_61da710d02bd4429857a828322424c70
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
 authentication: {}
 metaSortKey: -1667652372216
