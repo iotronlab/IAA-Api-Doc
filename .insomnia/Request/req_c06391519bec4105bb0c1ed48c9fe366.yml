@@ -1,7 +1,7 @@
 _id: req_c06391519bec4105bb0c1ed48c9fe366
 type: Request
 parentId: fld_1b2921c25422492d9eee0dc1d6b6246d
-modified: 1680099124128
+modified: 1680616428563
 created: 1677083109281
 url: "{{ _.v1_url }}notification/subscribe"
 name: Subscribe
@@ -13,8 +13,7 @@ body:
     {
     	"endpoint" : "http://subscribleurl.com",
     	"public_key": "xxyyzz",
-    	"auth_token" : "234xcvafadf",
-    	"encoding" : "some encoded data"
+    	"auth_token" : "234xcvafadf"
     }
 parameters: []
 headers:
