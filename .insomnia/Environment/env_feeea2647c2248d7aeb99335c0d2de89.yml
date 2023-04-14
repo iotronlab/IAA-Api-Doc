@@ -1,16 +1,18 @@
 _id: env_feeea2647c2248d7aeb99335c0d2de89
 type: Environment
 parentId: env_60357435c5c0a3b3ccdf1b9a7779fa14943d0402
-modified: 1668169758204
+modified: 1681477808554
 created: 1634357173408
 name: Dev
 data:
   base_url: localhost:8000/api/
   v1_url: localhost:8000/api/v1/
+  csrf: https://host.jetpax.in/
 dataPropertyOrder:
   "&":
     - base_url
     - v1_url
+    - csrf
 color: "#7cf39a"
 isPrivate: false
 metaSortKey: 1

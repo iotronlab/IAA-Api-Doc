@@ -1,0 +1,44 @@
+_id: req_cd0b2a34852045d4a38d947a0146ffc2
+type: Request
+parentId: fld_2d62c33ad95f44bf94b8b18ae9e1585a
+modified: 1680699299993
+created: 1680699272305
+url: "{{ _.v1_url }}booking/getall?filter=confirm&_debug"
+name: "Get All "
+description: |-
+  Fetch All Created Booking  
+  require: bareer token  (Customer Authorization)
+
+  api: {{ _.base_url }}booking/getall  
+  response : 
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_47d3844a61aa490c8972a10e7760bd6b
+    name: Referer
+    value: localhost:3000
+    description: ""
+    disabled: false
+  - id: pair_b4625765be0b4f09b4b414307e52a5e3
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+  - id: pair_94bd90fe54084e638501026bccf270e9
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: true
+  username: ""
+  password: ""
+metaSortKey: -1663485291695.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_74a03fd5bf2b4858979cc323cf074fa2
 type: Request
 parentId: fld_a6e051aa780f4c8bbbb53fc824fe76fd
-modified: 1680537139123
+modified: 1680709469823
 created: 1680535204617
 url: "{{ _.v1_url }}manager/register"
 name: Register Manager
@@ -12,8 +12,8 @@ body:
   text: |-
     {
     	"name": "abc manager",
-    	"email": "abczsz@jetpax.in",
-    	"contact": 8899774455,
+    	"email": "abc@jetpax.in",
+    	"contact": 8899774435,
     	"password": "password",
     	"c_password": "password"
     }
