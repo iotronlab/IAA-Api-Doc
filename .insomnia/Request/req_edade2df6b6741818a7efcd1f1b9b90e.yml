@@ -1,7 +1,7 @@
 _id: req_edade2df6b6741818a7efcd1f1b9b90e
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1679156487649
+modified: 1681823792088
 created: 1673278173792
 url: "{{ _.v1_url }}login"
 name: session login [Email]
@@ -20,11 +20,6 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_880a5c2a2e2b46ad9fbd5231fe9f79dc
-  - id: pair_c49ff37782b44b3b99ff3b9de2328d74
-    name: Referer
-    value: http://localhost:3000
-    description: ""
-    disabled: false
   - id: pair_4973f7857bed4146a33ba8883144eff4
     name: Accept
     value: application/json
@@ -35,6 +30,10 @@ headers:
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
     disabled: false
+  - id: pair_4c99b11e93ab4e09a2ec39a315876654
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
 authentication: {}
 metaSortKey: -1634358015854.75
 isPrivate: false

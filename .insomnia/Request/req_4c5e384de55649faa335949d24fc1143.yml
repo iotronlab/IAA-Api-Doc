@@ -1,7 +1,7 @@
 _id: req_4c5e384de55649faa335949d24fc1143
 type: Request
 parentId: fld_ef257dba23954e81ad4352a992d61f31
-modified: 1671031744980
+modified: 1681745474292
 created: 1671028664356
 url: "{{ _.v1_url }}customer/profile"
 name: My Profile
@@ -12,7 +12,7 @@ parameters: []
 headers:
   - id: pair_9f3bbbfc3b81426c884dbbc6042807ef
     name: Referer
-    value: http://localhost:3000
+    value: "{{ _.referer }}"
     description: ""
 authentication: {}
 metaSortKey: -1671028664356

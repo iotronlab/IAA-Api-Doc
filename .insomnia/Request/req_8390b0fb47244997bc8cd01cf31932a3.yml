@@ -1,7 +1,7 @@
 _id: req_8390b0fb47244997bc8cd01cf31932a3
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1680274520194
+modified: 1681745414520
 created: 1636443144944
 url: "{{ _.v1_url }}details"
 name: Get User Details
@@ -12,7 +12,7 @@ parameters: []
 headers:
   - id: pair_f33c8989f7a042bb901119b989ef0798
     name: Referer
-    value: http://localhost:3000
+    value: "{{ _.referer }}"
     description: ""
   - id: pair_108af50e91534103869f0a3d8237f6c6
     name: X-XSRF-TOKEN

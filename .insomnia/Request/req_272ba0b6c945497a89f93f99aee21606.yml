@@ -1,7 +1,7 @@
 _id: req_272ba0b6c945497a89f93f99aee21606
 type: Request
 parentId: fld_ef257dba23954e81ad4352a992d61f31
-modified: 1671111231600
+modified: 1681745459714
 created: 1671038170148
 url: "{{ _.v1_url }}customer/change-password"
 name: Update Password
@@ -22,11 +22,11 @@ headers:
     id: pair_2670729cee574e21b28adfec288115e3
   - id: pair_d08d69d0b22c4dd18116c32842a7b27b
     name: Referer
-    value: localhost:3000
+    value: "{{ _.referer }}"
     description: ""
   - id: pair_15007688500648f4aab2a5addcd77837
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
 authentication: {}
 metaSortKey: -1670766367505

@@ -1,7 +1,7 @@
 _id: req_224d783215e14adfb709db5d64455b2f
 type: Request
 parentId: fld_ef257dba23954e81ad4352a992d61f31
-modified: 1671111371470
+modified: 1681745448030
 created: 1671039401911
 url: "{{ _.v1_url }}customer/set-password"
 name: Set Password
@@ -21,11 +21,11 @@ headers:
     id: pair_2670729cee574e21b28adfec288115e3
   - id: pair_d08d69d0b22c4dd18116c32842a7b27b
     name: Referer
-    value: localhost:3000
+    value: "{{ _.referer }}"
     description: ""
   - id: pair_15007688500648f4aab2a5addcd77837
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
 authentication: {}
 metaSortKey: -1670635219104.5

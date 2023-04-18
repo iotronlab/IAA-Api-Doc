@@ -1,7 +1,7 @@
 _id: req_05b87a9de36645e4bbce74dd418db665
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1680515138274
+modified: 1681745305650
 created: 1634357971752
 url: "{{ _.v1_url }}events"
 name: Get All (index)
@@ -47,7 +47,7 @@ parameters:
 headers:
   - id: pair_4d2e360b7ed74fcc8890815fefcd5db5
     name: Referer
-    value: http://localhost:3000
+    value: "{{ _.referer }}"
     description: ""
     disabled: false
   - id: pair_37d38d942b174d95b23264bbf76d7f97

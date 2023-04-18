@@ -1,7 +1,7 @@
 _id: req_fd2b6b473405490e9382f0622eafe3ce
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1678461885024
+modified: 1681823749769
 created: 1634358024856
 url: "{{ _.v1_url }}register"
 name: register
@@ -11,11 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "demoCustomers",
-    	"email": "demo_customez@iaa.org",
-    	"password": "123456",
-    	"c_password": "123456",
-    	"contact": "9999888822",
+    	"name": "Customer Gill",
+    	"email": "customers@jetpax.in",
+    	"password": "password",
+    	"c_password": "password",
+    	"contact": "9999888825",
     	"whatsapp": "http://whatsapp.com/user/samsple_auser"
     }
 parameters: []
@@ -25,7 +25,7 @@ headers:
     id: pair_3cecb2205d0042338fbd9d148ea39948
   - id: pair_9a693487d6e8488da2c12653c34e71e8
     name: Referer
-    value: localhost:3000
+    value: "{{ _.referer }}"
     description: ""
   - id: pair_d5a3225b19214522acddb5e214c5b3a9
     name: X-XSRF-TOKEN

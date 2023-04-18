@@ -1,7 +1,7 @@
 _id: req_f015c98df8cf47b5aefe11f2390898e5
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1679319751415
+modified: 1681745393788
 created: 1634358015686
 url: "{{ _.v1_url }}login"
 name: session login
@@ -22,7 +22,7 @@ headers:
     id: pair_880a5c2a2e2b46ad9fbd5231fe9f79dc
   - id: pair_c49ff37782b44b3b99ff3b9de2328d74
     name: Referer
-    value: http://localhost:3000
+    value: "{{ _.referer }}"
     description: ""
     disabled: false
   - id: pair_4973f7857bed4146a33ba8883144eff4

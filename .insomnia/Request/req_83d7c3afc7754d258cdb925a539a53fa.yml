@@ -1,7 +1,7 @@
 _id: req_83d7c3afc7754d258cdb925a539a53fa
 type: Request
 parentId: fld_1b2921c25422492d9eee0dc1d6b6246d
-modified: 1680099232168
+modified: 1681479078181
 created: 1680097516214
 url: "{{ _.v1_url }}notification/send"
 name: Get Notification
@@ -22,7 +22,7 @@ headers:
     disabled: false
   - id: pair_4a35cff2129d4936865d8adccdbb5b18
     name: Referer
-    value: http://localhost:3000
+    value: https://jetpax.in
     description: ""
     disabled: false
   - id: pair_00de28b00b7f4ccb97b8898b96271ef5

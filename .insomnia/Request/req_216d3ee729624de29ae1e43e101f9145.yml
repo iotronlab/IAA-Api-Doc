@@ -1,7 +1,7 @@
 _id: req_216d3ee729624de29ae1e43e101f9145
 type: Request
 parentId: fld_d17361ea5bc1456daba88ef2d16e5c7d
-modified: 1670857454758
+modified: 1681479501940
 created: 1667657434287
 url: "{{ _.v1_url }}bookmark/artist/{% response 'body',
   'req_e9e4bbef9b424e2b858b8b81372fd741', 'b64::JC5kYXRhWzBdLnVybA==::46b',
@@ -20,11 +20,11 @@ headers:
     description: ""
   - id: pair_e398f167b2e04a0faad2e062726edce5
     name: Referer
-    value: localhost:3000
+    value: https://jetpax.in
     description: ""
-  - id: pair_969aab296f41486aa92f0394db2e2c72
+  - id: pair_48a32e191b1b448295d9f68dbdc83388
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
 authentication: {}
 metaSortKey: -1667657434287

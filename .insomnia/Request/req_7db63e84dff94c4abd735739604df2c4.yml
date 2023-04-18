@@ -1,7 +1,7 @@
 _id: req_7db63e84dff94c4abd735739604df2c4
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1680787752742
+modified: 1681479143316
 created: 1680097070636
 url: "{{ _.v1_url }}cart/add/2"
 name: AddTicket Single
@@ -22,7 +22,7 @@ headers:
     disabled: false
   - id: pair_4a35cff2129d4936865d8adccdbb5b18
     name: Referer
-    value: http://localhost:3000
+    value: https://jetpax.in
     description: ""
     disabled: false
   - id: pair_00de28b00b7f4ccb97b8898b96271ef5
