@@ -1,32 +1,28 @@
 _id: req_d028209a12734d31abed431223f1b512
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1671028627696
+modified: 1682177495794
 created: 1666185494747
-url: "{{ _.base_url }}logout"
+url: "{{ _.v1_url }}logout"
 name: logout
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"email": "samplesss@iaa.org",
-    	"password": "123456sss"
-    }
+body: {}
 parameters: []
 headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_880a5c2a2e2b46ad9fbd5231fe9f79dc
   - id: pair_f719f3f897354981abe625a18c990135
-    name: X-Requested-With
-    value: XMLHttpRequest
+    name: Referer
+    value: "{{ _.referer }}"
     description: ""
-    disabled: true
+    disabled: false
+  - id: pair_310be366ad224f139f986f668b95e231
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
 authentication:
   type: bearer
-  token: 3|29RMuVNhdpisdgyDivjpgik1PyAXiuXXCeKD7cvm
+  token: ""
+  disabled: true
 metaSortKey: -1634358015886
 isPrivate: false
 settingStoreCookies: true

@@ -1,7 +1,7 @@
 _id: req_c54e6c8ddc1b4c3ea660ad88d0f739c0
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1681479111470
+modified: 1682177301796
 created: 1672931738949
 url: "{{ _.v1_url }}cart?_debug"
 name: GetCart
@@ -19,7 +19,7 @@ headers:
     disabled: false
   - id: pair_4a35cff2129d4936865d8adccdbb5b18
     name: Referer
-    value: https://jetpax.in
+    value: "{{ _.referer }}"
     description: ""
     disabled: false
   - id: pair_d1e3d61afe9c4a3bae01a109504022f5

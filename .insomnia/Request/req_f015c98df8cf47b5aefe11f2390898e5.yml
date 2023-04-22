@@ -1,7 +1,7 @@
 _id: req_f015c98df8cf47b5aefe11f2390898e5
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1681745393788
+modified: 1682177524820
 created: 1634358015686
 url: "{{ _.v1_url }}login"
 name: session login
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"identifier": "1234567891",
+    	"identifier": "1234567890",
     	"method": "contact",
-    	"password": "password"
+    	"password": "123456"
     }
 parameters: []
 headers:
