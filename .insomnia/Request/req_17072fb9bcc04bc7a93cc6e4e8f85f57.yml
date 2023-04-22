@@ -1,9 +1,9 @@
 _id: req_17072fb9bcc04bc7a93cc6e4e8f85f57
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1668181921100
+modified: 1681570800029
 created: 1642100641659
-url: "{{ _.v1_url }}artists/explicabo-ut-nihil?_debug"
+url: "{{ _.v1_url }}artists/est-nobis-rerum?_debug"
 name: Get One (show) Hard
 description: ""
 method: GET
