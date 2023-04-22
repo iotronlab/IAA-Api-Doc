@@ -1,9 +1,9 @@
 _id: req_05b87a9de36645e4bbce74dd418db665
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1679669307722
+modified: 1681745305650
 created: 1634357971752
-url: "{{ _.v1_url }}events?sort[price]=high"
+url: "{{ _.v1_url }}events"
 name: Get All (index)
 description: ""
 method: GET
@@ -21,7 +21,7 @@ parameters:
     disabled: true
   - id: pair_bb281809b276485db2671f3783033d44
     name: genre
-    value: Music,Metal
+    value: music,dance
     description: ""
     disabled: true
   - id: pair_cdf313d482044e799190a5bd64bb0a15
@@ -31,13 +31,23 @@ parameters:
     disabled: true
   - id: pair_c741d38efaf847cdb085b7addc9e6dfe
     name: type
-    value: online
+    value: youtube
+    description: ""
+    disabled: true
+  - id: pair_2f916a7d58fb4e6788cc53ff834b1433
+    name: sort
+    value: "[price=hight"
+    description: ""
+    disabled: true
+  - id: pair_7d77d8c9637c4304be24d2e944481aec
+    name: artists
+    value: Wilhelm Jones
     description: ""
     disabled: true
 headers:
   - id: pair_4d2e360b7ed74fcc8890815fefcd5db5
     name: Referer
-    value: http://localhost:3000
+    value: "{{ _.referer }}"
     description: ""
     disabled: false
   - id: pair_37d38d942b174d95b23264bbf76d7f97

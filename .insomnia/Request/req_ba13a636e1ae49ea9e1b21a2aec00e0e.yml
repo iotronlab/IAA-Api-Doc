@@ -1,9 +1,9 @@
 _id: req_ba13a636e1ae49ea9e1b21a2aec00e0e
 type: Request
 parentId: fld_d17361ea5bc1456daba88ef2d16e5c7d
-modified: 1670854213604
+modified: 1681479687442
 created: 1670854159956
-url: "{{ _.v1_url }}bookmark/event/qui-atque-veniam"
+url: "{{ _.v1_url }}bookmark/event/eum-et-repellat"
 name: Remove Event Hard
 description: |-
   Create New Bookmark For Events in Api  
@@ -19,11 +19,11 @@ headers:
     id: pair_b12d74fd0ff048a0ac166fcc06030fad
   - id: pair_6db229d1659c4f719e183276c4ffd1ae
     name: Referer
-    value: localhost:3000
+    value: https://jetpax.in
     description: ""
-  - id: pair_965fcd62fc3145b98013e28aaa55747a
+  - id: pair_61da710d02bd4429857a828322424c70
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
 authentication: {}
 metaSortKey: -1667652372216

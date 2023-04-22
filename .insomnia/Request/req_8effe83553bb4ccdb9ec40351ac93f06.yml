@@ -1,9 +1,9 @@
 _id: req_8effe83553bb4ccdb9ec40351ac93f06
 type: Request
 parentId: fld_d17361ea5bc1456daba88ef2d16e5c7d
-modified: 1670857453398
+modified: 1680515760427
 created: 1670850834098
-url: "{{ _.v1_url }}bookmark/artist/eum-eius-deserunt"
+url: "{{ _.v1_url }}bookmark/artist/assumenda-laboriosam-reprehenderit"
 name: Add Artist Hard
 description: |-
   Create New Bookmark For Artist in Api  
@@ -20,9 +20,9 @@ headers:
     name: Referer
     value: localhost:3000
     description: ""
-  - id: pair_969aab296f41486aa92f0394db2e2c72
+  - id: pair_bd8458b949744efbba6309b221ec4a75
     name: X-XSRF-TOKEN
-    value: "{% cookieDecode false, 'XSRF-TOKEN', 'http://localhost:8000/api/login' %}"
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
 authentication: {}
 metaSortKey: -1667655987981

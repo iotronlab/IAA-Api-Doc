@@ -1,9 +1,9 @@
 _id: req_a719aaf233ab41ed9f07acf625d49b6f
 type: Request
 parentId: fld_3afaed4a1cf74cb6a759838af6800bbc
-modified: 1676382197603
+modified: 1681477816249
 created: 1637180116505
-url: http://localhost:8000/sanctum/csrf-cookie
+url: "{{ _.csrf }}sanctum/csrf-cookie"
 name: Get CSRF Pre Login
 description: Prefetch Laravel Sanctum Header
 method: GET

@@ -1,14 +1,20 @@
 _id: env_e4e218d4d40241c1b0e39f9551d05e68
 type: Environment
 parentId: env_60357435c5c0a3b3ccdf1b9a7779fa14943d0402
-modified: 1638436443866
+modified: 1681823758406
 created: 1634357194181
 name: Prod
 data:
-  base_url: https://api.iaa.org.in/api/
+  base_url: https://host.jetpax.in//api/
+  v1_url: https://host.jetpax.in/api/v1/
+  csrf: https://host.jetpax.in/
+  referer: https://www.jetpax.in
 dataPropertyOrder:
   "&":
     - base_url
+    - v1_url
+    - csrf
+    - referer
 color: "#f77ef3"
 isPrivate: false
 metaSortKey: 1

@@ -1,0 +1,37 @@
+_id: req_1a366822ef0d4c7a9744d370ecde0f82
+type: Request
+parentId: fld_2d62c33ad95f44bf94b8b18ae9e1585a
+modified: 1681738429702
+created: 1680702438899
+url: "{{ _.v1_url }}booking/NPYWso"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f30b2b5138ff44adb19d0e63282ead91
+    name: Referer
+    value: localhost:3000
+    description: ""
+  - id: pair_61714beb7ec14642a0a6a225220b27c8
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+  - id: pair_41d31802238b4801a567ceb37a791ed5
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
+  disabled: true
+metaSortKey: -1663485291645.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
