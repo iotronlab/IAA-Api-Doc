@@ -1,33 +1,29 @@
-_id: req_1a366822ef0d4c7a9744d370ecde0f82
+_id: req_ee80768d35864998923ae8ee3db29b1b
 type: Request
 parentId: fld_2d62c33ad95f44bf94b8b18ae9e1585a
-modified: 1682352580697
-created: 1680702438899
-url: "{{ _.v1_url }}booking/X0HB5W"
-name: Show
+modified: 1682369462370
+created: 1682365661390
+url: "{{ _.v1_url }}booking/invoice/W1EMcw"
+name: view invoice
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_f30b2b5138ff44adb19d0e63282ead91
+  - id: pair_c8e1ccbc9e87444db7dcefaa438e9bc1
     name: Referer
-    value: localhost:3000
+    value: "{{ _.referer }}"
     description: ""
-  - id: pair_61714beb7ec14642a0a6a225220b27c8
-    name: Content-Type
-    value: application/x-www-form-urlencoded
-    description: ""
-  - id: pair_41d31802238b4801a567ceb37a791ed5
+  - id: pair_5b2bfd53961d40e99d598f82d00682a9
     name: X-XSRF-TOKEN
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
 authentication:
   type: bearer
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
-    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
+    'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'never', 60 %}"
   disabled: true
-metaSortKey: -1663485291645.375
+metaSortKey: -1663485291595.375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
