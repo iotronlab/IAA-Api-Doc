@@ -1,14 +1,27 @@
 _id: req_6a3467b73c654dd896e35c034ee33fa6
 type: Request
 parentId: fld_ee96d895124b4f2faa80111d1bf12625
-modified: 1668607505664
+modified: 1683042651003
 created: 1668607493238
-url: http://localhost:8000/login/facebook
-name: FB Login
-description: ""
+url: http://localhost:8000/api/v1/social/login/google/callback?code=4%2F0AbUR2VOXxhFT9nH6Ds-7NnDlQF0ouDgBxDM5Sth0brWKstCGJlWKpNhZije_yzj7MJltqw&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=2&prompt=consent
+name: Social Callback
+description: "demo callback for google :
+  http://localhost:8000/api/v1/social/login/google/callback"
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_139607d122a1432cb3824016d4bfb98f
+    name: code
+    value: 4%2F0AbUR2VO8Bk5r9nTGreEygymx6w3hN0fjY6GbZrw-3Zu_6l_dwFqdZc7xqrUEmHVwXUOUXA
+    description: ""
+  - id: pair_5261df7857814af6b8f96654c59e891c
+    name: scope
+    value: email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email
+    description: ""
+  - id: pair_618a97f501a44312a74d1ba93a0458ee
+    name: ""
+    value: ""
+    description: ""
 headers: []
 authentication: {}
 metaSortKey: -1668607493238

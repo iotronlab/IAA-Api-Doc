@@ -1,10 +1,10 @@
 _id: req_924e2832f92c448294f6770f6a4e57e8
 type: Request
 parentId: fld_ee96d895124b4f2faa80111d1bf12625
-modified: 1668607480227
+modified: 1683040325125
 created: 1668607454570
-url: http://localhost:8000/login/google
-name: Google Login
+url: "{{ _.v1_url }}social/login/google"
+name: Social Login
 description: ""
 method: GET
 body: {}

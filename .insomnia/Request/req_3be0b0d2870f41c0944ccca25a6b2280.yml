@@ -1,10 +1,10 @@
 _id: req_3be0b0d2870f41c0944ccca25a6b2280
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1668177837740
+modified: 1683036858737
 created: 1667921035685
 url: "{{ _.v1_url }}events/filters/all"
-name: Event Filters
+name: get Filters
 description: ""
 method: GET
 body: {}
