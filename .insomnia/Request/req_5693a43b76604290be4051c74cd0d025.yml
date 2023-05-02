@@ -1,0 +1,25 @@
+_id: req_5693a43b76604290be4051c74cd0d025
+type: Request
+parentId: fld_295c8972dbd34cd787c5eb073025f295
+modified: 1683033435148
+created: 1683033334386
+url: "{{ _.v1_url }}city/kolkata/trending"
+name: Get Trending
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3a11e299170942d2a10e2cb6df5d0ff2
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+authentication: {}
+metaSortKey: -1667532678537.8438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_f147160099f14203b0748ddd985a6495
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1682439586538
+modified: 1682609085685
 created: 1673445608123
 url: "{{ _.v1_url }}cart/coupon/delete"
 name: Delete Coupon
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"coupon": "g6k1aS"
+    	"coupon": "dk1hu6"
     }
 parameters: []
 headers:
