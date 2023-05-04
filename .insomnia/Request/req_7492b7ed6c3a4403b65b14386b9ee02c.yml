@@ -1,0 +1,31 @@
+_id: req_7492b7ed6c3a4403b65b14386b9ee02c
+type: Request
+parentId: wrk_ce5f6f4dd9ef4176a464de9f08a02581
+modified: 1683046442559
+created: 1683044801937
+url: "{{ _.base_url }}test-api"
+name: Test
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_6fa542822b48493ab99a2b185373b401
+    name: filter[type]
+    value: outdoor
+    description: ""
+    disabled: false
+  - id: pair_84b4978aef5f44c987fb0c499e1640e7
+    name: filter[email]
+    value: gmail
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1683044801937
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

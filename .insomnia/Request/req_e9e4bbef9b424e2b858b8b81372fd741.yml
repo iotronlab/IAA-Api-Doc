@@ -1,7 +1,7 @@
 _id: req_e9e4bbef9b424e2b858b8b81372fd741
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1670854664595
+modified: 1683123422400
 created: 1634357901159
 url: "{{ _.v1_url }}artists"
 name: Get All (index)
@@ -27,7 +27,7 @@ parameters:
 headers:
   - id: pair_600199759ea945cda5377fc249e7105e
     name: Referer
-    value: http://localhost:3000
+    value: "{{ _.referer }}"
     description: ""
   - id: pair_65485e16510f47db8b09288fbb7e90e4
     name: Content-Type

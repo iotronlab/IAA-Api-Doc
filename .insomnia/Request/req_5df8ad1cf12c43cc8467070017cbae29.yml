@@ -1,7 +1,7 @@
 _id: req_5df8ad1cf12c43cc8467070017cbae29
 type: Request
 parentId: fld_d17361ea5bc1456daba88ef2d16e5c7d
-modified: 1681479463364
+modified: 1683124580765
 created: 1670504070704
 url: "{{ _.v1_url }}bookmark/artist/all"
 name: My Artist Bookmark
@@ -12,7 +12,11 @@ parameters: []
 headers:
   - id: pair_9390dfb5160848d3ae3aec5ca0afa9bc
     name: Referer
-    value: https://jetpax.in
+    value: "{{ _.referer }}"
+    description: ""
+  - id: pair_f83a5ef63b664298be147565f00f1c35
+    name: Content-Type
+    value: application/json
     description: ""
 authentication: {}
 metaSortKey: -1670504070704

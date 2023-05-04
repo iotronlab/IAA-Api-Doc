@@ -1,14 +1,24 @@
 _id: req_bb27fff1795743269886317308504ac0
 type: Request
 parentId: fld_295c8972dbd34cd787c5eb073025f295
-modified: 1683033028591
+modified: 1683216442528
 created: 1683032861373
 url: "{{ _.v1_url }}city/kolkata"
 name: Get Single
 description: ""
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_274af65467614c7b97df130fdd6b45d9
+    name: language
+    value: Bengali,English
+    description: ""
+    disabled: true
+  - id: pair_3e25ca244abb424fa63972e0dbb3f344
+    name: sort
+    value: latest
+    description: ""
+    disabled: true
 headers:
   - id: pair_3a11e299170942d2a10e2cb6df5d0ff2
     name: Referer

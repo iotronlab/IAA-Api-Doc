@@ -1,7 +1,7 @@
 _id: req_63eb64ba0a814b14b510f26b681391c6
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1668521459925
+modified: 1683123405415
 created: 1634357979790
 url: "{{ _.v1_url }}artists/{% response 'body',
   'req_e9e4bbef9b424e2b858b8b81372fd741', 'b64::JC5kYXRhWzBdLnVybA==::46b',
@@ -17,6 +17,10 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_686e42245b6841cb98ce0d3a7afe5e19
+  - id: pair_f47f0df63cd94a28845e1d8007d2b5c6
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
 authentication:
   type: basic
   useISO88591: false

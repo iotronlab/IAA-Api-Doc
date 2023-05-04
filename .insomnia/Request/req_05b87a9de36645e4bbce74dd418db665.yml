@@ -1,7 +1,7 @@
 _id: req_05b87a9de36645e4bbce74dd418db665
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1681745305650
+modified: 1683214804117
 created: 1634357971752
 url: "{{ _.v1_url }}events"
 name: Get All (index)
@@ -31,12 +31,12 @@ parameters:
     disabled: true
   - id: pair_c741d38efaf847cdb085b7addc9e6dfe
     name: type
-    value: youtube
+    value: outdoor
     description: ""
     disabled: true
   - id: pair_2f916a7d58fb4e6788cc53ff834b1433
     name: sort
-    value: "[price=hight"
+    value: "[price=hight]"
     description: ""
     disabled: true
   - id: pair_7d77d8c9637c4304be24d2e944481aec
