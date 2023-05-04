@@ -1,7 +1,7 @@
 _id: req_05b87a9de36645e4bbce74dd418db665
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1683217900202
+modified: 1683219057422
 created: 1634357971752
 url: "{{ _.v1_url }}events"
 name: Get All (index)
@@ -20,7 +20,7 @@ parameters:
     description: ""
     disabled: true
   - id: pair_bb281809b276485db2671f3783033d44
-    name: genre
+    name: genres
     value: dance
     description: ""
     disabled: false
