@@ -1,7 +1,7 @@
 _id: req_05b87a9de36645e4bbce74dd418db665
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1683214804117
+modified: 1683217900202
 created: 1634357971752
 url: "{{ _.v1_url }}events"
 name: Get All (index)
@@ -21,9 +21,9 @@ parameters:
     disabled: true
   - id: pair_bb281809b276485db2671f3783033d44
     name: genre
-    value: music,dance
+    value: dance
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_cdf313d482044e799190a5bd64bb0a15
     name: language
     value: Bengali,English

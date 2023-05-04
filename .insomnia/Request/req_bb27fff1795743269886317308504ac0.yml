@@ -1,7 +1,7 @@
 _id: req_bb27fff1795743269886317308504ac0
 type: Request
 parentId: fld_295c8972dbd34cd787c5eb073025f295
-modified: 1683216442528
+modified: 1683217927309
 created: 1683032861373
 url: "{{ _.v1_url }}city/kolkata"
 name: Get Single
@@ -19,6 +19,10 @@ parameters:
     value: latest
     description: ""
     disabled: true
+  - id: pair_de3060170fbc45fabf7d3706c5c6bd0a
+    name: genre
+    value: dance
+    description: ""
 headers:
   - id: pair_3a11e299170942d2a10e2cb6df5d0ff2
     name: Referer

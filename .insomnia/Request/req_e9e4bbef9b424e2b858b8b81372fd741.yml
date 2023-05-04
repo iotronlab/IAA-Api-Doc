@@ -1,7 +1,7 @@
 _id: req_e9e4bbef9b424e2b858b8b81372fd741
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1683123422400
+modified: 1683218865284
 created: 1634357901159
 url: "{{ _.v1_url }}artists"
 name: Get All (index)
@@ -15,7 +15,7 @@ method: GET
 body: {}
 parameters:
   - id: pair_a9e6f4a7687c4fdc99f031bc6f176d1f
-    name: genre
+    name: genres
     value: Pop
     description: ""
     disabled: true
@@ -24,6 +24,11 @@ parameters:
     value: Bengali
     description: ""
     disabled: true
+  - id: pair_fb99c286bef543ec8833d77cdba4cda5
+    name: sort
+    value: name_asc
+    description: ""
+    disabled: false
 headers:
   - id: pair_600199759ea945cda5377fc249e7105e
     name: Referer
