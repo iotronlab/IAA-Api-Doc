@@ -1,10 +1,10 @@
 _id: req_bb27fff1795743269886317308504ac0
 type: Request
 parentId: fld_295c8972dbd34cd787c5eb073025f295
-modified: 1683219745308
+modified: 1683384941263
 created: 1683032861373
 url: "{{ _.v1_url }}city/kolkata"
-name: Get Single
+name: Get All Events Of A SIngle City
 description: ""
 method: GET
 body: {}

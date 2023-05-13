@@ -1,9 +1,9 @@
 _id: req_cd0b2a34852045d4a38d947a0146ffc2
 type: Request
 parentId: fld_2d62c33ad95f44bf94b8b18ae9e1585a
-modified: 1681745600738
+modified: 1683385636894
 created: 1680699272305
-url: "{{ _.v1_url }}booking/getall?filter=confirm&_debug"
+url: "{{ _.v1_url }}booking/getall?_debug"
 name: "Get All "
 description: |-
   Fetch All Created Booking  
@@ -13,7 +13,12 @@ description: |-
   response : 
 method: GET
 body: {}
-parameters: []
+parameters:
+  - id: pair_2ad5ae9575b343ffa10638ec726a4d0b
+    name: filter
+    value: confirm
+    description: ""
+    disabled: true
 headers:
   - id: pair_47d3844a61aa490c8972a10e7760bd6b
     name: Referer
