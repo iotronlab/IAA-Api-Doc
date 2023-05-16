@@ -1,7 +1,7 @@
 _id: req_e9e4bbef9b424e2b858b8b81372fd741
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1683993542189
+modified: 1684168358660
 created: 1634357901159
 url: "{{ _.v1_url }}artists"
 name: Get All (index)
@@ -25,10 +25,25 @@ parameters:
     description: ""
     disabled: true
   - id: pair_fb99c286bef543ec8833d77cdba4cda5
+    name: sort[popular]
+    value: ""
+    description: ""
+    disabled: false
+  - id: pair_4cfcb36106764a6ea0d1cd74ddc8bb7d
+    name: sort[latest]
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_8b9dbce89d48406aa446e9aac7e57648
+    name: sort[name]
+    value: desc
+    description: ""
+    disabled: true
+  - id: pair_223badcc001944cdbd212ba463b9aef0
     name: sort[name]
     value: asc
     description: ""
-    disabled: false
+    disabled: true
 headers:
   - id: pair_600199759ea945cda5377fc249e7105e
     name: Referer
