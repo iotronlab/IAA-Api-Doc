@@ -1,0 +1,21 @@
+_id: req_7a53421573534348b26e67e414b99e6a
+type: Request
+parentId: fld_125bd2d8425c4cdd942b87d3f3171f3d
+modified: 1685450556602
+created: 1685450527909
+url: "{{ _.v1_url }}filters"
+name: Get All Filters
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685450527909
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

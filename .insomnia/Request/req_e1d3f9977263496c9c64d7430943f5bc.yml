@@ -1,0 +1,37 @@
+_id: req_e1d3f9977263496c9c64d7430943f5bc
+type: Request
+parentId: fld_60b4a344f01b4bdbbc1666ce30948223
+modified: 1685441672343
+created: 1685441672343
+url: "{{ _.v1_url }}customer/remove-social"
+name: Remove Social Provider
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"social_id": "5830053133682818"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2edbe2f8cd0b47df84930cfed543564e
+  - id: pair_62224ed3bfa34206baf479cbeaa70026
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+  - id: pair_dfd035cace96410aa43a90b0f311c40b
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+authentication: {}
+metaSortKey: -1671028700430
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_b4cbdfb81aed49c0b5303a66af9f163f
+type: Request
+parentId: fld_b6bb56341dd3491f9d41f509e39570b7
+modified: 1685440518118
+created: 1685440518118
+url: "{{ _.v1_url }}customer/profile"
+name: My Profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_9f3bbbfc3b81426c884dbbc6042807ef
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+authentication: {}
+metaSortKey: -1671028664356
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

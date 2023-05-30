@@ -1,7 +1,7 @@
 _id: req_42cf50f672614f0480f988609bc3c2c4
 type: Request
 parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1673276780246
+modified: 1685443458044
 created: 1673022079378
 url: "{{ _.v1_url }}verify"
 name: Check Existing User
@@ -24,6 +24,14 @@ headers:
     value: application/json
     description: ""
     disabled: false
+  - id: pair_d74525b0553241cdb5cb110ac1c991af
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+  - id: pair_78257de4a29c4003b543bbda7bde1a8d
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
 authentication: {}
 metaSortKey: -1634358015848.5
 isPrivate: false

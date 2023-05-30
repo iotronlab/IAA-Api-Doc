@@ -1,7 +1,7 @@
 _id: req_de5b9c47a83d4e96a99e716deefa30df
 type: Request
-parentId: fld_ef257dba23954e81ad4352a992d61f31
-modified: 1681745488770
+parentId: fld_dcb89e607daf43ff8e3e0c7c4b3373e5
+modified: 1685378935034
 created: 1671028700430
 url: "{{ _.v1_url }}customer/remove-social"
 name: Remove Social Provider

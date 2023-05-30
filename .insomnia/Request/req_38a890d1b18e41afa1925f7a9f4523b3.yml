@@ -1,0 +1,33 @@
+_id: req_38a890d1b18e41afa1925f7a9f4523b3
+type: Request
+parentId: fld_2b8ff297bf8d43639b657e9b86fac3c0
+modified: 1685441366184
+created: 1685434544308
+url: "{{ _.v1_url }}logout"
+name: Logout
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f719f3f897354981abe625a18c990135
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+    disabled: false
+  - id: pair_310be366ad224f139f986f668b95e231
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+authentication:
+  type: bearer
+  token: ""
+  disabled: true
+metaSortKey: -1685434374545
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global

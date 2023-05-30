@@ -1,0 +1,21 @@
+_id: req_66614bb3ab0e4e2295f56232d0047aba
+type: Request
+parentId: fld_ccddeea3103a419fa0f5aede28291222
+modified: 1685446455557
+created: 1685434519030
+url: "{{ _.csrf }}sanctum/csrf-cookie"
+name: CSRF Pre Login
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685434374595
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

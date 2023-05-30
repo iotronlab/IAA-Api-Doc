@@ -1,0 +1,45 @@
+_id: req_51a409b70d08499eb0c126e6de8f21bc
+type: Request
+parentId: fld_0f4197337e714e09957117f6f1fd6654
+modified: 1685434391082
+created: 1685434391082
+url: "{{ _.v1_url }}login"
+name: session login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identifier": "1234567890",
+    	"method": "contact",
+    	"password": "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_880a5c2a2e2b46ad9fbd5231fe9f79dc
+  - id: pair_c49ff37782b44b3b99ff3b9de2328d74
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+    disabled: false
+  - id: pair_4973f7857bed4146a33ba8883144eff4
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+  - id: pair_7fa326c470d34a5f91b3537142b9ee56
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+authentication: {}
+metaSortKey: -1685378490480
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global

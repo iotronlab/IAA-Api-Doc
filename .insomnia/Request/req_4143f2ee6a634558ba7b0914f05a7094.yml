@@ -1,0 +1,39 @@
+_id: req_4143f2ee6a634558ba7b0914f05a7094
+type: Request
+parentId: fld_b6bb56341dd3491f9d41f509e39570b7
+modified: 1685440518127
+created: 1685440518127
+url: "{{ _.v1_url }}customer/change-password"
+name: Update Password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"old_password": "123456",
+    	"new_password": "asdfadfss",
+    	"c_password": "asdfadfss"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2670729cee574e21b28adfec288115e3
+  - id: pair_d08d69d0b22c4dd18116c32842a7b27b
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+  - id: pair_15007688500648f4aab2a5addcd77837
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+authentication: {}
+metaSortKey: -1671028664331
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

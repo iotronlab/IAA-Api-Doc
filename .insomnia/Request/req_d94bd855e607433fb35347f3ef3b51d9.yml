@@ -1,0 +1,35 @@
+_id: req_d94bd855e607433fb35347f3ef3b51d9
+type: Request
+parentId: fld_9c1dee2947764c27bb888c97f414496c
+modified: 1685434073503
+created: 1684770900451
+url: https://api.razorpay.com/v1/payouts
+name: Testsdsd
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_6fa542822b48493ab99a2b185373b401
+    name: filter[type]
+    value: outdoor
+    description: ""
+    disabled: false
+  - id: pair_84b4978aef5f44c987fb0c499e1640e7
+    name: filter[email]
+    value: gmail
+    description: ""
+    disabled: true
+headers:
+  - id: pair_7db9be88ccb94c50a01a5c8036f6b741
+    name: X-Payout-Idempotency
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1685406271717.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

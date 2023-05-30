@@ -1,9 +1,9 @@
 _id: req_7492b7ed6c3a4403b65b14386b9ee02c
 type: Request
-parentId: wrk_ce5f6f4dd9ef4176a464de9f08a02581
-modified: 1683908534765
+parentId: fld_9c1dee2947764c27bb888c97f414496c
+modified: 1685450479001
 created: 1683044801937
-url: "{{ _.base_url }}test-api"
+url: "{{ _.v1_url }}filters"
 name: Test
 description: ""
 method: GET
@@ -13,7 +13,7 @@ parameters:
     name: filter[type]
     value: outdoor
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_84b4978aef5f44c987fb0c499e1640e7
     name: filter[email]
     value: gmail
@@ -21,7 +21,7 @@ parameters:
     disabled: true
 headers: []
 authentication: {}
-metaSortKey: -1683044801937
+metaSortKey: -1685406271767.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

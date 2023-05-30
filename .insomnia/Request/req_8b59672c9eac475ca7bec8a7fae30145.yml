@@ -1,0 +1,30 @@
+_id: req_8b59672c9eac475ca7bec8a7fae30145
+type: Request
+parentId: fld_5a2aed7093fc478a8eba279ebe40ce0e
+modified: 1685445547903
+created: 1685445547903
+url: "{{ _.v1_url }}verifyotp"
+name: Verify Otp
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "krishanu.info@gmail.com",
+    	"otp": 743878
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_89079b0389f8406cb1e53fd748f4af23
+authentication: {}
+metaSortKey: -1634358015736
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,17 +1,29 @@
 _id: req_fc04e5cf599e452b9edb8bc0a64bbeb6
 type: Request
-parentId: fld_ef257dba23954e81ad4352a992d61f31
-modified: 1671028730289
+parentId: fld_dcb89e607daf43ff8e3e0c7c4b3373e5
+modified: 1685379270453
 created: 1671028676399
-url: ""
+url: "{{ _.v1_url }}customer/my-socials"
 name: View All Social Providers
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_d9f13ef3388d467bbec6758148c9a48c
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_89d41b1410b14679bb6434c420c85964
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+  - id: pair_3fe07eca5db44fd4aef576080e10d996
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
 authentication: {}
-metaSortKey: -1671028676399
+metaSortKey: -1671028700380
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

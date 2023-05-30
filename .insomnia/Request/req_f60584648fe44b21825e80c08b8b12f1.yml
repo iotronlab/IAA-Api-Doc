@@ -1,0 +1,42 @@
+_id: req_f60584648fe44b21825e80c08b8b12f1
+type: Request
+parentId: fld_2362c2b758b3437587f081a6eae93b88
+modified: 1685434486958
+created: 1685434479055
+url: "{{ _.v1_url }}register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Customer Gill",
+    	"email": "customers@jetpax.in",
+    	"password": "password",
+    	"c_password": "password",
+    	"contact": "9999888825",
+    	"whatsapp": "http://whatsapp.com/user/samsple_auser"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3cecb2205d0042338fbd9d148ea39948
+  - id: pair_9a693487d6e8488da2c12653c34e71e8
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+  - id: pair_d5a3225b19214522acddb5e214c5b3a9
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+authentication: {}
+metaSortKey: -1634358015811
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

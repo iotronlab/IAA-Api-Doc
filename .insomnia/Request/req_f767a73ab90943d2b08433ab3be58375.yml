@@ -1,7 +1,7 @@
 _id: req_f767a73ab90943d2b08433ab3be58375
 type: Request
 parentId: fld_d17361ea5bc1456daba88ef2d16e5c7d
-modified: 1681479450022
+modified: 1685449664454
 created: 1670514188032
 url: "{{ _.v1_url }}bookmark/event/all"
 name: My Event Bookmark
@@ -12,7 +12,11 @@ parameters: []
 headers:
   - id: pair_9390dfb5160848d3ae3aec5ca0afa9bc
     name: Referer
-    value: https://jetpax.in
+    value: "{{ _.referer }}"
+    description: ""
+  - id: pair_2e1cbb5da68542b8a541d1f3b1baee36
+    name: Content-Type
+    value: application/json
     description: ""
 authentication: {}
 metaSortKey: -1670418359971

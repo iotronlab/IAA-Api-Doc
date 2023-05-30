@@ -1,0 +1,33 @@
+_id: req_c2e0602402e3459a95bf54b5cab02a14
+type: Request
+parentId: fld_60b4a344f01b4bdbbc1666ce30948223
+modified: 1685441694476
+created: 1685441672339
+url: "{{ _.v1_url }}customer/my-socials"
+name: My Socials
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_d9f13ef3388d467bbec6758148c9a48c
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_89d41b1410b14679bb6434c420c85964
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+  - id: pair_3fe07eca5db44fd4aef576080e10d996
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+authentication: {}
+metaSortKey: -1671028700380
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_58af21bc9f94442288be75b7385e7223
+type: Request
+parentId: fld_5a2aed7093fc478a8eba279ebe40ce0e
+modified: 1685445547898
+created: 1685445547898
+url: "{{ _.v1_url }}sendotp"
+name: Send Otp
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "demo1@gmail.com",
+    	"type": "register"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_89079b0389f8406cb1e53fd748f4af23
+  - id: pair_6eda86475aaa494a9b6b3994e264722c
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1634358015786
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

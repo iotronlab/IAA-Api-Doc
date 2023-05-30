@@ -1,0 +1,29 @@
+_id: req_94e252a340e741e7b5fc16e302a1d24a
+type: Request
+parentId: fld_b6bb56341dd3491f9d41f509e39570b7
+modified: 1685440518113
+created: 1685440518113
+url: "{{ _.v1_url }}details"
+name: Get User Details
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f33c8989f7a042bb901119b989ef0798
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+  - id: pair_108af50e91534103869f0a3d8237f6c6
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+authentication: {}
+metaSortKey: -1671028664343.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

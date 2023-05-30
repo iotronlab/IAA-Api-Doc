@@ -1,7 +1,7 @@
 _id: req_f015c98df8cf47b5aefe11f2390898e5
 type: Request
-parentId: fld_f45131c3d509405b96ed4d0dbfe648a3
-modified: 1682177524820
+parentId: fld_1f958f3c1427476da8ced9e668156b6d
+modified: 1685434399574
 created: 1634358015686
 url: "{{ _.v1_url }}login"
 name: session login
@@ -35,7 +35,7 @@ headers:
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
 authentication: {}
-metaSortKey: -1634358015861
+metaSortKey: -1685434374695
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,45 @@
+_id: req_d924f3c362d349bdba7dd161e2fab35b
+type: Request
+parentId: fld_0f4197337e714e09957117f6f1fd6654
+modified: 1685434406765
+created: 1685434406765
+url: "{{ _.v1_url }}login"
+name: session login [Email]
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identifier": "customer@jetpax.in",
+    	"method": "email",
+    	"password": "password"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_880a5c2a2e2b46ad9fbd5231fe9f79dc
+  - id: pair_4973f7857bed4146a33ba8883144eff4
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+  - id: pair_895913d4e2134a21818beb4c642fef8d
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+    disabled: false
+  - id: pair_4c99b11e93ab4e09a2ec39a315876654
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+authentication: {}
+metaSortKey: -1684780823408.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global
