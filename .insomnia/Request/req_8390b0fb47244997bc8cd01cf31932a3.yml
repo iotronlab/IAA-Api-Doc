@@ -1,10 +1,10 @@
 _id: req_8390b0fb47244997bc8cd01cf31932a3
 type: Request
 parentId: fld_1f958f3c1427476da8ced9e668156b6d
-modified: 1685453138502
+modified: 1685453373576
 created: 1636443144944
 url: "{{ _.v1_url }}session"
-name: Get User Details
+name: Get Session User
 description: ""
 method: GET
 body: {}
