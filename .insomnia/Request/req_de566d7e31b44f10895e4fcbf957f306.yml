@@ -1,0 +1,41 @@
+_id: req_de566d7e31b44f10895e4fcbf957f306
+type: Request
+parentId: fld_5e647109ee4c45cbbe5b4d327904617e
+modified: 1685463427590
+created: 1685463424723
+url: "{{ _.v1_url }}save/contact"
+name: Save Contact
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_4b2e2a4123414e8fa4a95cf28f5993bd
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - id: pair_9338218d67c342618920b03128aa9389
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_68577a66d1ac449fad237afbea313779
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_37364d38ad7c4f16a610ea334de8f764
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+  - id: pair_d44eca14bc65484c90a09f4b3300845e
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+authentication: {}
+metaSortKey: -1685456942628
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
