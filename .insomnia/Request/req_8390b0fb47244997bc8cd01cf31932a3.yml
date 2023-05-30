@@ -1,9 +1,9 @@
 _id: req_8390b0fb47244997bc8cd01cf31932a3
 type: Request
-parentId: fld_2b8ff297bf8d43639b657e9b86fac3c0
-modified: 1685441364953
+parentId: fld_1f958f3c1427476da8ced9e668156b6d
+modified: 1685453138502
 created: 1636443144944
-url: "{{ _.v1_url }}details"
+url: "{{ _.v1_url }}session"
 name: Get User Details
 description: ""
 method: GET
@@ -19,7 +19,7 @@ headers:
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
 authentication: {}
-metaSortKey: -1685434374595
+metaSortKey: -1685434374620
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

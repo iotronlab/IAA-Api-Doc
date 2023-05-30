@@ -1,9 +1,9 @@
 _id: req_c54e6c8ddc1b4c3ea660ad88d0f739c0
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1682177301796
+modified: 1685451688078
 created: 1672931738949
-url: "{{ _.v1_url }}cart?_debug"
+url: "{{ _.v1_url }}cart"
 name: GetCart
 description: ""
 method: GET
