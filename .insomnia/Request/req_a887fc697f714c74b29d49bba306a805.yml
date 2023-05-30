@@ -1,13 +1,19 @@
 _id: req_a887fc697f714c74b29d49bba306a805
 type: Request
 parentId: fld_5e647109ee4c45cbbe5b4d327904617e
-modified: 1685463412326
+modified: 1685465672808
 created: 1685463306012
 url: "{{ _.v1_url }}check/contact"
 name: Check Contact
 description: ""
 method: POST
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "reset",
+    	"contact": 1234567890
+    }
 parameters:
   - id: pair_4b2e2a4123414e8fa4a95cf28f5993bd
     name: ""
@@ -21,14 +27,6 @@ headers:
   - id: pair_68577a66d1ac449fad237afbea313779
     name: Accept
     value: application/json
-    description: ""
-  - id: pair_37364d38ad7c4f16a610ea334de8f764
-    name: X-XSRF-TOKEN
-    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
-    description: ""
-  - id: pair_d44eca14bc65484c90a09f4b3300845e
-    name: Referer
-    value: "{{ _.referer }}"
     description: ""
 authentication: {}
 metaSortKey: -1685463306012
