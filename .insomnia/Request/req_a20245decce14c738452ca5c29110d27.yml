@@ -1,0 +1,44 @@
+_id: req_a20245decce14c738452ca5c29110d27
+type: Request
+parentId: fld_2362c2b758b3437587f081a6eae93b88
+modified: 1685549805232
+created: 1685549619910
+url: "{{ _.v1_url }}reset"
+name: Reset
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "identifier": "anikadhikary94@gmail.com",
+    	"method": "email",
+    	"password": "password",
+    	"c_password": "password"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3cecb2205d0042338fbd9d148ea39948
+  - id: pair_9a693487d6e8488da2c12653c34e71e8
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+  - id: pair_d5a3225b19214522acddb5e214c5b3a9
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+  - id: pair_26779ef91a7d4f6fb995689c2a005517
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1634358015798.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
