@@ -1,0 +1,39 @@
+_id: req_b2fd0757391049949b6a0bb06dabd138
+type: Request
+parentId: fld_7c640fc3c650403dbb1ba69ead4cadd2
+modified: 1685638325430
+created: 1685638325430
+url: "{{ _.v1_url }}check/contact"
+name: Check Contact
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": "reset",
+    	"contact": 1234567890
+    }
+parameters:
+  - id: pair_4b2e2a4123414e8fa4a95cf28f5993bd
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - id: pair_9338218d67c342618920b03128aa9389
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_68577a66d1ac449fad237afbea313779
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1685463306012
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

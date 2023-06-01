@@ -1,8 +1,8 @@
-_id: req_58af21bc9f94442288be75b7385e7223
+_id: req_5bdbaa1095254a60aea7e10d5b6dff22
 type: Request
-parentId: fld_5a2aed7093fc478a8eba279ebe40ce0e
-modified: 1685638471325
-created: 1685445547898
+parentId: fld_11c98035ec324cb880d5251216ca15a2
+modified: 1685638362508
+created: 1685638362508
 url: "{{ _.v1_url }}sendotp"
 name: Send Otp
 description: ""
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"email": "demo1@gmail.com",
-    	"type": "reset"
+    	"type": "register"
     }
 parameters: []
 headers:

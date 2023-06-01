@@ -1,30 +1,30 @@
-_id: req_58af21bc9f94442288be75b7385e7223
+_id: req_9980d0acba26430792c62324cbd03f88
 type: Request
-parentId: fld_5a2aed7093fc478a8eba279ebe40ce0e
-modified: 1685638471325
-created: 1685445547898
-url: "{{ _.v1_url }}sendotp"
-name: Send Otp
+parentId: fld_7c640fc3c650403dbb1ba69ead4cadd2
+modified: 1685638325435
+created: 1685638325435
+url: "{{ _.v1_url }}save/contact"
+name: Save Contact
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email": "demo1@gmail.com",
-    	"type": "reset"
+    	"contact": 1234567890
     }
 parameters: []
 headers:
-  - name: Content-Type
+  - id: pair_9338218d67c342618920b03128aa9389
+    name: Content-Type
     value: application/json
-    id: pair_89079b0389f8406cb1e53fd748f4af23
-  - id: pair_6eda86475aaa494a9b6b3994e264722c
+    description: ""
+  - id: pair_68577a66d1ac449fad237afbea313779
     name: Accept
     value: application/json
     description: ""
 authentication: {}
-metaSortKey: -1634358015786
+metaSortKey: -1685456942628
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
