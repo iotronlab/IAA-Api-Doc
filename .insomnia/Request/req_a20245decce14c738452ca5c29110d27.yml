@@ -1,7 +1,7 @@
 _id: req_a20245decce14c738452ca5c29110d27
 type: Request
 parentId: fld_4653fcfddf5742de9a5f0f3c3e9dd5d7
-modified: 1685638419393
+modified: 1685640898972
 created: 1685549619910
 url: "{{ _.v1_url }}reset"
 name: Reset
@@ -11,10 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    "identifier": "anikadhikary94@gmail.com",
+    "identifier": "customers@jetpax.in",
     	"method": "email",
     	"password": "password",
-    	"c_password": "password"
+    	"c_password": "password",
+    	"token" : "01H1VZQE6P2PZXN5R6B7QF0HAX"
     }
 parameters: []
 headers:
