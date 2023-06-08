@@ -1,0 +1,43 @@
+_id: req_95a3de3f536d4d1ebbff66a59ffae9c3
+type: Request
+parentId: fld_4653fcfddf5742de9a5f0f3c3e9dd5d7
+modified: 1685443878397
+created: 1685443506647
+url: "{{ _.v1_url }}verify"
+name: Check Existing User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"identifier": "customers@jetpax.in",
+    	"method": "email"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_880a5c2a2e2b46ad9fbd5231fe9f79dc
+  - id: pair_09e6327c82b54835ad6a36c074792e62
+    name: Accept
+    value: application/json
+    description: ""
+    disabled: false
+  - id: pair_d74525b0553241cdb5cb110ac1c991af
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+  - id: pair_78257de4a29c4003b543bbda7bde1a8d
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+authentication: {}
+metaSortKey: -1685434140537
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingRebuildPath: true
+settingFollowRedirects: global
