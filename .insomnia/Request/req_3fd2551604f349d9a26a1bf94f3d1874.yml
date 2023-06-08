@@ -1,7 +1,7 @@
 _id: req_3fd2551604f349d9a26a1bf94f3d1874
 type: Request
 parentId: fld_2362c2b758b3437587f081a6eae93b88
-modified: 1686239557264
+modified: 1686240172059
 created: 1686225408516
 url: "{{ _.v1_url }}token"
 name: Check OTP
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"token" : "01H2DTV9S1488QBKYTQJYKR7M0"
+    	"token" : ""
     }
 parameters: []
 headers:
