@@ -1,7 +1,7 @@
 _id: req_3fd2551604f349d9a26a1bf94f3d1874
 type: Request
 parentId: fld_2362c2b758b3437587f081a6eae93b88
-modified: 1686240172059
+modified: 1686240267932
 created: 1686225408516
 url: "{{ _.v1_url }}token"
 name: Check OTP
@@ -21,6 +21,10 @@ headers:
     description: ""
   - id: pair_ce05b29ee8cb4c0fa67570f0b71aa48a
     name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_23ea24ff4a654916b15fef8e9de45f35
+    name: Accept
     value: application/json
     description: ""
 authentication: {}
