@@ -1,7 +1,7 @@
 _id: req_bb27fff1795743269886317308504ac0
 type: Request
 parentId: fld_295c8972dbd34cd787c5eb073025f295
-modified: 1686231280927
+modified: 1686471163431
 created: 1683032861373
 url: "{{ _.v1_url }}city/kolkata"
 name: Get All Events Of A SIngle City
@@ -31,7 +31,22 @@ parameters:
     disabled: true
   - id: pair_29e370f4a5bc44cd92a407ed888f386e
     name: filter[language]
-    value: English
+    value: Tamil
+    description: ""
+    disabled: true
+  - id: pair_317bf773d7624a4382460af4d57affed
+    name: filter[genre]
+    value: pops
+    description: ""
+    disabled: false
+  - id: pair_4a5329f2b9354b069391f7c692fd63fa
+    name: filter[artist]
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_10ec6db8367948fab6b044e2671e4256
+    name: filter[time]
+    value: ""
     description: ""
     disabled: true
 headers:

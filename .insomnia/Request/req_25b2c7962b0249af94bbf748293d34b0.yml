@@ -1,49 +1,14 @@
 _id: req_25b2c7962b0249af94bbf748293d34b0
 type: Request
 parentId: fld_1aac118f0af145598196e80ab030460c
-modified: 1682536371673
+modified: 1686580294991
 created: 1682535568853
 url: "{{ _.v1_url }}faq/managers"
 name: Get For Manager
 description: ""
 method: GET
 body: {}
-parameters:
-  - id: pair_981ce6183ec34c089d818b9167d2a018
-    name: city
-    value: kolkata,mumbai
-    description: ""
-    disabled: true
-  - id: pair_5205e013323f449ba198fe22d54d898b
-    name: time
-    value: 2022-10-28,2022-10-31
-    description: ""
-    disabled: true
-  - id: pair_bb281809b276485db2671f3783033d44
-    name: genre
-    value: music,dance
-    description: ""
-    disabled: true
-  - id: pair_cdf313d482044e799190a5bd64bb0a15
-    name: language
-    value: Bengali,English
-    description: ""
-    disabled: true
-  - id: pair_c741d38efaf847cdb085b7addc9e6dfe
-    name: type
-    value: youtube
-    description: ""
-    disabled: true
-  - id: pair_2f916a7d58fb4e6788cc53ff834b1433
-    name: sort
-    value: "[price=hight"
-    description: ""
-    disabled: true
-  - id: pair_7d77d8c9637c4304be24d2e944481aec
-    name: artists
-    value: Wilhelm Jones
-    description: ""
-    disabled: true
+parameters: []
 headers:
   - id: pair_4d2e360b7ed74fcc8890815fefcd5db5
     name: Referer

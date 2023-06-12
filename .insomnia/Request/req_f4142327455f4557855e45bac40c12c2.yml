@@ -1,7 +1,7 @@
 _id: req_f4142327455f4557855e45bac40c12c2
 type: Request
 parentId: fld_a1645543cff749a7b94a2e91b5195233
-modified: 1682690809961
+modified: 1686577283581
 created: 1682613830426
 url: "{{ _.v1_url }}support-tickets/create"
 name: Create Support Ticket
@@ -13,8 +13,8 @@ body:
     {
     	"type" :"customer",
     	"subject":"Sample subject for support ticket",
-    	"description":"descrition of support ticket",
-    	"support_topic_id": 2
+    	"desc":"descrition of support ticket",
+    	"support_topic_id": 42
     }
 parameters: []
 headers:
@@ -23,11 +23,15 @@ headers:
     id: pair_3ddb7c038519482f9220d20a9d5c7a1a
   - id: pair_13b9529586874906bafa5a8b339155b4
     name: Referer
-    value: http://localhost:3000
+    value: "{{ _.referer }}"
     description: ""
   - id: pair_c4d700131eeb46ce9c4b878eb9191320
     name: X-XSRF-TOKEN
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+  - id: pair_cf55352c4874400198fe02deb979d9bf
+    name: Accept
+    value: application/json
     description: ""
 authentication: {}
 metaSortKey: -1682613830426
