@@ -1,0 +1,33 @@
+_id: req_81e624dd082d45bdaa211a6af88a51da
+type: Request
+parentId: fld_295c8972dbd34cd787c5eb073025f295
+modified: 1687095595565
+created: 1687095406297
+url: "{{ _.v1_url }}city/event/filters"
+name: Event Filters
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2f05f589968245ac8b1593b0d1c44742
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_a0aa6a40db884561aa49d27f51d0194a
+    name: Content-Type
+    value: application/json
+    description: ""
+  - id: pair_e67dd51a543546528ef22adf3595a338
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+authentication: {}
+metaSortKey: -1667532678487.8438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

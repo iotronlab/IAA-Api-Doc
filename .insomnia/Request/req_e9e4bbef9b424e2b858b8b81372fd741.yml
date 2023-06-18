@@ -1,7 +1,7 @@
 _id: req_e9e4bbef9b424e2b858b8b81372fd741
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1686577763607
+modified: 1687096007714
 created: 1634357901159
 url: "{{ _.v1_url }}artists"
 name: Get All (index)
@@ -18,7 +18,7 @@ parameters:
     name: filter[genre]
     value: Pop
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_b1d57fc111c4435581584e3902862bb1
     name: language
     value: Bengali
@@ -43,7 +43,7 @@ parameters:
     name: sort[name]
     value: asc
     description: ""
-    disabled: false
+    disabled: true
 headers:
   - id: pair_600199759ea945cda5377fc249e7105e
     name: Referer
