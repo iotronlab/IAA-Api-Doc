@@ -1,7 +1,7 @@
 _id: req_bb27fff1795743269886317308504ac0
 type: Request
 parentId: fld_295c8972dbd34cd787c5eb073025f295
-modified: 1687095167747
+modified: 1687182922496
 created: 1683032861373
 url: "{{ _.v1_url }}city/kolkata"
 name: Get All Events Of A SIngle City
@@ -33,10 +33,10 @@ parameters:
     name: filter[language]
     value: Tamil
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_317bf773d7624a4382460af4d57affed
     name: filter[genre]
-    value: Rock
+    value: courses
     description: ""
     disabled: true
   - id: pair_4a5329f2b9354b069391f7c692fd63fa
@@ -46,13 +46,22 @@ parameters:
     disabled: true
   - id: pair_10ec6db8367948fab6b044e2671e4256
     name: filter[time]
-    value: ""
+    value: today
+    description: ""
+    disabled: true
+  - id: pair_88f483d933544f03afa634511392c67e
+    name: filter[time]
+    value: 2023-06-01,2023-07-05
     description: ""
     disabled: true
 headers:
   - id: pair_3a11e299170942d2a10e2cb6df5d0ff2
     name: Referer
     value: "{{ _.referer }}"
+    description: ""
+  - id: pair_5d63123b9b18415fb2b92c424b63f3c4
+    name: Accept
+    value: application/json
     description: ""
 authentication: {}
 metaSortKey: -1667556472642.875
