@@ -1,10 +1,10 @@
-_id: req_68b6896a948f42f2b86aa87484a2b504
+_id: req_6cbcc766f08b40b993f6a343f4f7cc39
 type: Request
 parentId: fld_295c8972dbd34cd787c5eb073025f295
-modified: 1689353881611
-created: 1683032761048
-url: "{{ _.v1_url }}city"
-name: Get All
+modified: 1689524426866
+created: 1689523629288
+url: "{{ _.v1_url }}city/kolkata/feature"
+name: Get Featured
 description: ""
 method: GET
 body: {}
@@ -14,12 +14,8 @@ headers:
     name: Referer
     value: "{{ _.referer }}"
     description: ""
-  - id: pair_041ad1bdf554440ebb10f4d5dbc869c2
-    name: Content-Type
-    value: application/json
-    description: ""
 authentication: {}
-metaSortKey: -1667588198116.25
+metaSortKey: -1667532678512.8438
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
