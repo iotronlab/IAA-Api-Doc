@@ -1,7 +1,7 @@
 _id: req_c54e6c8ddc1b4c3ea660ad88d0f739c0
 type: Request
 parentId: fld_32985cdd9d3c4dbaa5d5570917634542
-modified: 1685451688078
+modified: 1690471749773
 created: 1672931738949
 url: "{{ _.v1_url }}cart"
 name: GetCart
@@ -25,6 +25,10 @@ headers:
   - id: pair_d1e3d61afe9c4a3bae01a109504022f5
     name: X-XSRF-TOKEN
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+  - id: pair_171d7402e0304019b1be50fe2e939e5c
+    name: Accept
+    value: application/json
     description: ""
 authentication: {}
 metaSortKey: -1672058332148.7812

@@ -1,7 +1,7 @@
 _id: req_e9e4bbef9b424e2b858b8b81372fd741
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1689338779726
+modified: 1689693910786
 created: 1634357901159
 url: "{{ _.v1_url }}artists"
 name: Get All (index)
@@ -40,8 +40,8 @@ parameters:
     description: ""
     disabled: true
   - id: pair_223badcc001944cdbd212ba463b9aef0
-    name: sort[name]
-    value: asc
+    name: sort[a2z]
+    value: "true"
     description: ""
     disabled: true
 headers:

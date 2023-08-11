@@ -1,10 +1,10 @@
 _id: req_68b6896a948f42f2b86aa87484a2b504
 type: Request
-parentId: fld_295c8972dbd34cd787c5eb073025f295
-modified: 1689353881611
+parentId: fld_4cddf0468df64301b5f98642bc64170c
+modified: 1691707550642
 created: 1683032761048
-url: "{{ _.v1_url }}city"
-name: Get All
+url: "{{ _.v1_url }}venue/kolkata"
+name: Venue All
 description: ""
 method: GET
 body: {}
