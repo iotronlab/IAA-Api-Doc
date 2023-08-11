@@ -1,0 +1,39 @@
+_id: req_ca3b876e823144bf8be6da1d965bb96a
+type: Request
+parentId: fld_2d62c33ad95f44bf94b8b18ae9e1585a
+modified: 1690809106796
+created: 1690809034355
+url: "{{ _.v1_url }}booking/checkout"
+name: Place Booking
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"booking_name": "Shyamal Dutta",
+    	"booking_email": "sdutta@gmail.com",
+    	"booking_contact": "9046632101"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f1db8f89f8d14a918e7af82acb307916
+  - id: pair_2ceafb81455946eca1b9c5b9f525eac7
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+  - id: pair_926db124484642b0bd30de51ba3f797c
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+authentication: {}
+metaSortKey: -1690809034355
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

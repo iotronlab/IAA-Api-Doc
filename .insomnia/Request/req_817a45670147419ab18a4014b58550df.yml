@@ -1,0 +1,29 @@
+_id: req_817a45670147419ab18a4014b58550df
+type: Request
+parentId: fld_4cddf0468df64301b5f98642bc64170c
+modified: 1691707621898
+created: 1691707567661
+url: "{{ _.v1_url }}venue/show/karina-rodriguez"
+name: Venue Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3a11e299170942d2a10e2cb6df5d0ff2
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+  - id: pair_041ad1bdf554440ebb10f4d5dbc869c2
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1667572335379.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

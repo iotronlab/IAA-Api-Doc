@@ -1,0 +1,60 @@
+_id: req_d8ee64c9a9f24484bc91810a7629b0b3
+type: Request
+parentId: fld_32985cdd9d3c4dbaa5d5570917634542
+modified: 1690747796492
+created: 1690747378308
+url: "{{ _.base_url }}capture/payment"
+name: CheckWebhook
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"payload" : {
+    		"order" : {
+    			"entity" : {
+    				"id": "payId"
+    			}
+    		},
+    		"payment" : {
+    			"entity" : {
+    				"id": "payid"
+    			}
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - id: pair_67803b44217a424fbd4b98447c790847
+    name: Content-Type
+    value: application/json
+    description: ""
+    disabled: false
+  - id: pair_4a35cff2129d4936865d8adccdbb5b18
+    name: Referer
+    value: http://localhost:3000
+    description: ""
+    disabled: true
+  - id: pair_81a578fc86ad432cbfbeca3f65288de9
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+    disabled: true
+  - id: pair_a752eded16cf4e97afcd8f6399aca505
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_89d38fd9e18e466fadd9345cb491bffa
+    name: x-razorpay-signature
+    value: asdfasdfasdf
+    description: ""
+authentication: {}
+metaSortKey: -1671922854291.0469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
