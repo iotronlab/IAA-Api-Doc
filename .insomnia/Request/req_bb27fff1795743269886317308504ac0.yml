@@ -1,19 +1,14 @@
 _id: req_bb27fff1795743269886317308504ac0
 type: Request
 parentId: fld_295c8972dbd34cd787c5eb073025f295
-modified: 1691584015676
+modified: 1692187970216
 created: 1683032861373
-url: "{{ _.v1_url }}city/kolkata?page=3"
+url: "{{ _.v1_url }}city/kolkata"
 name: Get All Events Of A SIngle City
 description: ""
 method: GET
 body: {}
 parameters:
-  - id: pair_274af65467614c7b97df130fdd6b45d9
-    name: language
-    value: Bengali,English
-    description: ""
-    disabled: true
   - id: pair_3e25ca244abb424fa63972e0dbb3f344
     name: sort[popular]
     value: ""
@@ -31,7 +26,7 @@ parameters:
     disabled: true
   - id: pair_29e370f4a5bc44cd92a407ed888f386e
     name: filter[language]
-    value: Tamil
+    value: Gorkha
     description: ""
     disabled: true
   - id: pair_317bf773d7624a4382460af4d57affed
@@ -54,6 +49,10 @@ parameters:
     value: 2023-06-01,2023-07-05
     description: ""
     disabled: true
+  - id: pair_4b631ca07c2c411185c2df8ed1d83e4d
+    name: filter[age_group]
+    value: 18+
+    description: ""
 headers:
   - id: pair_3a11e299170942d2a10e2cb6df5d0ff2
     name: Referer

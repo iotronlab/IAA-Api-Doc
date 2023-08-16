@@ -1,10 +1,10 @@
 _id: req_ca1f7cb6f393446db0fb0a985b2b399c
 type: Request
 parentId: fld_295c8972dbd34cd787c5eb073025f295
-modified: 1691707354661
+modified: 1691769445109
 created: 1691707354661
-url: ""
-name: New Request
+url: "{{ _.v1_url }}city/kolkata/top-venues"
+name: Top Venues Of City
 description: ""
 method: GET
 body: {}

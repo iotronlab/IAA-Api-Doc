@@ -1,9 +1,9 @@
 _id: req_817a45670147419ab18a4014b58550df
 type: Request
 parentId: fld_4cddf0468df64301b5f98642bc64170c
-modified: 1691707621898
+modified: 1691770123054
 created: 1691707567661
-url: "{{ _.v1_url }}venue/show/karina-rodriguez"
+url: "{{ _.v1_url }}venue/show/okunevaberg"
 name: Venue Show
 description: ""
 method: GET
