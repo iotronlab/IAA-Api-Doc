@@ -1,9 +1,9 @@
 _id: req_6cbcc766f08b40b993f6a343f4f7cc39
 type: Request
 parentId: fld_295c8972dbd34cd787c5eb073025f295
-modified: 1689524426866
+modified: 1692188754647
 created: 1689523629288
-url: "{{ _.v1_url }}city/kolkata/feature"
+url: "{{ _.v1_url }}city/kolkata/featured"
 name: Get Featured
 description: ""
 method: GET

@@ -1,9 +1,9 @@
 _id: req_98a944c2c15844719de7568de1f7127d
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1691770113893
+modified: 1692190044585
 created: 1638123354647
-url: "{{ _.v1_url }}events/show/id-magnam-est"
+url: "{{ _.v1_url }}events/show/porro-totam-cumque"
 name: Get Single Manual
 description: ""
 method: GET
@@ -30,16 +30,13 @@ parameters:
     description: ""
     disabled: true
 headers:
-  - id: pair_8b5a6c4c1f8449309261b44dac8bfe97
-    name: Referer
+  - name: Referer
     value: "{{ _.referer }}"
-    description: ""
-    disabled: false
-  - id: pair_a529f45774a449f884b2a650c4c39d62
-    name: Content-Type
+  - name: Content-Type
     value: application/json
-    description: ""
-    disabled: false
+  - name: User-Agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/80.0.3987.132 Safari/537.36
 authentication:
   type: bearer
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
