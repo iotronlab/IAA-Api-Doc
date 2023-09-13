@@ -1,0 +1,25 @@
+_id: req_cc32d651f9424e98861e839ac738799a
+type: Request
+parentId: fld_295c8972dbd34cd787c5eb073025f295
+modified: 1694606992158
+created: 1694606985629
+url: "{{ _.v1_url }}city/kolkata/trending/artists"
+name: Get TrendingArtist
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3a11e299170942d2a10e2cb6df5d0ff2
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+authentication: {}
+metaSortKey: -1667532678525.3438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

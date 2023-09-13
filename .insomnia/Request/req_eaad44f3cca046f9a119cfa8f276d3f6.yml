@@ -1,10 +1,10 @@
-_id: req_98a944c2c15844719de7568de1f7127d
+_id: req_eaad44f3cca046f9a119cfa8f276d3f6
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1693668261784
-created: 1638123354647
-url: "{{ _.v1_url }}events/show/magni-ducimus-sunt"
-name: Get Single Manual
+modified: 1694190709618
+created: 1693668235478
+url: "{{ _.v1_url }}events/similar/sequi-officiis-dolor"
+name: SimilarEvents
 description: ""
 method: GET
 body: {}
@@ -42,7 +42,7 @@ authentication:
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'always', 60 %}"
   disabled: true
-metaSortKey: -1633013744516.9688
+metaSortKey: -1632610497486.8594
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

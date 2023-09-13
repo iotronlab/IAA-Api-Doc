@@ -1,10 +1,10 @@
 _id: ut_9095a8bd62514e11a2481a8fd71af425
 type: UnitTest
 parentId: uts_54b055b8ab834befade69faf381ef00b
-modified: 1685440463487
+modified: 1694438517762
 created: 1685440463487
-requestId: null
+requestId: req_66614bb3ab0e4e2295f56232d0047aba
 name: Get CSRF Token
 code: |-
   const response1 = await insomnia.send();
-  expect(response1.status).to.equal(200);
+  expect(response1.status).to.equal(204);

@@ -1,7 +1,7 @@
 _id: req_e9e4bbef9b424e2b858b8b81372fd741
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1689693910786
+modified: 1694520946784
 created: 1634357901159
 url: "{{ _.v1_url }}artists"
 name: Get All (index)
@@ -20,7 +20,7 @@ parameters:
     description: ""
     disabled: true
   - id: pair_b1d57fc111c4435581584e3902862bb1
-    name: language
+    name: filter[language]
     value: Bengali
     description: ""
     disabled: true
@@ -44,6 +44,10 @@ parameters:
     value: "true"
     description: ""
     disabled: true
+  - id: pair_7430989f36fc46df99b947cff0654313
+    name: filter[city]
+    value: kolkata,mumbai
+    description: ""
 headers:
   - id: pair_600199759ea945cda5377fc249e7105e
     name: Referer
