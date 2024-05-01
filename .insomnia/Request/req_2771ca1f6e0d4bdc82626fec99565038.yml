@@ -1,10 +1,10 @@
-_id: req_e87664fd41d64a198742fe6e07a33e4f
+_id: req_2771ca1f6e0d4bdc82626fec99565038
 type: Request
-parentId: fld_0b571db24e044e7197cc47d0a32be87e
-modified: 1714576076019
-created: 1685449943996
-url: "{{ _.v1_url }}help/topics"
-name: Get All (index)
+parentId: fld_1a3ef85fe41c4825a245381c09bfd259
+modified: 1714573506389
+created: 1714573361572
+url: "{{ _.v1_url }}help/faqs/viewing-details-of-help-mo"
+name: Help Module Page Show
 description: ""
 method: GET
 body: {}
@@ -56,7 +56,7 @@ headers:
     description: ""
     disabled: false
 authentication: {}
-metaSortKey: -1684031878396
+metaSortKey: -1703138722644
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

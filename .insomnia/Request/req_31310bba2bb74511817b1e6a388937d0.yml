@@ -1,10 +1,10 @@
-_id: req_186682ce81984f9cbaf223ee1c936d6a
+_id: req_31310bba2bb74511817b1e6a388937d0
 type: Request
-parentId: fld_1aac118f0af145598196e80ab030460c
-modified: 1682536369101
-created: 1682533900832
-url: "{{ _.v1_url }}faq/all"
-name: Get All (index)
+parentId: fld_a1645543cff749a7b94a2e91b5195233
+modified: 1714577182861
+created: 1714577159568
+url: "{{ _.v1_url }}help/tickets/240501WPHG"
+name: View My Support Ticket
 description: ""
 method: GET
 body: {}
@@ -55,8 +55,16 @@ headers:
     value: application/json
     description: ""
     disabled: false
+  - id: pair_99f88dbd837c41bfb6866d6f92a6c55a
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+  - id: pair_7e2b6906e9974f9b9e012fcb015ce00d
+    name: Accept
+    value: application/json
+    description: ""
 authentication: {}
-metaSortKey: -1632207250406.75
+metaSortKey: -1682613830476
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

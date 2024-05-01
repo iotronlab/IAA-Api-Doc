@@ -1,10 +1,10 @@
-_id: req_e87664fd41d64a198742fe6e07a33e4f
+_id: req_9cf72f148174405fb4ad7086c25cdb82
 type: Request
-parentId: fld_0b571db24e044e7197cc47d0a32be87e
-modified: 1714576076019
-created: 1685449943996
-url: "{{ _.v1_url }}help/topics"
-name: Get All (index)
+parentId: fld_a1645543cff749a7b94a2e91b5195233
+modified: 1714576476892
+created: 1714576227418
+url: "{{ _.v1_url }}help/tickets"
+name: My All Support Tickets
 description: ""
 method: GET
 body: {}
@@ -55,8 +55,16 @@ headers:
     value: application/json
     description: ""
     disabled: false
+  - id: pair_99f88dbd837c41bfb6866d6f92a6c55a
+    name: X-XSRF-TOKEN
+    value: "{% laravel_csrf 'XSRF-TOKEN' %}"
+    description: ""
+  - id: pair_7e2b6906e9974f9b9e012fcb015ce00d
+    name: Accept
+    value: application/json
+    description: ""
 authentication: {}
-metaSortKey: -1684031878396
+metaSortKey: -1682613830526
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
