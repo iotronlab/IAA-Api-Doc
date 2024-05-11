@@ -1,9 +1,9 @@
 _id: req_c19bb75d85bf463dafb5ffbf1d2b6c50
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1715432196736
+modified: 1715432979325
 created: 1685450579244
-url: "{{ _.v1_url }}getPromo/incidunt-earum-perferendis"
+url: "{{ _.v1_url }}/events/getPromo/incidunt-earum-perferendis"
 name: Get Promo
 description: ""
 method: GET
