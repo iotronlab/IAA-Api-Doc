@@ -1,7 +1,7 @@
 _id: req_e9e4bbef9b424e2b858b8b81372fd741
 type: Request
 parentId: fld_465e4661f6d44a2d9820bde5b0beaa37
-modified: 1694520946784
+modified: 1715256262373
 created: 1634357901159
 url: "{{ _.v1_url }}artists"
 name: Get All (index)
@@ -26,9 +26,9 @@ parameters:
     disabled: true
   - id: pair_fb99c286bef543ec8833d77cdba4cda5
     name: sort[popular]
-    value: ""
+    value: desc
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_4cfcb36106764a6ea0d1cd74ddc8bb7d
     name: sort[latest]
     value: ""
@@ -46,8 +46,9 @@ parameters:
     disabled: true
   - id: pair_7430989f36fc46df99b947cff0654313
     name: filter[city]
-    value: kolkata,mumbai
+    value: kolkata
     description: ""
+    disabled: true
 headers:
   - id: pair_600199759ea945cda5377fc249e7105e
     name: Referer

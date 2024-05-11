@@ -1,25 +1,28 @@
-_id: req_edade2df6b6741818a7efcd1f1b9b90e
+_id: req_c542b8c3d43443be9eb6b3662d7c094c
 type: Request
-parentId: fld_1f958f3c1427476da8ced9e668156b6d
-modified: 1715351315672
-created: 1673278173792
-url: "{{ _.v1_url }}login"
-name: session login [Email]
+parentId: fld_ccddeea3103a419fa0f5aede28291222
+modified: 1715349856404
+created: 1715349758135
+url: "{{ _.v1_url }}session"
+name: Test
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"identifier": "customer@jetpax.in",
-    	"method": "email",
-    	"password": "password"
+    	"token": "01HXHAFCKZP99G9VPXPXHDEVTA"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
     id: pair_880a5c2a2e2b46ad9fbd5231fe9f79dc
+  - id: pair_c49ff37782b44b3b99ff3b9de2328d74
+    name: Referer
+    value: http://localhost:3000
+    description: ""
+    disabled: false
   - id: pair_4973f7857bed4146a33ba8883144eff4
     name: Accept
     value: application/json
@@ -30,12 +33,8 @@ headers:
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
     disabled: false
-  - id: pair_4c99b11e93ab4e09a2ec39a315876654
-    name: Referer
-    value: "{{ _.referer }}"
-    description: ""
 authentication: {}
-metaSortKey: -1685434374645
+metaSortKey: -1685434257553.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,9 +1,9 @@
 _id: req_0cb3ddd68d4f46639c0a7a81d574f87c
 type: Request
 parentId: fld_584562f9534c4e79a38664d470357a5c
-modified: 1685378689339
+modified: 1715352206948
 created: 1671028805694
-url: "{{ _.v1_url }}customer/save-profile"
+url: "{{ _.v1_url }}customer/profile-update"
 name: Update My Profile
 description: ""
 method: POST
@@ -12,9 +12,9 @@ body:
   text: |-
     {
     	"name": "demoCustomers",
-    	"contact": "Kolkata,Bou Bazarsss",
-    	"alt_contact": "Kolkata,Bou Bazarsss",
-    	"whatsapp": "http://whatsapp.com/user/samsple_auser"
+    	"email": "gmai@gmail.comz",
+    	"contact": "0123456780",
+    	"alt_contact": "9988706655"
     }
 parameters: []
 headers:

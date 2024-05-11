@@ -1,9 +1,9 @@
 _id: req_98a944c2c15844719de7568de1f7127d
 type: Request
 parentId: fld_f7e36d403acd424383b56d0393b8d364
-modified: 1693668261784
+modified: 1715267515375
 created: 1638123354647
-url: "{{ _.v1_url }}events/show/magni-ducimus-sunt"
+url: "{{ _.v1_url }}events/show/ab-ducimus-a"
 name: Get Single Manual
 description: ""
 method: GET

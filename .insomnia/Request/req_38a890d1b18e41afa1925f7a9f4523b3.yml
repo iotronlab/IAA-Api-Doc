@@ -1,7 +1,7 @@
 _id: req_38a890d1b18e41afa1925f7a9f4523b3
 type: Request
 parentId: fld_1f958f3c1427476da8ced9e668156b6d
-modified: 1685453110582
+modified: 1715350216235
 created: 1685434544308
 url: "{{ _.v1_url }}logout"
 name: Logout
@@ -19,6 +19,7 @@ headers:
     name: X-XSRF-TOKEN
     value: "{% laravel_csrf 'XSRF-TOKEN' %}"
     description: ""
+    disabled: false
 authentication:
   type: bearer
   token: ""

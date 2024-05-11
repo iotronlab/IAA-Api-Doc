@@ -1,7 +1,7 @@
 _id: req_c19bb75d85bf463dafb5ffbf1d2b6c50
 type: Request
-parentId: fld_125bd2d8425c4cdd942b87d3f3171f3d
-modified: 1685450632227
+parentId: fld_f7e36d403acd424383b56d0393b8d364
+modified: 1715432196736
 created: 1685450579244
 url: "{{ _.v1_url }}getPromo/incidunt-earum-perferendis"
 name: Get Promo
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1685450579244
+metaSortKey: -1667921035785
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_f60584648fe44b21825e80c08b8b12f1
 type: Request
 parentId: fld_2362c2b758b3437587f081a6eae93b88
-modified: 1686233952171
+modified: 1715345008623
 created: 1685434479055
 url: "{{ _.v1_url }}register"
 name: Register
@@ -15,8 +15,8 @@ body:
     	"email": "customers@jetpax.in",
     	"password": "password",
     	"c_password": "password",
-    	"contact": "9999888825",
-    	"token" : "01H1VZQE6P2PZXN5R6B7QF0HAX"
+    	"contact": "9999888826",
+    	"token" : "01HXH8F2GR8DW3D7EN6MBB5HPR"
     }
 parameters: []
 headers:

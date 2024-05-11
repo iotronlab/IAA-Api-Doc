@@ -1,9 +1,9 @@
 _id: req_23ad4b7939e0467785a058f7755dc8c4
 type: Request
 parentId: fld_a6b4b5f2a7f347c7863866f95e6fa61f
-modified: 1681479706309
+modified: 1715354837242
 created: 1667658706402
-url: "{{ _.v1_url }}review/event/eum-et-repellat"
+url: "{{ _.v1_url }}review/event/recusandae-et-reiciendis"
 name: Event Review
 description: |-
   Create New Bookmark For Events in Api  
@@ -22,7 +22,7 @@ headers:
     id: pair_206a473942e64ab39bcbe6e480359c12
   - id: pair_b60a21bb0d1c425d9425628073e176cf
     name: Referer
-    value: https://jetpax.in
+    value: "{{ _.referer }}"
     description: ""
   - id: pair_1ec66da737c346ccadf9cc4b8acfd318
     name: X-XSRF-TOKEN

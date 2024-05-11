@@ -1,7 +1,7 @@
 _id: req_58af21bc9f94442288be75b7385e7223
 type: Request
 parentId: fld_5a2aed7093fc478a8eba279ebe40ce0e
-modified: 1685638471325
+modified: 1715346450552
 created: 1685445547898
 url: "{{ _.v1_url }}sendotp"
 name: Send Otp
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email": "demo1@gmail.com",
+    	"email": "customers@jetpax.in",
     	"type": "reset"
     }
 parameters: []

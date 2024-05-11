@@ -1,7 +1,7 @@
 _id: req_a20245decce14c738452ca5c29110d27
 type: Request
 parentId: fld_4653fcfddf5742de9a5f0f3c3e9dd5d7
-modified: 1685640898972
+modified: 1715346310572
 created: 1685549619910
 url: "{{ _.v1_url }}reset"
 name: Reset
@@ -15,7 +15,7 @@ body:
     	"method": "email",
     	"password": "password",
     	"c_password": "password",
-    	"token" : "01H1VZQE6P2PZXN5R6B7QF0HAX"
+    	"token" : "01HXH8F2GR8DW3D7EN6MBB5HPR"
     }
 parameters: []
 headers:
