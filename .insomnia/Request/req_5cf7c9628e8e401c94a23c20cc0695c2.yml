@@ -1,0 +1,23 @@
+_id: req_5cf7c9628e8e401c94a23c20cc0695c2
+type: Request
+parentId: fld_b4b5360b23184774a31ffed9e249e93b
+modified: 1715777809493
+created: 1715777764460
+url: "{{ _.v1_url }}helpcenter/creating-and-managing-topi"
+name: Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1715776193693.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
