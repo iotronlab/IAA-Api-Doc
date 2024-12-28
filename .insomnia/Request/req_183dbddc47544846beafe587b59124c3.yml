@@ -1,10 +1,10 @@
-_id: req_ee80768d35864998923ae8ee3db29b1b
+_id: req_183dbddc47544846beafe587b59124c3
 type: Request
 parentId: fld_2d62c33ad95f44bf94b8b18ae9e1585a
-modified: 1734888743663
-created: 1682365661390
-url: "{{ _.v1_url }}booking/invoice/IeZknV"
-name: view invoice
+modified: 1734874034775
+created: 1734874029250
+url: "{{ _.v1_url }}booking/invoice/CJaaPa/m-ticket"
+name: view m ticket
 description: ""
 method: GET
 body: {}
@@ -23,7 +23,7 @@ authentication:
   token: "{% response 'body', 'req_e4bb740d148b4419a06de517311c4417',
     'b64::JC5hY2Nlc3NUb2tlbg==::46b', 'never', 60 %}"
   disabled: true
-metaSortKey: -1663485291595.375
+metaSortKey: -1663482790645.58
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_bb27fff1795743269886317308504ac0
 type: Request
 parentId: fld_295c8972dbd34cd787c5eb073025f295
-modified: 1723555423507
+modified: 1723658567038
 created: 1683032861373
 url: "{{ _.v1_url }}city/kolkata"
 name: Get All Events Of A SIngle City
@@ -31,9 +31,9 @@ parameters:
     disabled: true
   - id: pair_317bf773d7624a4382460af4d57affed
     name: filter[genre]
-    value: music
+    value: dance,music
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_4a5329f2b9354b069391f7c692fd63fa
     name: filter[artist]
     value: ""

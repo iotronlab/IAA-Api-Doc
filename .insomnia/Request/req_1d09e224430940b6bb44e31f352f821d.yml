@@ -1,0 +1,29 @@
+_id: req_1d09e224430940b6bb44e31f352f821d
+type: Request
+parentId: fld_a627d226a7c842919baf9ec77d6bdbe7
+modified: 1735396776570
+created: 1735396772264
+url: "{{ _.v1_url }}state/12"
+name: State Show
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3a11e299170942d2a10e2cb6df5d0ff2
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+  - id: pair_041ad1bdf554440ebb10f4d5dbc869c2
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1734926810128.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

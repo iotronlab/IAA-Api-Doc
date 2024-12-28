@@ -1,0 +1,25 @@
+_id: req_b6b858b94d9345ec9bce3db60a269c3d
+type: Request
+parentId: fld_584562f9534c4e79a38664d470357a5c
+modified: 1727274059668
+created: 1727274052966
+url: "{{ _.v1_url }}session"
+name: Session
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_9f3bbbfc3b81426c884dbbc6042807ef
+    name: Referer
+    value: "{{ _.referer }}"
+    description: ""
+authentication: {}
+metaSortKey: -1671028664349.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

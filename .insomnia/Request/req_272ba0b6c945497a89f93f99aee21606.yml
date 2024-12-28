@@ -1,7 +1,7 @@
 _id: req_272ba0b6c945497a89f93f99aee21606
 type: Request
 parentId: fld_584562f9534c4e79a38664d470357a5c
-modified: 1685378707671
+modified: 1727276756882
 created: 1671038170148
 url: "{{ _.v1_url }}customer/change-password"
 name: Update Password
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"old_password": "123456",
+    	"current_password": "password",
     	"new_password": "asdfadfss",
-    	"c_password": "asdfadfss"
+    	"confirm_password": "asdfadfss"
     }
 parameters: []
 headers:

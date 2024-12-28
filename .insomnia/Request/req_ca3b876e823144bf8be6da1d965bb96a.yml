@@ -1,7 +1,7 @@
 _id: req_ca3b876e823144bf8be6da1d965bb96a
 type: Request
 parentId: fld_2d62c33ad95f44bf94b8b18ae9e1585a
-modified: 1718975323147
+modified: 1735396347492
 created: 1690809034355
 url: "{{ _.v1_url }}booking/checkout"
 name: Place Booking
@@ -14,7 +14,9 @@ body:
     	"booking_name": "Shyamal Dutta",
     	"booking_email": "sdutta@gmail.com",
     	"booking_contact": "9046632101",
-    	"provider": null
+    	"customer_gstin": "29ABCDE1234F1Z5",
+    	"provider": null,
+    	"state_code": "2"
     }
 parameters: []
 headers:
